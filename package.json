@@ -2,7 +2,7 @@
   "name": "tldr-group.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tldr-group.github.io/",
+  "homepage": ".",
   "dependencies": {
     "@iconify/react": "^1.1.4",
     "@testing-library/jest-dom": "^5.11.9",
