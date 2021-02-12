@@ -1,6 +1,6 @@
 # Tools for Learning, Design and Research
 
-![/src/assets/logo-bright.svg]
+![logo](/src/assets/logo-bright.svg)
 
 This repository is for the tldr group website
 
