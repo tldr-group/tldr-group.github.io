@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  background-color: #020122;
+}
+
+html{
+  background-color: #020122;
+}

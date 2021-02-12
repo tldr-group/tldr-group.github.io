@@ -1,0 +1,44 @@
+.logo-container{
+    margin-top: 4rem;
+}
+
+.title{
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color: #F23827;
+}
+
+.subtitle{
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #F23827;
+}
+
+.purple{
+    color: #7C05F2;
+}
+
+
+.icon-container{
+    margin-top: 1rem;
+}
+.icon a{
+    margin:1rem;
+    color:#F23827 !important;
+}
+
+.icon :hover{
+    color: #7C05F2 !important;
+}
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+
+@keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }

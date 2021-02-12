@@ -1,0 +1,20 @@
+.btn {
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2382786;
+    border: 0px
+}
+
+.card-body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-link{
+    font-size: 1rem;
+    background-color: #f23827;
+}
+
+.card-img-top{
+    width:50%
+}
