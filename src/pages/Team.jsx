@@ -5,6 +5,7 @@ import amir from '../assets/image11.png'
 import liam from '../assets/image9.png'
 import isaac from '../assets/image10.png'
 import andrea from '../assets/image7.png'
+import dominic from '../assets/image-dom.png'
 import twitterFill from '@iconify-icons/akar-icons/twitter-fill';
 import { Icon } from '@iconify/react';
 
@@ -109,7 +110,7 @@ class Team extends Component {
 
                 <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
                 <div className='person fill-light m-4 '>
-                    {/* <img className='project-img m-4' src={liam}></img> */}
+                    <img className='project-img m-4' src={dominic}></img>
                     <h1 className='project-title m-2'>Dominic Williamson</h1>
                     <p className='project-body m-4'>Dominic's project is exploring transfer learning and canonical kernels for GANs trained on microstructural image data.</p>
                     {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
