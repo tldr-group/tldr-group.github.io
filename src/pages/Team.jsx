@@ -91,7 +91,7 @@ class Team extends Component {
                     <div className='person fill-light m-4 '>
                     {/* <img className='project-img m-4' src={sam}></img> */}
                     <h1 className='project-title m-2'>Owen O'Connor</h1>
-                    <p className='project-body m-4'>Owen is using machine learning to predict energy price forecasting.</p>
+                    <p className='project-body m-4'>Owen is using machine learning for energy load forecasting.</p>
                     {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
                     <div class="span mb-4">...</div>
                     </div>

@@ -6,6 +6,7 @@ import {
 import Home from "./pages/Home.jsx";
 import Team from "./pages/Team.jsx";
 import Projects from "./pages/Projects.jsx";
+import Publications from "./pages/Publications.jsx";
 import Footer from "./components/footer.jsx"
 import { ReactComponent as Logo} from './assets/logo-bright-blue-gradient.svg'
 import { NavLink } from "react-router-dom"
@@ -25,11 +26,14 @@ class App extends Component {
           </div>
 
           <div className='row no-gutters pb-4'>
-              <div className='offset-lg-4 col-lg-2 col-md-12 col-sm-12 text-center'>
+              <div className='offset-lg-3 col-lg-2 col-md-12 col-sm-12 text-center'>
               <NavLink to='/projects'><h2 className='home-links'>Projects</h2></NavLink>
               </div>
               <div className='offset-lg-0 col-lg-2 col-md-12 col-sm-12 text-center'>
               <NavLink to='/team'><h2 className='home-links'>Team</h2></NavLink>
+              </div>
+              <div className='offset-lg-0 col-lg-2 col-md-12 col-sm-12 text-center'>
+              <NavLink to='/publications'><h2 className='home-links'>Publications</h2></NavLink>
               </div>
           </div>
 
@@ -42,6 +46,9 @@ class App extends Component {
           </div>
           <div className="content">
                 <Route exact path="/projects" component={Projects}/>
+          </div>
+          <div className="content">
+                <Route exact path="/publications" component={Publications}/>
           </div>
           <div className='row no-gutters'>
                   <div className='offset-3 col-6 text-center'>
