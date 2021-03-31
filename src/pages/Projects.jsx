@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import taufactor from '../assets/tau_example.png'
 import superres from '../assets/super-res.png'
 import slicegan from '../assets/website_slicegan_img.png'
+import tracex from '../assets/TraceX_logo.png'
 import './projects.css'
 
 class Projects extends Component {
@@ -17,6 +18,16 @@ class Projects extends Component {
                     <a className='project-link fill-dark p-2' href="">Find out more</a>
                     <div class="span mb-4">...</div>
                 </div>
+
+                <div className="project fill-light  m-4">
+                    <img className='project-img m-4' src={tracex}></img>
+                    <h1 className='project-title m-2'>TraceX</h1>
+                    <p className='project-body m-4'>TraceX is a MATLAB application designed to consistently allow the fitting of Isotope Exchange Depth Profile data from Secondary Ion Mass Spectrometry measurements. This allows the extraction of materials properties such as the tracer diffusion coefficient and the surface exchange coefficient.</p>
+                    <a className='project-link fill-dark p-2' href="">Find out more</a>
+                    <div class="span mb-4">...</div>
+                </div>
+
+
                 </div>
 
                 <div className='project col-lg-5 col-sm-12 col-md-12 text-center'>
@@ -27,22 +38,7 @@ class Projects extends Component {
                     <a className='project-link fill-dark p-2' href="">Find out more</a>
                     <div class="span mb-4">...</div>
                     </div>
-                </div>
 
-            </div>
-
-            <div className='row m-4'>
-                <div className='project offset-lg-1 col-lg-5 col-sm-12 col-md-12 text-center'>
-                <div className="project fill-light  m-4">
-                    <img className='project-img m-4' src={taufactor}></img>
-                    <h1 className='project-title m-2'>TraceX</h1>
-                    <p className='project-body m-4'>TauFactor is an application for calculating tortuosity factors from tomographic data. TauFactor uses CuPy_ which is an implementation of NumPy-compatible multi-dimensional array on CUDA.</p>
-                    <a className='project-link fill-dark p-2' href="">Find out more</a>
-                    <div class="span mb-4">...</div>
-                </div>
-                </div>
-
-                <div className='project col-lg-5 col-sm-12 col-md-12 text-center'>
                     <div className="project fill-light  m-4">
                     <img className='project-img m-4' src={superres}></img>
                     <h1 className='project-title m-2'>Super-Res</h1>
@@ -50,6 +46,8 @@ class Projects extends Component {
                     <a className='project-link fill-dark p-2' href="">Find out more</a>
                     <div class="span mb-4">...</div>
                     </div>
+
+
                 </div>
 
             </div>
