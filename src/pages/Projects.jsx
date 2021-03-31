@@ -15,15 +15,15 @@ class Projects extends Component {
                     <img className='project-img m-4' src={taufactor}></img>
                     <h1 className='project-title m-2'>TauFactor</h1>
                     <p className='project-body m-4'>TauFactor is an application for calculating tortuosity factors from tomographic data. TauFactor uses CuPy_ which is an implementation of NumPy-compatible multi-dimensional array on CUDA.</p>
-                    <a className='project-link fill-dark p-2' href="">Find out more</a>
+                    <a className='project-link fill-dark p-2' href="https://github.com/tldr-group/taufactor">Find out more</a>
                     <div class="span mb-4">...</div>
                 </div>
 
                 <div className="project fill-light  m-4">
-                    <img className='project-img m-4' src={tracex}></img>
+                    <img className='project-img m-4 pt-4' src={tracex}></img>
                     <h1 className='project-title m-2'>TraceX</h1>
                     <p className='project-body m-4'>TraceX is a MATLAB application designed to consistently allow the fitting of Isotope Exchange Depth Profile data from Secondary Ion Mass Spectrometry measurements. This allows the extraction of materials properties such as the tracer diffusion coefficient and the surface exchange coefficient.</p>
-                    <a className='project-link fill-dark p-2' href="">Find out more</a>
+                    <a className='project-link fill-dark p-2' href="https://github.com/tldr-group/TraceX-2.0">Find out more</a>
                     <div class="span mb-4">...</div>
                 </div>
 
@@ -35,15 +35,15 @@ class Projects extends Component {
                     <img className='project-img m-4' src={slicegan}></img>
                     <h1 className='project-title m-2'>SliceGAN</h1>
                     <p className='project-body m-4'>SliceGAN is a machine learning algorithm used to generate 3D datasets from a single cross sectional 2D slice.</p>
-                    <a className='project-link fill-dark p-2' href="">Find out more</a>
+                    <a className='project-link fill-dark p-2' href="https://github.com/stke9/SliceGAN">Find out more</a>
                     <div class="span mb-4">...</div>
                     </div>
 
                     <div className="project fill-light  m-4">
                     <img className='project-img m-4' src={superres}></img>
                     <h1 className='project-title m-2'>Super-Res</h1>
-                    <p className='project-body m-4'>TauFactor is an application for calculating tortuosity factors from tomographic data. TauFactor uses CuPy_ which is an implementation of NumPy-compatible multi-dimensional array on CUDA.</p>
-                    <a className='project-link fill-dark p-2' href="">Find out more</a>
+                    <p className='project-body m-4'>Super resolution technique that takes as input low-res 3D volume and a high-res multi-phase 2D micrograph and outputs a high-res 3D multi-phase volume.</p>
+                    {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
                     <div class="span mb-4">...</div>
                     </div>
 

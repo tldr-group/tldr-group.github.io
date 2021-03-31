@@ -17,14 +17,14 @@ class App extends Component {
           <div className='home'>
         <HashRouter>
           <div>
-          <div className='row'>
+          <div className='row no-gutters'>
               <div className='offset-lg-1 col-lg-10 col-md-12 col-sm-12 text-center'>
           <div className='logo-container'><NavLink to='/'><Logo/></NavLink></div>
           <NavLink className='title' to='/'><h1 className='title'>tldr</h1></NavLink>
           </div>
           </div>
 
-          <div className='row pb-4'>
+          <div className='row no-gutters pb-4'>
               <div className='offset-lg-4 col-lg-2 col-md-12 col-sm-12 text-center'>
               <NavLink to='/projects'><h2 className='home-links'>Projects</h2></NavLink>
               </div>
@@ -43,7 +43,7 @@ class App extends Component {
           <div className="content">
                 <Route exact path="/projects" component={Projects}/>
           </div>
-          <div className='row'>
+          <div className='row no-gutters'>
                   <div className='offset-3 col-6 text-center'>
                     <Footer />
                     </div>

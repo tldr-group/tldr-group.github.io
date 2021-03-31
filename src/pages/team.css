@@ -3,3 +3,11 @@
     font-weight: 700;
     color:  var(--colour3);
 }
+
+.team-icon{
+    color: var(--dark);
+}
+
+.team-icon:hover{
+    color: var(--colour2);
+}
