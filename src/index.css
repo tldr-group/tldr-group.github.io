@@ -5,15 +5,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root{
+  --dark: #181716;
+  --light: #F2F2F2;
+  --colour1: #27735D;
+  --colour2: #91D9D2;
+  --colour3: #D7D986;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: futura-pt,
     monospace;
 }
 
 #root {
-  background-color: #020122;
+  background-color: var(--dark);
 }
 
 html{
-  background-color: #020122;
+  background-color: var(--dark);
 }

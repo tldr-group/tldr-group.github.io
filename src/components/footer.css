@@ -1,0 +1,11 @@
+.icon-container{
+    margin-top: 1rem;
+}
+.icon a{
+    margin:1rem;
+    color:var(--colour2) !important;
+}
+
+.icon :hover{
+    color: var(--colour3) !important;
+}

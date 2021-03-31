@@ -3,10 +3,49 @@
 }
 
 .title{
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: futura-pt-condensed, sans-serif;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    color: #F23827;
+    color: var(--colour2);
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 4rem;
+    /* font-style: italic; */
+}
+
+.title:hover{
+    text-decoration: none !important;
+}
+
+.home-links{
+    color: var(--colour2);
+    font-family: futura-pt-condensed;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.home-links:hover{
+    color: var(--colour3);
+    text-decoration:underline;
+}
+
+.fill-dark{
+    background-color: var(--dark);
+    /* padding: 3px; */
+    border-radius: 4px;
+}
+
+.fill-light{
+    background-color: var(--colour3);
+    border-radius: 10px;
+}
+
+.home-body{
+    color: var(--dark);
+    font-family: futura-pt;
+    font-size: 15pt;
+
 }
 
 .subtitle{
@@ -16,22 +55,8 @@
     color: #F23827;
 }
 
-.purple{
-    color: #7C05F2;
-}
 
 
-.icon-container{
-    margin-top: 1rem;
-}
-.icon a{
-    margin:1rem;
-    color:#F23827 !important;
-}
-
-.icon :hover{
-    color: #7C05F2 !important;
-}
 span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;

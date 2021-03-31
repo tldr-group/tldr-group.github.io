@@ -1,0 +1,19 @@
+.project-img{
+    width: 50%;
+}
+
+.project-title{
+    font-family: futura-pt-condensed;
+    font-weight: 600;
+}
+
+.project-body{
+    font-family: futura-pt
+}
+
+.project-link{
+    font-family: futura-pt-condensed;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--colour2);
+}
