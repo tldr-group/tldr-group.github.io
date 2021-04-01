@@ -43,7 +43,7 @@ class Projects extends Component {
                     <img className='project-img m-4' src={superres}></img>
                     <h1 className='project-title m-2'>Super-Res</h1>
                     <p className='project-body m-4'>Super resolution technique that takes as input low-res 3D volume and a high-res multi-phase 2D micrograph and outputs a high-res 3D multi-phase volume.</p>
-                    {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
+                    <a className='project-link fill-dark p-2' href="https://github.com/amirDahari1/SuperRes">Find out more</a>
                     <div class="span mb-4">...</div>
                     </div>
 
