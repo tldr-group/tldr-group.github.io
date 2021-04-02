@@ -7,6 +7,7 @@ import isaac from '../assets/image10.png'
 import andrea from '../assets/image7.png'
 import dominic from '../assets/image-dom.png'
 import owen from '../assets/owen.JPG'
+import linwei from '../assets/Linwei.jpg'
 import twitterFill from '@iconify-icons/akar-icons/twitter-fill';
 import { Icon } from '@iconify/react';
 
@@ -102,7 +103,7 @@ class Team extends Component {
 
                 <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
                 <div className='person fill-light m-4 '>
-                    {/* <img className='project-img m-4' src={steve}></img> */}
+                    <img className='project-img m-4' src={linwei}></img>
                     <h1 className='project-title m-2'>Linwei Li</h1>
                     <p className='project-body m-4'>Linwei's project is looking at building new machine learning driven segmentation tools for microstructural image data.</p>
                     {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
