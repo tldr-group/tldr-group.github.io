@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import sam from '../assets/image12.jpeg'
 import samfur from '../assets/sam-fur.jpeg'
-import steve from '../assets/image8.png'
-import stevefur from '../assets/steve-fur.jpeg'
+import steve from '../assets/Steve_Kench.png'
+import stevefur from '../assets/steve-fur.png'
 import amir from '../assets/image11.png'
 import amirfur from '../assets/amir-fur.jpeg'
 import liam from '../assets/image9.png'
