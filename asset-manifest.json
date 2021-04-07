@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.c1aa61fd.chunk.css",
-    "main.js": "./static/js/main.acce8422.chunk.js",
-    "main.js.map": "./static/js/main.acce8422.chunk.js.map",
+    "main.js": "./static/js/main.b61d40d8.chunk.js",
+    "main.js.map": "./static/js/main.b61d40d8.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3a834ce1.js",
     "runtime-main.js.map": "./static/js/runtime-main.3a834ce1.js.map",
     "static/js/2.75cf583f.chunk.js": "./static/js/2.75cf583f.chunk.js",
@@ -11,6 +11,7 @@
     "static/css/main.c1aa61fd.chunk.css.map": "./static/css/main.c1aa61fd.chunk.css.map",
     "static/js/2.75cf583f.chunk.js.LICENSE.txt": "./static/js/2.75cf583f.chunk.js.LICENSE.txt",
     "static/media/Linwei.f4fd9b07.jpg": "./static/media/Linwei.f4fd9b07.jpg",
+    "static/media/Steve_Kench.0f64347e.png": "./static/media/Steve_Kench.0f64347e.png",
     "static/media/TraceX_logo.44fc5527.png": "./static/media/TraceX_logo.44fc5527.png",
     "static/media/amir-fur.fb3e9853.jpeg": "./static/media/amir-fur.fb3e9853.jpeg",
     "static/media/andrea-fur.65c0d7b7.jpeg": "./static/media/andrea-fur.65c0d7b7.jpeg",
@@ -20,7 +21,6 @@
     "static/media/image11.80ab0fa2.png": "./static/media/image11.80ab0fa2.png",
     "static/media/image12.bdc3e1ca.jpeg": "./static/media/image12.bdc3e1ca.jpeg",
     "static/media/image7.5e0bdc22.png": "./static/media/image7.5e0bdc22.png",
-    "static/media/image8.6887405c.png": "./static/media/image8.6887405c.png",
     "static/media/image9.34fee580.png": "./static/media/image9.34fee580.png",
     "static/media/isaac-fur.0d2d1e09.jpeg": "./static/media/isaac-fur.0d2d1e09.jpeg",
     "static/media/liam-fur.93d1bb4e.jpeg": "./static/media/liam-fur.93d1bb4e.jpeg",
@@ -29,7 +29,7 @@
     "static/media/owen-fur.97109b52.jpeg": "./static/media/owen-fur.97109b52.jpeg",
     "static/media/owen.e0eb440b.JPG": "./static/media/owen.e0eb440b.JPG",
     "static/media/sam-fur.194d1f2f.jpeg": "./static/media/sam-fur.194d1f2f.jpeg",
-    "static/media/steve-fur.f2d28278.jpeg": "./static/media/steve-fur.f2d28278.jpeg",
+    "static/media/steve-fur.de510759.png": "./static/media/steve-fur.de510759.png",
     "static/media/super-res.b48f4895.png": "./static/media/super-res.b48f4895.png",
     "static/media/tau_example.685a0640.png": "./static/media/tau_example.685a0640.png",
     "static/media/website_slicegan_img.2055ae25.png": "./static/media/website_slicegan_img.2055ae25.png"
@@ -38,6 +38,6 @@
     "static/js/runtime-main.3a834ce1.js",
     "static/js/2.75cf583f.chunk.js",
     "static/css/main.c1aa61fd.chunk.css",
-    "static/js/main.acce8422.chunk.js"
+    "static/js/main.b61d40d8.chunk.js"
   ]
 }
