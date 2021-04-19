@@ -12,6 +12,7 @@ import { ReactComponent as Logo} from './assets/logo-bright-blue-gradient.svg'
 import { NavLink } from "react-router-dom"
 import './pages/home.css'
 import './functions/typewriter.js'
+import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 class App extends Component {
     render() {
       return (
@@ -49,6 +50,9 @@ class App extends Component {
           </div>
           <div className="content">
                 <Route exact path="/publications" component={Publications}/>
+          </div>
+          <div className="content">
+                <Route exact path="/privacy-policy" component={PrivacyPolicy}/>
           </div>
           <div className='row no-gutters'>
                   <div className='offset-3 col-6 text-center'>

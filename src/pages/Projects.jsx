@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import taufactor from '../assets/tau_example.png'
-import superres from '../assets/super-res.png'
+import superres from '../assets/super-res-icon.png'
 import slicegan from '../assets/website_slicegan_img.png'
 import tracex from '../assets/TraceX_logo.png'
 import './projects.css'
