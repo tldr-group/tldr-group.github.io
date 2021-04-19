@@ -16,7 +16,7 @@ class Home extends Component {
           </div>
           <div className='row no-gutters p-2 mt-4'>
               <div className='offset-lg-3 col-lg-6 col-md-12 col-sm-12 p-4 mb-4 text-center'>
-              <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/tldr_group?ref_src=twsrc%5Etfw">Tweets by tldr_group</a>
+              <a class="twitter-timeline" data-theme="dark" data-chrome="noborders" height="400px" href="https://twitter.com/tldr_group?ref_src=twsrc%5Etfw">Tweets by tldr_group</a>
               </div>
           </div>
             
