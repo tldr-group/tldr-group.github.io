@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Person from '../components/person.jsx'
 import sam from '../assets/image12.jpeg'
 import samfur from '../assets/sam-fur.jpeg'
 import steve from '../assets/Steve_Kench.png'
@@ -17,14 +18,11 @@ import owen from '../assets/owen.JPG'
 import owenfur from '../assets/owen-fur.jpeg'
 import linwei from '../assets/Linwei.jpg'
 import linweifur from '../assets/linwei-fur.jpeg'
-import twitterFill from '@iconify-icons/akar-icons/twitter-fill';
-import { Icon } from '@iconify/react';
 
 
 import './team.css'
 
 class Team extends Component {
- 
     render() {
       return (
         <div className=''>
@@ -33,73 +31,34 @@ class Team extends Component {
             <h1 className='team-title'>Core Team</h1>
             </div>
             </div>
+
+            <div>
+                
+            </div>
             
             <div className='row no-gutters'>
-                <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
-                    <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={sam}
-                    onMouseOver={e => (e.currentTarget.src = samfur)}
-                    onMouseOut={e => (e.currentTarget.src = sam)} />
-                    <h1 className='project-title m-2'>Sam Cooper</h1>
-                    <p className='project-body m-4'>Sam is the leader of the TLDR group and an associate professor in the Dyson School of Design Engineering at Imperial College London.</p>
-                    <a className='project-link fill-dark p-2' href="https://www.imperial.ac.uk/people/samuel.cooper">Find out more</a>
-                    <div className='mt-4'><a className='team-icon' href='https://twitter.com/camsooper'><Icon id='icon' icon={twitterFill} width='40px' /></a>
-                    </div>
-                    <div class="span mb-4">...</div>
-                    </div>
-                </div>
-
-                <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
-                <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={steve}
-                    onMouseOver={e => (e.currentTarget.src = stevefur)}
-                    onMouseOut={e => (e.currentTarget.src = steve)} />
-                    <h1 className='project-title m-2'>Steve Kench</h1>
-                    <p className='project-body m-4'>Steve is a Faraday PhD student working on developing machine learning methods for material science applications. His research focuses on the use of generative adversarial nets to explore and optimise cathode microstructures.</p>
-                    <a className='project-link fill-dark p-2' href="https://www.imperial.ac.uk/people/s.kench19">Find out more</a>
-                    <div class="span mb-4">...</div>
-                    </div>
-                </div>
-
-                <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
-                <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={liam}
-                    onMouseOver={e => (e.currentTarget.src = liamfur)}
-                    onMouseOut={e => (e.currentTarget.src = liam)} />
-                    <h1 className='project-title m-2'>Liam Yasin</h1>
-                    <p className='project-body m-4'>Liam is a PhD researcher working on extending the lifetime of Solid Oxide Fuel Cells (SOFCs) by investigating degradation processes at the cathode-electrolyte interface. His work involves combining experimental methods to trace oxygen diffusion across various types of layered half-cells and numerical modelling to better understand the material properties of these systems. </p>
-                    <a className='project-link fill-dark p-2' href="https://www.imperial.ac.uk/people/liam.yasin15">Find out more</a>
-                    <div class="span mb-4">...</div>
-                    </div>
-                </div>
-
+            <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
+            <Person name='Sam Cooper' title='Group leader' body='Sam is the leader of the TLDR group and an associate professor in the Dyson School of Design Engineering at Imperial College London.'
+                        link='https://www.imperial.ac.uk/people/samuel.cooper' twitter_link='https://twitter.com/camsooper' img={sam} img_fur={samfur}/>
+            </div>
+            <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
+            <Person name='Steve Kench' title='PhD student' body='Steve is a Faraday PhD student working on developing machine learning methods for material science applications. His research focuses on the use of generative adversarial nets to explore and optimise cathode microstructures.'
+                        link='https://www.imperial.ac.uk/people/s.kench19' twitter='no-twitter' img={steve} img_fur={stevefur}/>
+                        </div>
+            <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
+            <Person name='Liam Yasin' title='PhD student' body='Liam is a PhD researcher working on extending the lifetime of Solid Oxide Fuel Cells (SOFCs) by investigating degradation processes at the cathode-electrolyte interface. His work involves combining experimental methods to trace oxygen diffusion across various types of layered half-cells and numerical modelling to better understand the material properties of these systems.'
+                        link='https://www.imperial.ac.uk/people/liam.yasin15' twitter='no-twitter' img={liam} img_fur={liamfur}/>
+        </div>
             </div>
 
             <div className='row no-gutters'>
-                <div className='project offset-lg-2 col-lg-4 col-sm-12 col-md-12 text-center'>
-                    <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={isaac}
-                    onMouseOver={e => (e.currentTarget.src = isaacfur)}
-                    onMouseOut={e => (e.currentTarget.src = isaac)} />
-                    <h1 className='project-title m-2'>Isaac Squires</h1>
-                    <p className='project-body m-4'>Isaac is a PhD student applying machine learning and software development to build tools that aid the design and optimisation of next generation battery materials. </p>
-                    <a className='project-link fill-dark p-2' href="https://www.imperial.ac.uk/people/i.squires20">Find out more</a>
-                    <div className='mt-4'><a className='team-icon' href='https://twitter.com/isaacsquires5'><Icon id='icon' icon={twitterFill} width='40px' /></a></div>
-                    <div class="span mb-4">...</div>
-                    </div>
-                </div>
+            <div className='project offset-lg-2 offset-sm-0 offset-md-0 col-lg-4 col-sm-12 col-md-12 text-center'>
+            <Person name='Isaac Squires' title='PhD student' body='Isaac is a PhD student applying machine learning and software development to build tools that aid the design and optimisation of next generation battery materials.'
+                        link='https://www.imperial.ac.uk/people/i.squires20' twitter_link='https://twitter.com/isaacsquires5' img={isaac} img_fur={isaacfur}/></div>
+            <div className='project offset-sm-0 offset-md-0 col-lg-4 col-sm-12 col-md-12 text-center'>
+            <Person name='Amir Dahari' title='Research assistant' body='Amir is a Research Assistant working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.'
+                        link='https://www.imperial.ac.uk/people/i.squires20' twitter='no-twitter' img={amir} img_fur={amirfur}/></div>
 
-                <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
-                <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={amir}
-                    onMouseOver={e => (e.currentTarget.src = amirfur)}
-                    onMouseOut={e => (e.currentTarget.src = amir)} />
-                    <h1 className='project-title m-2'>Amir Dahari</h1>
-                    <p className='project-body m-4'>Amir is a Research Assistant working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.</p>
-                    {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
-                    <div class="span mb-4">...</div>
-                    </div>
-                </div>
 
             </div>
 
@@ -110,41 +69,22 @@ class Team extends Component {
             </div>
             
             <div className='row no-gutters'>
-                <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
-                    <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={owen}
-                    onMouseOver={e => (e.currentTarget.src = owenfur)}
-                    onMouseOut={e => (e.currentTarget.src = owen)} />
-                    <h1 className='project-title m-2'>Owen O'Connor</h1>
-                    <p className='project-body m-4'>Owen is using machine learning for energy load forecasting.</p>
-                    {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
-                    <div class="span mb-4">...</div>
-                    </div>
-                </div>
 
-                <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
-                <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={linwei}
-                    onMouseOver={e => (e.currentTarget.src = linweifur)}
-                    onMouseOut={e => (e.currentTarget.src = linwei)} />
-                    <h1 className='project-title m-2'>Linwei Li</h1>
-                    <p className='project-body m-4'>Linwei's project is looking at building new machine learning driven segmentation tools for microstructural image data.</p>
-                    {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
-                    <div class="span mb-4">...</div>
-                    </div>
-                </div>
+            <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
+            <Person name="Owen O'Connor" title='MSc student' body='Owen is using machine learning for energy load forecasting.'
+                        link='https://www.imperial.ac.uk/people/liam.yasin15' twitter='no-twitter' img={owen} img_fur={owenfur}/>
+            </div>
 
-                <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
-                <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={dominic}
-                    onMouseOver={e => (e.currentTarget.src = dominicfur)}
-                    onMouseOut={e => (e.currentTarget.src = dominic)} />
-                    <h1 className='project-title m-2'>Dominic Williamson</h1>
-                    <p className='project-body m-4'>Dominic's project is exploring transfer learning and canonical kernels for GANs trained on microstructural image data.</p>
-                    {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
-                    <div class="span mb-4">...</div>
-                    </div>
-                </div>
+            <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
+            <Person name="Linwei Li" title='MSc student' body="Linwei's project is looking at building new machine learning driven segmentation tools for microstructural image data."
+                        link='https://www.imperial.ac.uk/people/liam.yasin15' twitter='no-twitter' img={linwei} img_fur={linweifur}/>
+            </div>
+
+            <div className='project col-lg-4 col-sm-12 col-md-12 text-center'>
+            <Person name="Dominic Williamson" title='MSc student' body="Dominic's project is exploring transfer learning and canonical kernels for GANs trained on microstructural image data."
+                        link='https://www.imperial.ac.uk/people/liam.yasin15' twitter='no-twitter' img={dominic} img_fur={dominicfur}/>
+            </div>
+
 
             </div>
 
@@ -156,17 +96,9 @@ class Team extends Component {
             
             <div className='row no-gutters'>
                 <div className='project offset-lg-4 col-lg-4 col-sm-12 col-md-12 text-center'>
-                    <div className='person fill-light m-4 '>
-                    <img className='project-img m-4' src={andrea}
-                    onMouseOver={e => (e.currentTarget.src = andreafur)}
-                    onMouseOut={e => (e.currentTarget.src = andrea)} />
-                    <h1 className='project-title m-2'>Andrea Gayon-Lombardo</h1>
-                    <p className='project-body m-4'>Andrea completed her PhD in early 2021, with a thesis entitled "Machine learning and simulation for the optimisation and characterisation of electrodes for batteries." In addition to developing the Pores for Thought GAN framework, Andrea also developed pore network models for redox flow batteries.</p>
-                    {/* <a className='project-link fill-dark p-2' href="">Find out more</a> */}
-                    <div class="span mb-4">...</div>
-                    </div>
+                <Person name="Andrea Gayon-Lombardo" title='Former PhD student' body="Andrea completed her PhD in early 2021, with a thesis entitled 'Machine learning and simulation for the optimisation and characterisation of electrodes for batteries.' In addition to developing the Pores for Thought GAN framework, Andrea also developed pore network models for redox flow batteries."
+                        link='https://www.imperial.ac.uk/people/liam.yasin15' twitter='no-twitter' img={andrea} img_fur={andreafur}/>
                 </div>
-
             </div>
 
             </div>
