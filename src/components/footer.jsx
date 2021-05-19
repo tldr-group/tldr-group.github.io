@@ -13,15 +13,15 @@ class Footer extends Component {
              <div className='row'>
           <div className='offset-lg-1 col-lg-10 col-md-12 col-sm-12 text-center'>
               <div className='icon-container'>
-              <span className='icon'><a href='https://github.com/tldr-group'><Icon id='icon' icon={githubFill} width='40px'/></a></span>
-              <span className='icon'><a href='https://twitter.com/tldr_group'><Icon id='icon' icon={twitterFill} width='40px' /></a></span>
-              <span className='icon'><a href='mailto:samuel.cooper@imperial.ac.uk'><Icon icon={emailIcon} width='40px' /></a></span>
+              <span className='icon-footer'><a href='https://github.com/tldr-group'><Icon id='' icon={githubFill} width='40px'/></a></span>
+              <span className='icon-footer'><a href='https://twitter.com/tldr_group'><Icon id='' icon={twitterFill} width='40px' /></a></span>
+              <span className='icon-footer'><a href='mailto:samuel.cooper@imperial.ac.uk'><Icon icon={emailIcon} width='40px' /></a></span>
               </div>
               </div>
             </div>
             <div className='row'>
           <div className='offset-lg-1 col-lg-10 col-md-12 col-sm-12 text-center'>
-            <p>We use Google Analytics. <NavLink to='privacy-policy'>Privacy Policy</NavLink></p>
+            <p className='footer-text'>We use Google Analytics. <NavLink to='privacy-policy'>Privacy Policy</NavLink></p>
               </div>
             </div>
 

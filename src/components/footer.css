@@ -1,11 +1,15 @@
 .icon-container{
     margin-top: 1rem;
 }
-.icon a{
+.icon-footer a{
     margin:1rem;
     color:var(--colour2) !important;
 }
 
-.icon :hover{
+.icon-footer :hover{
     color: var(--colour3) !important;
+}
+
+.footer-text{
+    color:var(--colour2) !important;
 }
