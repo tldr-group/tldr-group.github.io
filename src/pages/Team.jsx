@@ -12,12 +12,12 @@ import isaac from '../assets/isaac.png'
 import isaacfur from '../assets/isaac-fur.jpeg'
 import andrea from '../assets/image7.png'
 import andreafur from '../assets/andrea-fur.jpeg'
-import dominic from '../assets/image-dom.png'
-import dominicfur from '../assets/dom-fur.jpeg'
-import owen from '../assets/owen.JPG'
-import owenfur from '../assets/owen-fur.jpeg'
-import linwei from '../assets/Linwei.jpg'
-import linweifur from '../assets/linwei-fur.jpeg'
+// import dominic from '../assets/image-dom.png'
+// import dominicfur from '../assets/dom-fur.jpeg'
+// import owen from '../assets/owen.JPG'
+// import owenfur from '../assets/owen-fur.jpeg'
+// import linwei from '../assets/Linwei.jpg'
+// import linweifur from '../assets/linwei-fur.jpeg'
 
 
 import './team.css'
@@ -54,13 +54,13 @@ class Team extends Component {
             <Person name='Isaac Squires' title='PhD student' body='Isaac is a PhD student applying machine learning and software development to build tools that aid the design and optimisation of next generation battery materials.'
                         link='https://www.imperial.ac.uk/people/i.squires20' twitter_link='https://twitter.com/isaacsquires5' img={isaac} img_fur={isaacfur}/></div>
             <div className='project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center'>
-            <Person name='Amir Dahari' title='Research assistant' body='Amir is a Research Assistant working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.'
+            <Person name='Amir Dahari' title='PhD student' body='Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.'
                         link='https://www.imperial.ac.uk/people/i.squires20' twitter='no-twitter' img={amir} img_fur={amirfur}/></div>
 
 
             </div>
 
-            <div className='row no-gutters'>
+            {/* <div className='row no-gutters'>
             <div className='project col-lg-12 col-sm-12 col-md-12 text-center'>
             <h1 className='team-title'>MSc Students</h1>
             </div>
@@ -84,7 +84,7 @@ class Team extends Component {
             </div>
 
 
-            </div>
+            </div> */}
 
             <div className='row no-gutters'>
             <div className='project col-lg-12 col-sm-12 col-md-12 text-center'>

@@ -3,6 +3,7 @@ import taufactor from '../assets/tau_example.png'
 import superres from '../assets/super-res-icon.png'
 import slicegan from '../assets/website_slicegan_img.png'
 import tracex from '../assets/TraceX_logo.png'
+import microlib from '../assets/microlib-logo.png'
 import './projects.css'
 
 class Projects extends Component {
@@ -25,10 +26,18 @@ class Projects extends Component {
                     <p className='project-body m-4'>TraceX is a MATLAB application designed to consistently allow the fitting of Isotope Exchange Depth Profile data from Secondary Ion Mass Spectrometry measurements. This allows the extraction of materials properties such as the tracer diffusion coefficient and the surface exchange coefficient.</p>
                     <a className='project-link fill-dark p-2' href="https://github.com/tldr-group/TraceX-2.0">Find out more</a>
                     <div class="span mb-4">...</div>
+                    </div>
+
+                    <div className="project fill-light  m-4">
+                    <img className='project-img m-4' src={microlib}></img>
+                    <h1 className='project-title m-2'>microlib</h1>
+                    <p className='project-body m-4'>microlib is a searchable collection of 87 3D microstructures of various materials, intended for use in materials research. These were generated from the DoITPoMS micrograph library using our inpainting and SliceGAN tools.</p>
+                    <a className='project-link fill-dark p-2' href="https://microlib.io">Find out more</a>
+                    <div class="span mb-4">...</div>
+                    </div>
+
                 </div>
 
-
-                </div>
 
                 <div className='project col-lg-5 col-sm-12 col-md-12 text-center'>
                     <div className="project fill-light  m-4">
@@ -47,8 +56,9 @@ class Projects extends Component {
                     <div class="span mb-4">...</div>
                     </div>
 
+                    </div>
 
-                </div>
+
 
             </div>
 
