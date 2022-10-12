@@ -55,7 +55,7 @@ class Team extends Component {
                         link='https://www.imperial.ac.uk/people/i.squires20' twitter_link='https://twitter.com/isaacsquires5' img={isaac} img_fur={isaacfur}/></div>
             <div className='project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center'>
             <Person name='Amir Dahari' title='PhD student' body='Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.'
-                        link='https://www.imperial.ac.uk/people/i.squires20' twitter='no-twitter' img={amir} img_fur={amirfur}/></div>
+                        link='https://github.com/amirDahari1' twitter='no-twitter' img={amir} img_fur={amirfur}/></div>
 
 
             </div>
