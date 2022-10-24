@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.b201745f.chunk.css",
-    "main.js": "./static/js/main.9f6a8706.chunk.js",
-    "main.js.map": "./static/js/main.9f6a8706.chunk.js.map",
+    "main.css": "./static/css/main.3e963a26.chunk.css",
+    "main.js": "./static/js/main.aae5f7fb.chunk.js",
+    "main.js.map": "./static/js/main.aae5f7fb.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3a834ce1.js",
     "runtime-main.js.map": "./static/js/runtime-main.3a834ce1.js.map",
     "static/js/2.0434a1f2.chunk.js": "./static/js/2.0434a1f2.chunk.js",
     "static/js/2.0434a1f2.chunk.js.map": "./static/js/2.0434a1f2.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.b201745f.chunk.css.map": "./static/css/main.b201745f.chunk.css.map",
+    "static/css/main.3e963a26.chunk.css.map": "./static/css/main.3e963a26.chunk.css.map",
     "static/js/2.0434a1f2.chunk.js.LICENSE.txt": "./static/js/2.0434a1f2.chunk.js.LICENSE.txt",
     "static/media/Steve_Kench.0f64347e.png": "./static/media/Steve_Kench.0f64347e.png",
     "static/media/TraceX_logo.44fc5527.png": "./static/media/TraceX_logo.44fc5527.png",
@@ -18,21 +18,23 @@
     "static/media/image12.bdc3e1ca.jpeg": "./static/media/image12.bdc3e1ca.jpeg",
     "static/media/image7.5e0bdc22.png": "./static/media/image7.5e0bdc22.png",
     "static/media/image9.34fee580.png": "./static/media/image9.34fee580.png",
+    "static/media/inpaint.8a6b42ec.gif": "./static/media/inpaint.8a6b42ec.gif",
     "static/media/isaac-fur.8b385233.jpeg": "./static/media/isaac-fur.8b385233.jpeg",
     "static/media/isaac.491fa5ce.png": "./static/media/isaac.491fa5ce.png",
     "static/media/liam-fur.93d1bb4e.jpeg": "./static/media/liam-fur.93d1bb4e.jpeg",
-    "static/media/logo-bright-blue-gradient.977c7a85.svg": "./static/media/logo-bright-blue-gradient.977c7a85.svg",
     "static/media/microlib-logo.e4603bd4.png": "./static/media/microlib-logo.e4603bd4.png",
+    "static/media/person.122b5faf.svg": "./static/media/person.122b5faf.svg",
     "static/media/sam-fur.194d1f2f.jpeg": "./static/media/sam-fur.194d1f2f.jpeg",
     "static/media/steve-fur.de510759.png": "./static/media/steve-fur.de510759.png",
     "static/media/super-res-icon.86c07166.png": "./static/media/super-res-icon.86c07166.png",
     "static/media/tau_example.685a0640.png": "./static/media/tau_example.685a0640.png",
+    "static/media/tldr-logo.e8f6a0c6.svg": "./static/media/tldr-logo.e8f6a0c6.svg",
     "static/media/website_slicegan_img.2055ae25.png": "./static/media/website_slicegan_img.2055ae25.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3a834ce1.js",
     "static/js/2.0434a1f2.chunk.js",
-    "static/css/main.b201745f.chunk.css",
-    "static/js/main.9f6a8706.chunk.js"
+    "static/css/main.3e963a26.chunk.css",
+    "static/js/main.aae5f7fb.chunk.js"
   ]
 }
