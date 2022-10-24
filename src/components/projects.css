@@ -1,13 +1,13 @@
 .btn {
     margin: 2rem;
     font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font);
     background-color: #f2382786;
     border: 0px
 }
 
 .card-body{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font);
 }
 
 .card-link{

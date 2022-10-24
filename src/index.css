@@ -1,21 +1,17 @@
 body {
   margin: 0;
-  font-family: 'Source Code Pro', monospace;
+  font-family: var(--font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 :root{
-  --dark: #181716;
-  --light: #F2F2F2;
-  --colour1: #27735D;
-  --colour2: #91D9D2;
-  --colour3: #D7D986;
-}
-
-code {
-  font-family: futura-pt,
-    monospace;
+  --dark: #0c0c0c;
+  --light: #fafafa;
+  --colour1: #0b3126;
+  --colour2: #fafafa;
+  --colour3: rgba(55, 146, 119);
+  --font: 'Noto Sans', sans-serif;
 }
 
 #root {

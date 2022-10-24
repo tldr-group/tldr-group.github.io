@@ -12,6 +12,7 @@ import isaac from '../assets/isaac.png'
 import isaacfur from '../assets/isaac-fur.jpeg'
 import andrea from '../assets/image7.png'
 import andreafur from '../assets/andrea-fur.jpeg'
+import person from '../assets/person.svg'
 // import dominic from '../assets/image-dom.png'
 // import dominicfur from '../assets/dom-fur.jpeg'
 // import owen from '../assets/owen.JPG'
@@ -55,8 +56,25 @@ class Team extends Component {
                         link='https://www.imperial.ac.uk/people/i.squires20' twitter_link='https://twitter.com/isaacsquires5' img={isaac} img_fur={isaacfur}/></div>
             <div className='project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center'>
             <Person name='Amir Dahari' title='PhD student' body='Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.'
-                        link='https://github.com/amirDahari1' twitter='no-twitter' img={amir} img_fur={amirfur}/></div>
+                        link='https://www.imperial.ac.uk/people/a.dahari' twitter='no-twitter' img={amir} img_fur={amirfur}/></div>
+            </div>
 
+            <div className='row no-gutters'>
+
+            <div className='project offset-sm-0 offset-lg-3 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center'>
+            <Person name='Ronan Docherty' title='PhD student' body='Ronan is a PhD student working on deep learning segmentation techniques.'
+                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={person} img_fur={person}/>
+            </div>
+
+            <div className='project offset-sm-0 offset-lg-0 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center'>
+            <Person name='Sam Hair' title='PhD student' body='Sam is a PhD student working on novel anode architectures.'
+                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={person} img_fur={person}/>
+            </div>
+
+            <div className='project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center'>
+            <Person name='Antony Vamvakeros' title='Postdoc' body='Antony is a postdoc.'
+                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={person} img_fur={person}/>
+            </div>
 
             </div>
 
@@ -93,9 +111,9 @@ class Team extends Component {
             </div>
             
             <div className='row no-gutters'>
-                <div className='project offset-lg-5 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center'>
+                <div className='project offset-lg-4 offset-md-3 col-lg-4 col-sm-12 col-md-6 text-center'>
                 <Person name="Andrea Gayon-Lombardo" title='Former PhD student' body="Andrea completed her PhD in early 2021, with a thesis entitled 'Machine learning and simulation for the optimisation and characterisation of electrodes for batteries.' In addition to developing the Pores for Thought GAN framework, Andrea also developed pore network models for redox flow batteries."
-                        link='https://www.imperial.ac.uk/people/liam.yasin15' twitter='no-twitter' img={andrea} img_fur={andreafur}/>
+                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={andrea} img_fur={andreafur}/>
                 </div>
             </div>
 

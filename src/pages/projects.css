@@ -3,18 +3,20 @@
 }
 
 .project-title{
-    font-family: futura-pt-condensed;
+    font-family: var(--font);
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .project-body{
-    font-family: futura-pt
+    font-family: var(--font);
+    font-size: 1rem;
 }
 
 .project-link{
-    font-family: futura-pt-condensed;
+    font-family: var(--font);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--colour2);
 }
 

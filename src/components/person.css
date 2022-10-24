@@ -60,8 +60,8 @@
 }
 
 .person-subtitle{
-    font-family: futura-pt-condensed;
+    font-family: var(--font);
     font-weight: 600;
     color: var(--colour1);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }

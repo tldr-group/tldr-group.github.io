@@ -4,6 +4,7 @@ import superres from '../assets/super-res-icon.png'
 import slicegan from '../assets/website_slicegan_img.png'
 import tracex from '../assets/TraceX_logo.png'
 import microlib from '../assets/microlib-logo.png'
+import inpaint from '../assets/inpaint.gif'
 import './projects.css'
 
 class Projects extends Component {
@@ -53,6 +54,14 @@ class Projects extends Component {
                     <h1 className='project-title m-2'>Super-Res</h1>
                     <p className='project-body m-4'>Super resolution technique that takes as input low-res 3D volume and a high-res multi-phase 2D micrograph and outputs a high-res 3D multi-phase volume.</p>
                     <a className='project-link fill-dark p-2' href="https://github.com/tldr-group/SuperRes">Find out more</a>
+                    <div class="span mb-4">...</div>
+                    </div>
+
+                    <div className="project fill-light  m-4">
+                    <img className='project-img m-4' src={inpaint}></img>
+                    <h1 className='project-title m-2'>Microstructure inpainter</h1>
+                    <p className='project-body m-4'>Microstructure inpainter is a python app for inpainting material science microstructural images using GANs. The app can be run via a command line interface or a graphical interface.</p>
+                    <a className='project-link fill-dark p-2' href="https://github.com/tldr-group/microstructure-inpainter">Find out more</a>
                     <div class="span mb-4">...</div>
                     </div>
 

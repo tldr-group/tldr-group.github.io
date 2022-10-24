@@ -1,16 +1,28 @@
 .logo-container{
     margin-top: 4rem;
+    max-width: 400px;
+    align-self: center;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    fill: var(--colour2)
+}
+
+.logo:hover{
+    fill: var(--colour3)
 }
 
 .title{
     /* font-family: 'Source Code Pro', monospace; */
-    font-family: futura-pt-condensed, sans-serif;
+    font-family: var(--font);
     margin-top: 4rem;
     margin-bottom: 4rem;
     color: var(--colour2);
     font-weight: 700;
-    font-style: oblique;
-    font-size: 4rem;
+    font-size: 2rem;
     /* font-style: italic; */
 }
 
@@ -20,9 +32,10 @@
 
 .home-links{
     color: var(--colour2);
-    font-family: futura-pt-condensed;
+    font-family: var(--font);
     font-weight: 700;
-    text-decoration: underline;
+    font-size: 1.5rem;
+    /* text-decoration: underline; */
 }
 
 .home-links:hover{
@@ -43,13 +56,13 @@
 
 .home-body{
     color: var(--dark);
-    font-family: futura-pt;
-    font-size: 15pt;
+    font-family: var(--font);
+    font-size: 1rem;
 
 }
 
 .subtitle{
-    font-family: 'Source Code Pro', monospace;
+    font-family: var(--font);
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: #F23827;

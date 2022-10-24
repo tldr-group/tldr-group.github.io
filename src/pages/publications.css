@@ -1,6 +1,6 @@
 .publications-list{
     color: var(--colour3);
-    font-family: futura-pt;
+    font-family: var(--font);
 }
 
 .publications-link{

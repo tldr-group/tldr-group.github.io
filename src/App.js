@@ -8,7 +8,7 @@ import Team from "./pages/Team.jsx";
 import Projects from "./pages/Projects.jsx";
 import Publications from "./pages/Publications.jsx";
 import Footer from "./components/footer.jsx"
-import { ReactComponent as Logo} from './assets/logo-bright-blue-gradient.svg'
+import { ReactComponent as Logo} from './assets/tldr-logo.svg'
 import { NavLink } from "react-router-dom"
 import './pages/home.css'
 import './functions/typewriter.js'
@@ -22,7 +22,7 @@ class App extends Component {
           <div>
           <div className='row no-gutters'>
               <div className='offset-lg-1 col-lg-10 col-md-12 col-sm-12 text-center'>
-          <div className='logo-container'><NavLink to='/'><Logo/></NavLink></div>
+          <div className='logo-container'><NavLink to='/'><Logo className='logo'/></NavLink></div>
           <NavLink className='title' to='/'><h1 className='title'>tldr</h1></NavLink>
           </div>
           </div>

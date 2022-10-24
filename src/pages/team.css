@@ -1,5 +1,5 @@
 .team-title{
-    font-family: futura-pt-condensed;
+    font-family: var(--font);
     font-weight: 700;
     color:  var(--colour3);
 }
