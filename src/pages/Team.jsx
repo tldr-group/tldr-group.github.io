@@ -78,7 +78,7 @@ class Team extends Component {
             </div>
 
             <div className='project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center'>
-            <Person name='Antony Vamvakeros' title='Postdoc' body='Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods'
+            <Person name='Antony Vamvakeros' title='Royal Society Industry Fellow' body='Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods'
                         link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={antonis} img_fur={antonis_fur}/>
             </div>
 
