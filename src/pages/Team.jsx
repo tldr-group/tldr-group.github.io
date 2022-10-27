@@ -1,18 +1,24 @@
 import React, { Component } from "react";
 import Person from '../components/person.jsx'
-import sam from '../assets/image12.jpeg'
-import samfur from '../assets/sam-fur.jpeg'
-import steve from '../assets/Steve_Kench.png'
-import stevefur from '../assets/steve-fur.png'
-import amir from '../assets/image11.png'
-import amirfur from '../assets/amir-fur.jpeg'
-import liam from '../assets/image9.png'
-import liamfur from '../assets/liam-fur.jpeg'
-import isaac from '../assets/isaac.png'
-import isaacfur from '../assets/isaac-fur.jpeg'
-import andrea from '../assets/image7.png'
-import andreafur from '../assets/andrea-fur.jpeg'
-import person from '../assets/person.svg'
+import sam from '../assets/sam.jpg'
+import samfur from '../assets/sam_fur.jpg'
+import steve from '../assets/steve.jpg'
+import stevefur from '../assets/steve_fur.jpg'
+import amir from '../assets/amir.jpg'
+import amirfur from '../assets/amir_fur.jpg'
+import liam from '../assets/liam.jpg'
+import liamfur from '../assets/liam_fur.jpg'
+import isaac from '../assets/isaac.jpg'
+import isaacfur from '../assets/isaac_fur.jpg'
+import andrea from '../assets/andrea.jpg'
+import andreafur from '../assets/andrea_fur.jpg'
+import samh_fur from '../assets/samh_fur.jpg'
+import samh from '../assets/samh.jpg'
+import ronan_fur from '../assets/ronan_fur.jpg'
+import ronan from '../assets/ronan.jpg'
+import antonis_fur from '../assets/antonis_fur.jpg'
+import antonis from '../assets/antonis.jpg'
+// import person from '../assets/person.svg'
 // import dominic from '../assets/image-dom.png'
 // import dominicfur from '../assets/dom-fur.jpeg'
 // import owen from '../assets/owen.JPG'
@@ -63,17 +69,17 @@ class Team extends Component {
 
             <div className='project offset-sm-0 offset-lg-3 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center'>
             <Person name='Ronan Docherty' title='PhD student' body='Ronan is a PhD student working on deep learning segmentation techniques.'
-                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={person} img_fur={person}/>
+                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={ronan} img_fur={ronan_fur}/>
             </div>
 
             <div className='project offset-sm-0 offset-lg-0 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center'>
             <Person name='Sam Hair' title='PhD student' body='Sam is a PhD student working on novel anode architectures.'
-                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={person} img_fur={person}/>
+                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={samh} img_fur={samh_fur}/>
             </div>
 
             <div className='project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center'>
-            <Person name='Antony Vamvakeros' title='Postdoc' body='Antony is a postdoc.'
-                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={person} img_fur={person}/>
+            <Person name='Antony Vamvakeros' title='Postdoc' body='Antony is a postdoc looking at machine learning enabled characterisation techniques.'
+                        link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={antonis} img_fur={antonis_fur}/>
             </div>
 
             </div>
