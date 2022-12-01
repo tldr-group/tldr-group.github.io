@@ -117,7 +117,7 @@ class Team extends Component {
             </div>
             
             <div className='row no-gutters'>
-                <div className='project offset-lg-4 offset-md-3 col-lg-4 col-sm-12 col-md-6 text-center'>
+                <div className='project offset-sm-0 offset-lg-5 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center'>
                 <Person name="Andrea Gayon-Lombardo" title='Former PhD student' body="Andrea completed her PhD in early 2021, with a thesis entitled 'Machine learning and simulation for the optimisation and characterisation of electrodes for batteries.' In addition to developing the Pores for Thought GAN framework, Andrea also developed pore network models for redox flow batteries."
                         link='https://www.imperial.ac.uk/people/' twitter='no-twitter' img={andrea} img_fur={andreafur}/>
                 </div>
