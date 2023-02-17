@@ -24,10 +24,9 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://doi.org/10.1039/D2DD00120A"
                 >
-                  Squires, I., Dahari, A., Cooper, S. J. and Kench, S. Two
-                  approaches to inpainting microstructure with deep
-                  convolutional generative adversarial networks. Digital
-                  Discovery (2023). https://doi.org/10.1039/D2DD00120A
+                  Squires, I., Dahari, A., Cooper, S. J. and Kench, S. Artefact
+                  removal from micrographs with deep learning based inpainting.
+                  Digital Discovery (2023). https://doi.org/10.1039/D2DD00120A
                 </a>
               </li>
               <li className="publications-list m-4">
