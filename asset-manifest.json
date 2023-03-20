@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.3e963a26.chunk.css",
-    "main.js": "./static/js/main.3c04462c.chunk.js",
-    "main.js.map": "./static/js/main.3c04462c.chunk.js.map",
+    "main.js": "./static/js/main.f7780b86.chunk.js",
+    "main.js.map": "./static/js/main.f7780b86.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3a834ce1.js",
     "runtime-main.js.map": "./static/js/runtime-main.3a834ce1.js.map",
     "static/js/2.0434a1f2.chunk.js": "./static/js/2.0434a1f2.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/andrea_fur.89d3bc0f.jpg": "./static/media/andrea_fur.89d3bc0f.jpg",
     "static/media/antonis.96d2fb90.jpg": "./static/media/antonis.96d2fb90.jpg",
     "static/media/antonis_fur.ae119da2.jpg": "./static/media/antonis_fur.ae119da2.jpg",
+    "static/media/cellnorm.378a5946.png": "./static/media/cellnorm.378a5946.png",
     "static/media/inpaint.8a6b42ec.gif": "./static/media/inpaint.8a6b42ec.gif",
     "static/media/isaac.0a8758c8.jpg": "./static/media/isaac.0a8758c8.jpg",
     "static/media/isaac_fur.c48db9e0.jpg": "./static/media/isaac_fur.c48db9e0.jpg",
@@ -36,12 +37,13 @@
     "static/media/super-res-icon.86c07166.png": "./static/media/super-res-icon.86c07166.png",
     "static/media/tau_example.685a0640.png": "./static/media/tau_example.685a0640.png",
     "static/media/tldr-logo.e8f6a0c6.svg": "./static/media/tldr-logo.e8f6a0c6.svg",
+    "static/media/voxcel.66341e06.png": "./static/media/voxcel.66341e06.png",
     "static/media/website_slicegan_img.2055ae25.png": "./static/media/website_slicegan_img.2055ae25.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3a834ce1.js",
     "static/js/2.0434a1f2.chunk.js",
     "static/css/main.3e963a26.chunk.css",
-    "static/js/main.3c04462c.chunk.js"
+    "static/js/main.f7780b86.chunk.js"
   ]
 }
