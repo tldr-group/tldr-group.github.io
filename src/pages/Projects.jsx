@@ -86,7 +86,7 @@ class Projects extends Component {
                 className="project-link fill-dark p-2"
                 href="https://helpful-cactus-2d3c48.netlify.app/"
               >
-                To Cell Normaliser
+                To Cell Normaliser (alpha)
               </a>
               <div class="span mb-4">...</div>
             </div>
