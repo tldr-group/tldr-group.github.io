@@ -5,6 +5,7 @@ import slicegan from "../assets/website_slicegan_img.png";
 import tracex from "../assets/TraceX_logo.png";
 import microlib from "../assets/microlib-logo.png";
 import cellnorm from "../assets/cellnorm.png";
+import voxcel from "../assets/voxcel.png";
 import inpaint from "../assets/inpaint.gif";
 import "./projects.css";
 
@@ -138,6 +139,24 @@ class Projects extends Component {
                 href="https://github.com/tldr-group/microstructure-inpainter"
               >
                 Find out more
+              </a>
+              <div class="span mb-4">...</div>
+            </div>
+
+            <div className="project fill-light  m-4">
+              <img className="project-img m-4" src={voxcel}></img>
+              <h1 className="project-title m-2">voxcel</h1>
+              <p className="project-body m-4">
+                Voxcel is a GPU-accelerated electrochemical solver, built for
+                battery design and optimisation workflows. The solver is a
+                Python, voxel-based 3D finite volume solver, built with the
+                PyTorch library and designed to run on a GPU.
+              </p>
+              <a
+                className="project-link fill-dark p-2"
+                // href="https://github.com/tldr-group/microstructure-inpainter"
+              >
+                Coming soon
               </a>
               <div class="span mb-4">...</div>
             </div>
