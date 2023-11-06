@@ -7,6 +7,7 @@ import microlib from "../assets/microlib-logo.png";
 import cellnorm from "../assets/cellnorm.png";
 import voxcel from "../assets/voxcel.png";
 import inpaint from "../assets/inpaint.gif";
+import samba from "../assets/samba_logo.png";
 import "./projects.css";
 
 class Projects extends Component {
@@ -27,6 +28,24 @@ class Projects extends Component {
               <a
                 className="project-link fill-dark p-2"
                 href="https://github.com/tldr-group/taufactor"
+              >
+                Find out more
+              </a>
+              <div class="span mb-4">...</div>
+            </div>
+
+            <div className="project fill-light  m-4">
+              <img className="project-img m-4 pt-4" src={samba}></img>
+              <h1 className="project-title m-2">SAMBA</h1>
+              <p className="project-body m-4">
+                SAMBA (Segment Anything Model Based App) is a trainable segmentation web-app
+                for materials science that uses Meta's Segment Anything Model for fast, high-quality
+                labels and random forests for robust, generalizable segmentations.
+                <a href="(https://www.sambasegment.com"> It is accessible in the browser</a>, without the need to download any external dependencies.
+              </p>
+              <a
+                className="project-link fill-dark p-2"
+                href="https://github.com/tldr-group/samba-web"
               >
                 Find out more
               </a>
@@ -154,7 +173,7 @@ class Projects extends Component {
               </p>
               <a
                 className="project-link fill-dark p-2"
-                // href="https://github.com/tldr-group/microstructure-inpainter"
+              // href="https://github.com/tldr-group/microstructure-inpainter"
               >
                 Coming soon
               </a>

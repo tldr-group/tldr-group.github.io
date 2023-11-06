@@ -20,6 +20,14 @@ import antonis_fur from "../assets/antonis_fur.jpg";
 import antonis from "../assets/antonis.jpg";
 import ruimin from "../assets/ruimin.jpg";
 import ruimin_fur from "../assets/ruimin_fur.jpg";
+import lei_ge from "../assets/lei_ge.jpg";
+import lei_ge_fur from "../assets/lei_ge.jpg";
+import rowena from "../assets/rowena.jpg";
+import rowena_fur from "../assets/rowena.jpg";
+import nina from "../assets/nina.jpg";
+import nina_fur from "../assets/nina.jpg";
+
+
 
 import "./team.css";
 
@@ -95,7 +103,7 @@ class Team extends Component {
         </div>
 
         <div className="row no-gutters">
-          <div className="project offset-sm-0 offset-lg-2 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project offset-sm-0 offset-lg-3 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Ronan Docherty"
               title="PhD student"
@@ -107,17 +115,6 @@ class Team extends Component {
             />
           </div>
 
-          <div className="project offset-sm-0 offset-lg-0 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
-            <Person
-              name="Sam Hair"
-              title="PhD student"
-              body="Sam is a PhD student working on novel anode architectures."
-              link="https://www.imperial.ac.uk/people/"
-              twitter="no-twitter"
-              img={samh}
-              img_fur={samh_fur}
-            />
-          </div>
 
           <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
@@ -133,15 +130,17 @@ class Team extends Component {
 
           <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
-              name="Ruimin Song"
-              title="Visiting PhD student"
-              body="Ruimin is a PhD student working on developing machine learning methods for status diagnosis and data preprocessing. Specifically, the research focuses on using Generative Adversarial Networks (GANs) to enhance measured data and help diagnose on-site equipment, as well as design power materials."
+              name="Lei Ge"
+              title="PhD student"
+              body="Lei Ge is a PhD student working on integrating LLMs into the scientific workflow."
               link="https://www.imperial.ac.uk/people/"
               twitter="no-twitter"
-              img={ruimin}
-              img_fur={ruimin_fur}
+              img={lei_ge}
+              img_fur={lei_ge_fur}
             />
           </div>
+
+
         </div>
 
         {/* <div className='row no-gutters'>
@@ -177,7 +176,31 @@ class Team extends Component {
         </div>
 
         <div className="row no-gutters">
-          <div className="project offset-sm-0 offset-lg-5 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project offset-sm-0 offset-lg-1 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
+            <Person
+              name="Sam Hair"
+              title="Former PhD student"
+              body="Sam completed his PhD in 2023, with a thesis entitled 'Beyond slurry cast: structured electrodes by design'. In it he motivated the use of laser patterning on monolithic graphite sheets to produce high energy density cells."
+              link="https://www.imperial.ac.uk/people/"
+              twitter="no-twitter"
+              img={samh}
+              img_fur={samh_fur}
+            />
+          </div>
+
+          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+            <Person
+              name="Ruimin Song"
+              title="Former Visiting PhD student"
+              body="Ruimin was a PhD student working on developing machine learning methods for dimensionality expansion of EBSD data. Specifically, the research focused on using Generative Adversarial Networks (GANs) to produce plausible 3D EBSD data of particles from a single 2D slice."
+              link="https://www.imperial.ac.uk/people/"
+              twitter="no-twitter"
+              img={ruimin}
+              img_fur={ruimin_fur}
+            />
+          </div>
+
+          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Andrea Gayon-Lombardo"
               title="Former PhD student"
@@ -188,6 +211,31 @@ class Team extends Component {
               img_fur={andreafur}
             />
           </div>
+
+          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+            <Person
+              name="Rowena Brugge"
+              title="Former PhD student"
+              body="Rowena Brugge joined the TLDR group in 2019 to develop isotropic methods for the characterisation of solid state battery materials. She then went to work at the Cambridge battery start-up Nyobolt."
+              link="https://www.imperial.ac.uk/people/"
+              twitter="no-twitter"
+              img={rowena}
+              img_fur={rowena_fur}
+            />
+          </div>
+
+          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+            <Person
+              name="Nina Meddings"
+              title="Former PhD student"
+              body="Nina joined the TLDR group in 2018 to develop isotropic methods for the characterisation of solid state battery materials, sponsored by the Faraday institution. She then went to work as a Senior Cell Engineer at Dyson."
+              link="https://www.imperial.ac.uk/people/"
+              twitter="no-twitter"
+              img={nina}
+              img_fur={nina_fur}
+            />
+          </div>
+
         </div>
       </div>
     );

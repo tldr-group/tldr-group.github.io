@@ -11,6 +11,36 @@ class Publications extends Component {
               <li className="publications-list m-4">
                 <a
                   className="publications-link"
+                  href="https://www.sciencedirect.com/science/article/pii/S0013468623015906"
+                >
+                  Yasmin, L., Atkinson, A., Cooper, S.J and Bertei, A. Identifiability of
+                  the mechanisms governing the reaction kinetics of MIEC electrodes in solid oxide cells.
+                  Electrochimica Acta, Volume 472, 143418, (2023). https://doi.org/10.1016/j.electacta.2023.143418
+                </a>
+              </li>
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://joss.theoj.org/papers/10.21105/joss.05358"
+                >
+                  Kench, S., Squires, I. and Cooper, S.J. TauFactor 2:
+                  A GPU accelerated python tool for microstructural analysis.
+                  Journal of Open Source Software, 8(88), 5358, (2023). https://doi.org/10.21105/joss.05358
+                </a>
+              </li>
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://arxiv.org/abs/2306.05812"
+                >
+                  Hogg, A.O.T., Jenkins, M., Liu, H., Squires, I., Cooper, S.J. and Picinali L.
+                  HRTF upsampling with a generative adversarial network using a gnomonic equiangular projection.
+                  arXiv, 2306.05812, (2023), https://doi.org/10.48550/arXiv.2306.05812
+                </a>
+              </li>
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
                   href="https://www.nature.com/articles/s41597-022-01744-1"
                 >
                   Kench, S., Squires, I., Dahari, A. and Cooper, S.J. MicroLib:
