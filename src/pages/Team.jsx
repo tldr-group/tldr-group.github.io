@@ -215,7 +215,7 @@ class Team extends Component {
           <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Rowena Brugge"
-              title="Former PhD student"
+              title="Former PDRA"
               body="Rowena Brugge joined the TLDR group in 2019 to develop isotropic methods for the characterisation of solid state battery materials. She then went to work at the Cambridge battery start-up Nyobolt."
               link="https://www.imperial.ac.uk/people/"
               twitter="no-twitter"
@@ -227,7 +227,7 @@ class Team extends Component {
           <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Nina Meddings"
-              title="Former PhD student"
+              title="Former PDRA"
               body="Nina joined the TLDR group in 2018 to develop isotropic methods for the characterisation of solid state battery materials, sponsored by the Faraday institution. She then went to work as a Senior Cell Engineer at Dyson."
               link="https://www.imperial.ac.uk/people/"
               twitter="no-twitter"
