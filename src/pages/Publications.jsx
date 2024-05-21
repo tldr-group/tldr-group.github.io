@@ -11,6 +11,16 @@ class Publications extends Component {
               <li className="publications-list m-4">
                 <a
                   className="publications-link"
+                  href="https://iopscience.iop.org/article/10.1149/1945-7111/ad48be"
+                >
+                  Squires, I., Foster, J.M., Galvis, A., and Cooper, S.J. Investigating the Effect of
+                  the Separation of Scales in Reduced Order Battery Modelling: Implications on the Validity of the Newman Model.
+                  J. Electrochem. Soc. 171 050536 (2024). https://doi.org/10.1149/1945-7111/ad48be
+                </a>
+              </li>
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
                   href="https://www.sciencedirect.com/science/article/pii/S0013468623015906"
                 >
                   Yasmin, L., Atkinson, A., Cooper, S.J and Bertei, A. Identifiability of
