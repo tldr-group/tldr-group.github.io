@@ -11,6 +11,25 @@ class Publications extends Component {
               <li className="publications-list m-4">
                 <a
                   className="publications-link"
+                  href="https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00074a"
+                >
+                  Gei, L., Docherty, R. and Cooper, S.J. Materials science in the era of large language models: a perspective
+                  Digital Discovery (2024). DOI	https://doi.org/10.1039/D4DD00074A
+                </a>
+              </li>
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://joss.theoj.org/papers/10.21105/joss.06159"
+                >
+                  Docherty, R., Squires, I., Vamvakeros, A. and Cooper, S.J. SAMBA:
+                  A Trainable Segmentation Web-App with Smart Labelling.
+                  Journal of Open Source Software, 9(98), 6159, https://doi.org/10.21105/joss.06159
+                </a>
+              </li>
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
                   href="https://iopscience.iop.org/article/10.1149/1945-7111/ad48be"
                 >
                   Squires, I., Foster, J.M., Galvis, A., and Cooper, S.J. Investigating the Effect of

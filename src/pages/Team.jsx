@@ -44,7 +44,7 @@ class Team extends Component {
         <div></div>
 
         <div className="row no-gutters">
-          <div className="project offset-lg-1 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project offset-lg-3 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Sam Cooper"
               title="Group leader"
@@ -57,29 +57,6 @@ class Team extends Component {
           </div>
           <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
-              name="Steve Kench"
-              title="PhD student"
-              body="Steve is a Faraday PhD student working on developing machine learning methods for material science applications. His research focuses on the use of generative adversarial nets to explore and optimise cathode microstructures."
-              link="https://www.imperial.ac.uk/people/s.kench19"
-              twitter="no-twitter"
-              img={steve}
-              img_fur={stevefur}
-            />
-          </div>
-          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
-            <Person
-              name="Liam Yasin"
-              title="PhD student"
-              body="Liam is a PhD researcher working on extending the lifetime of Solid Oxide Fuel Cells (SOFCs) by investigating degradation processes at the cathode-electrolyte interface. His work involves combining experimental methods to trace oxygen diffusion across various types of layered half-cells and numerical modelling to better understand the material properties of these systems."
-              link="https://www.imperial.ac.uk/people/liam.yasin15"
-              twitter="no-twitter"
-              img={liam}
-              img_fur={liamfur}
-            />
-          </div>
-
-          <div className="project offset-sm-0 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
-            <Person
               name="Isaac Squires"
               title="PhD student"
               body="Isaac is a PhD student applying machine learning and software development to build tools that aid the design and optimisation of next generation battery materials."
@@ -89,7 +66,7 @@ class Team extends Component {
               img_fur={isaacfur}
             />
           </div>
-          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Amir Dahari"
               title="PhD student"
@@ -108,7 +85,7 @@ class Team extends Component {
               name="Ronan Docherty"
               title="PhD student"
               body="Ronan is a PhD student working on deep learning segmentation techniques."
-              link="https://www.imperial.ac.uk/people/"
+              link="https://profiles.imperial.ac.uk/ronan.docherty18"
               twitter="no-twitter"
               img={ronan}
               img_fur={ronan_fur}
@@ -116,7 +93,7 @@ class Team extends Component {
           </div>
 
 
-          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Antony Vamvakeros"
               title="Royal Society Industry Fellow"
@@ -128,7 +105,7 @@ class Team extends Component {
             />
           </div>
 
-          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Lei Ge"
               title="PhD student"
@@ -176,19 +153,44 @@ class Team extends Component {
         </div>
 
         <div className="row no-gutters">
-          <div className="project offset-sm-0 offset-lg-1 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project offset-sm-0 offset-lg-3 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
+            <Person
+              name="Steve Kench"
+              title="Former PhD student and PDRA"
+              body="Steve finished his Faraday-funded PhD in 2024 with the thesis 'Machine learning for battery electrode characterisation and optimisation', focussing on the use of generative adversarial nets to explore and optimise cathode microstructures. He continues this work as the CTO of the spin-out Polaron AI, which he co-founded with Isaac and Sam."
+              link="https://polaron.ai/"
+              twitter="no-twitter"
+              img={steve}
+              img_fur={stevefur}
+            />
+          </div>
+
+          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
+            <Person
+              name="Liam Yasin"
+              title="Former PhD student"
+              body="Liam completed his PhD in 2024 with his thesis, 'Modelling diffusion across solid-solid interfaces in electroceramic materials'. In it he combined experimental methods to trace oxygen diffusion across various types of layered half-cells with numerical modelling to better understand their material properties."
+              link="https://www.imperial.ac.uk/people/liam.yasin15"
+              twitter="no-twitter"
+              img={liam}
+              img_fur={liamfur}
+            />
+          </div>
+          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Sam Hair"
               title="Former PhD student"
-              body="Sam completed his PhD in 2023, with a thesis entitled 'Beyond slurry cast: structured electrodes by design'. In it he motivated the use of laser patterning on monolithic graphite sheets to produce high energy density cells."
+              body="Sam completed his PhD in 2023, with a thesis entitled 'Beyond slurry cast: structured electrodes by design'. In it he motivated the use of laser patterning on monolithic graphite sheets to produce high energy density cells. He now works as an engineering consultant at TTP PLC."
               link="https://www.imperial.ac.uk/people/"
               twitter="no-twitter"
               img={samh}
               img_fur={samh_fur}
             />
           </div>
+        </div>
 
-          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+        <div className="row no-gutters">
+          <div className="project offset-sm-0 offset-lg-2 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Ruimin Song"
               title="Former Visiting PhD student"
@@ -200,7 +202,7 @@ class Team extends Component {
             />
           </div>
 
-          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Andrea Gayon-Lombardo"
               title="Former PhD student"
@@ -212,7 +214,7 @@ class Team extends Component {
             />
           </div>
 
-          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Rowena Brugge"
               title="Former PDRA"
@@ -224,7 +226,7 @@ class Team extends Component {
             />
           </div>
 
-          <div className="project offset-sm-0 offset-lg-0 offset-md-3 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Nina Meddings"
               title="Former PDRA"
@@ -235,7 +237,6 @@ class Team extends Component {
               img_fur={nina_fur}
             />
           </div>
-
         </div>
       </div>
     );
