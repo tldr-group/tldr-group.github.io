@@ -8,12 +8,63 @@ class Publications extends Component {
         <div className="row no-gutters">
           <div className="project offset-lg-2 col-lg-8 col-sm-12 col-md-12">
             <ul>
+
+            <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://www.cell.com/matter/fulltext/S2590-2385(24)00446-6"
+                >
+                  Kench, S., Squires, I., Dahrai, A., Planella, F.B., Roberts, S.A. and Cooper, S.J. Li-ion battery design through microstructural optimization using generative AI.
+                  Matter (2024). DOI https://doi.org/10.1016/j.matt.2024.08.014
+                </a>
+              </li>
+            
+            <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://arxiv.org/abs/2410.19836"
+                >
+                  Docherty, R., Vamvakeros, A. and Cooper, S.J.
+                  Upsampling DINOv2 features for unsupervised vision tasks and weakly supervised materials segmentation. 
+                  NeurIPS AI4Mat Workshop, 2024. DOI https://doi.org/10.48550/arXiv.2410.19836
+                </a>
+              </li>
+            <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://arxiv.org/abs/2410.19568"
+                >
+                  Dahari, A., Docherty, R., Kench, S. and Cooper, S.J. Prediction of microstructural representativity from a single image.
+                  arXiV preprint (2024). DOI https://doi.org/10.48550/arXiv.2410.19568
+                </a>
+              </li>
+
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://zenodo.org/records/13744639"
+                >
+                  Kench, S., Jones, C., Cooper, S.J and Squires, I. Polaron: An AI tool for the characterisation and design of advanced materials.
+                  Whitepaper (2024). DOI https://doi.org/10.5281/zenodo.13744638
+                </a>
+              </li>
+
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(24)00428-4?uuid=uuid%3A53ca24d2-afda-404b-b22c-9071fad122b1"
+                >
+                  Hair, S.W, Cooper, S.J. and Shaffer, M.S.P. Beyond slurry cast: Patterning of a monolithic active material sheet to form free-standing, solvent-free, and low-tortuosity battery electrodes.
+                  Cell Reports Physical Science (2024). DOI https://doi.org/10.1016/j.xcrp.2024.102143
+                </a>
+              </li>
+
               <li className="publications-list m-4">
                 <a
                   className="publications-link"
                   href="https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00074a"
                 >
-                  Gei, L., Docherty, R. and Cooper, S.J. Materials science in the era of large language models: a perspective
+                  Gei, L., Docherty, R. and Cooper, S.J. Materials science in the era of large language models: a perspective.
                   Digital Discovery (2024). DOI	https://doi.org/10.1039/D4DD00074A
                 </a>
               </li>
