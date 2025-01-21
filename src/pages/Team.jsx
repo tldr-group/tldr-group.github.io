@@ -44,7 +44,7 @@ class Team extends Component {
         <div></div>
 
         <div className="row no-gutters">
-          <div className="project offset-lg-3 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project offset-lg-4 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Sam Cooper"
               title="Group leader"
@@ -53,17 +53,6 @@ class Team extends Component {
               twitter_link="https://twitter.com/camsooper"
               img={sam}
               img_fur={samfur}
-            />
-          </div>
-          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
-            <Person
-              name="Isaac Squires"
-              title="PhD student"
-              body="Isaac is a PhD student applying machine learning and software development to build tools that aid the design and optimisation of next generation battery materials."
-              link="https://www.imperial.ac.uk/people/i.squires20"
-              twitter_link="https://twitter.com/isaacsquires5"
-              img={isaac}
-              img_fur={isaacfur}
             />
           </div>
           <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
@@ -153,7 +142,19 @@ class Team extends Component {
         </div>
 
         <div className="row no-gutters">
-          <div className="project offset-sm-0 offset-lg-3 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
+        <div className="project offset-sm-0 offset-lg-2 col-lg-2 col-sm-12 col-md-6 text-center">
+            <Person
+              name="Isaac Squires"
+              title="Former PhD student"
+              body="Isaac finished his PhD in 2024 with the thesis 'Advanced characterisation of lithium-ion batteries using machine learning and physics-based simulation', focusing on applying machine learning and software development to build tools that aid the design and characterisation of next generation battery materials. He continues this as the CEO of Polaron AI - an advanced materials characterisation and design tool."
+              link="https://www.imperial.ac.uk/people/i.squires20"
+              twitter_link="https://twitter.com/isaacsquires5"
+              img={isaac}
+              img_fur={isaacfur}
+            />
+          </div>
+
+          <div className="project  offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
             <Person
               name="Steve Kench"
               title="Former PhD student and PDRA"
