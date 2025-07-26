@@ -26,6 +26,7 @@ import rowena from "../assets/rowena.jpg";
 import rowena_fur from "../assets/rowena.jpg";
 import nina from "../assets/nina.jpg";
 import nina_fur from "../assets/nina.jpg";
+import simon from "../assets/simon.jpg";
 
 
 
@@ -44,7 +45,7 @@ class Team extends Component {
         <div></div>
 
         <div className="row no-gutters">
-          <div className="project offset-lg-4 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project offset-lg-3 col-lg-2 text-center">
             <Person
               name="Sam Cooper"
               title="Group leader"
@@ -55,7 +56,32 @@ class Team extends Component {
               img_fur={samfur}
             />
           </div>
-          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 text-center">
+            <Person
+              name="Antony Vamvakeros"
+              title="Royal Society Industry Fellow"
+              body="Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods"
+              link="https://www.imperial.ac.uk/people/"
+              twitter="no-twitter"
+              img={antonis}
+              img_fur={antonis_fur}
+            />
+          </div>
+          <div className="project col-lg-2 text-center">
+            <Person
+              name="Simon Daubner"
+              title="PDRA"
+              body="Simon is a PDRA combining physical modelling and machine learning to design better microstructures for next-generation batteries."
+              link="https://scholar.google.com/citations?user=6sYvIY4AAAAJ&hl=de"
+              twitter_link="no-twitter"
+              img={simon}
+              img_fur={simon}
+            />
+          </div>
+        </div>
+
+        <div className="row no-gutters">
+          <div className="project offset-lg-3 col-lg-2 text-center">
             <Person
               name="Amir Dahari"
               title="PhD student"
@@ -66,10 +92,8 @@ class Team extends Component {
               img_fur={amirfur}
             />
           </div>
-        </div>
 
-        <div className="row no-gutters">
-          <div className="project offset-sm-0 offset-lg-3 offset-md-0 col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 text-center">
             <Person
               name="Ronan Docherty"
               title="PhD student"
@@ -82,19 +106,7 @@ class Team extends Component {
           </div>
 
 
-          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
-            <Person
-              name="Antony Vamvakeros"
-              title="Royal Society Industry Fellow"
-              body="Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods"
-              link="https://www.imperial.ac.uk/people/"
-              twitter="no-twitter"
-              img={antonis}
-              img_fur={antonis_fur}
-            />
-          </div>
-
-          <div className="project col-lg-2 col-sm-12 col-md-6 text-center">
+          <div className="project col-lg-2 text-center">
             <Person
               name="Lei Ge"
               title="PhD student"
