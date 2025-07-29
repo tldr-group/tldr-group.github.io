@@ -8,6 +8,7 @@ import cellnorm from "../assets/cellnorm.png";
 import voxcel from "../assets/voxcel.png";
 import inpaint from "../assets/inpaint.gif";
 import samba from "../assets/samba_logo.png";
+import imagerep from "../assets/imagerep.png";
 import "./projects.css";
 
 class Projects extends Component {
@@ -21,7 +22,7 @@ class Projects extends Component {
               <h1 className="project-title m-2">TauFactor</h1>
               <p className="project-body m-4">
                 TauFactor is an application for calculating tortuosity factors
-                from tomographic data. TauFactor uses CuPy_ which is an
+                from tomographic data. TauFactor uses CuPy, which is an
                 implementation of NumPy-compatible multi-dimensional array on
                 CUDA.
               </p>
@@ -35,17 +36,22 @@ class Projects extends Component {
             </div>
 
             <div className="project fill-light  m-4">
-              <img className="project-img m-4 pt-4" src={samba}></img>
-              <h1 className="project-title m-2">SAMBA</h1>
+              <img className="project-img m-4 pt-4" src={imagerep}></img>
+              <h1 className="project-title m-2">ImageRep</h1>
               <p className="project-body m-4">
-                SAMBA (Segment Anything Model Based App) is a trainable segmentation web-app
-                for materials science that uses Meta's Segment Anything Model for fast, high-quality
-                labels and random forests for robust, generalizable segmentations.
-                <a href="(https://www.sambasegment.com"> It is accessible in the browser</a>, without the need to download any external dependencies.
+                How confident are you in your measured volume fractions? How do
+                you know if they're representative of the bulk material?
+                ImageRep allows for fast phase fraction representativity
+                estimation from a single microstructural image.
+                <a href="https://www.imagerep.io/">
+                  {" "}
+                  It is accessible in the browser
+                </a>
+                - try it out on your data!
               </p>
               <a
                 className="project-link fill-dark p-2"
-                href="https://github.com/tldr-group/samba-web"
+                href="https://github.com/tldr-group/ImageRep"
               >
                 Find out more
               </a>
@@ -53,18 +59,22 @@ class Projects extends Component {
             </div>
 
             <div className="project fill-light  m-4">
-              <img className="project-img m-4 pt-4" src={tracex}></img>
-              <h1 className="project-title m-2">TraceX</h1>
+              <img className="project-img m-4 pt-4" src={samba}></img>
+              <h1 className="project-title m-2">SAMBA</h1>
               <p className="project-body m-4">
-                TraceX is a MATLAB application designed to consistently allow
-                the fitting of Isotope Exchange Depth Profile data from
-                Secondary Ion Mass Spectrometry measurements. This allows the
-                extraction of materials properties such as the tracer diffusion
-                coefficient and the surface exchange coefficient.
+                SAMBA (Segment Anything Model Based App) is a trainable
+                segmentation web-app for materials science that uses Meta's
+                Segment Anything Model for fast, high-quality labels and random
+                forests for robust, generalizable segmentations.
+                <a href="(https://www.sambasegment.com">
+                  {" "}
+                  It is accessible in the browser
+                </a>
+                , without the need to download any external dependencies.
               </p>
               <a
                 className="project-link fill-dark p-2"
-                href="https://github.com/tldr-group/TraceX-2.0"
+                href="https://github.com/tldr-group/samba-web"
               >
                 Find out more
               </a>
@@ -90,22 +100,20 @@ class Projects extends Component {
             </div>
 
             <div className="project fill-light  m-4">
-              <img className="project-img m-4" src={cellnorm}></img>
-              <h1 className="project-title m-2">Cell Normaliser</h1>
+              <img className="project-img m-4 pt-4" src={tracex}></img>
+              <h1 className="project-title m-2">TraceX</h1>
               <p className="project-body m-4">
-                Cell Normaliser is a web application that aims to bridge the gap
-                between researchers and industry by providing an intuitive and
-                user-friendly interface for normalising laboratory battery data.
-                This allows for the direct comparison with commercial cell data.
-                The web app provides a range of different normalisations, and
-                the ability to save parameters. Future work will look to provide
-                persistent identifiers.
+                TraceX is a MATLAB application designed to consistently allow
+                the fitting of Isotope Exchange Depth Profile data from
+                Secondary Ion Mass Spectrometry measurements. This allows the
+                extraction of materials properties such as the tracer diffusion
+                coefficient and the surface exchange coefficient.
               </p>
               <a
                 className="project-link fill-dark p-2"
-                href="https://helpful-cactus-2d3c48.netlify.app/"
+                href="https://github.com/tldr-group/TraceX-2.0"
               >
-                To Cell Normaliser (alpha)
+                Find out more
               </a>
               <div class="span mb-4">...</div>
             </div>
@@ -163,6 +171,27 @@ class Projects extends Component {
             </div>
 
             <div className="project fill-light  m-4">
+              <img className="project-img m-4" src={cellnorm}></img>
+              <h1 className="project-title m-2">Cell Normaliser</h1>
+              <p className="project-body m-4">
+                Cell Normaliser is a web application that aims to bridge the gap
+                between researchers and industry by providing an intuitive and
+                user-friendly interface for normalising laboratory battery data.
+                This allows for the direct comparison with commercial cell data.
+                The web app provides a range of different normalisations, and
+                the ability to save parameters. Future work will look to provide
+                persistent identifiers.
+              </p>
+              <a
+                className="project-link fill-dark p-2"
+                href="https://helpful-cactus-2d3c48.netlify.app/"
+              >
+                To Cell Normaliser (alpha)
+              </a>
+              <div class="span mb-4">...</div>
+            </div>
+
+            {/* <div className="project fill-light  m-4">
               <img className="project-img m-4" src={voxcel}></img>
               <h1 className="project-title m-2">voxcel</h1>
               <p className="project-body m-4">
@@ -178,7 +207,7 @@ class Projects extends Component {
                 Coming soon
               </a>
               <div class="span mb-4">...</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
