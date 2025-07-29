@@ -8,34 +8,63 @@ class Publications extends Component {
         <div className="row no-gutters">
           <div className="project offset-lg-2 col-lg-8 col-sm-12 col-md-12">
             <ul>
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202414149"
+                >
+                  Dahari, A., Docherty, R., Kench, S. and Cooper, S.J.
+                  Prediction of microstructural representativity from a single
+                  image. Advanced Science (2025). DOI
+                  https://doi.org/10.1002/advs.202414149
+                </a>
+              </li>
 
-            <li className="publications-list m-4">
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://chemrxiv.org/engage/chemrxiv/article-details/68402c711a8f9bdab5a0b7fc"
+                >
+                  Vamvakeros, A., Papoutsellis, E., Dong, H., Docherty, R.,
+                  Beale, A.M, Cooper, S.J and Jacques, S.D.M. nDTomo: A
+                  Python-Based Software Suite for X-ray Chemical Imaging and
+                  Tomography. chemrXiv preprint (2025). DOI
+                  https://doi.org/10.26434/chemrxiv-2025-h5t2x
+                </a>
+              </li>
+
+              <li className="publications-list m-4">
+                <a
+                  className="publications-link"
+                  href="https://arxiv.org/abs/2502.10871"
+                >
+                  Gei, L., and Cooper, S.J. Layerwise Recall and the Geometry of
+                  Interwoven Knowledge in LLMs, arXiv preprint, (2025). DOI
+                  https://doi.org/10.48550/arXiv.2502.10871
+                </a>
+              </li>
+
+              <li className="publications-list m-4">
                 <a
                   className="publications-link"
                   href="https://www.cell.com/matter/fulltext/S2590-2385(24)00446-6"
                 >
-                  Kench, S., Squires, I., Dahrai, A., Planella, F.B., Roberts, S.A. and Cooper, S.J. Li-ion battery design through microstructural optimization using generative AI.
-                  Matter (2024). DOI https://doi.org/10.1016/j.matt.2024.08.014
+                  Kench, S., Squires, I., Dahrai, A., Planella, F.B., Roberts,
+                  S.A. and Cooper, S.J. Li-ion battery design through
+                  microstructural optimization using generative AI. Matter
+                  (2024). DOI https://doi.org/10.1016/j.matt.2024.08.014
                 </a>
               </li>
-            
-            <li className="publications-list m-4">
+
+              <li className="publications-list m-4">
                 <a
                   className="publications-link"
                   href="https://arxiv.org/abs/2410.19836"
                 >
-                  Docherty, R., Vamvakeros, A. and Cooper, S.J.
-                  Upsampling DINOv2 features for unsupervised vision tasks and weakly supervised materials segmentation. 
-                  NeurIPS AI4Mat Workshop, 2024. DOI https://doi.org/10.48550/arXiv.2410.19836
-                </a>
-              </li>
-            <li className="publications-list m-4">
-                <a
-                  className="publications-link"
-                  href="https://arxiv.org/abs/2410.19568"
-                >
-                  Dahari, A., Docherty, R., Kench, S. and Cooper, S.J. Prediction of microstructural representativity from a single image.
-                  arXiV preprint (2024). DOI https://doi.org/10.48550/arXiv.2410.19568
+                  Docherty, R., Vamvakeros, A. and Cooper, S.J. Upsampling
+                  DINOv2 features for unsupervised vision tasks and weakly
+                  supervised materials segmentation. NeurIPS AI4Mat Workshop,
+                  (2024). DOI https://doi.org/10.48550/arXiv.2410.19836
                 </a>
               </li>
 
@@ -44,8 +73,10 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://zenodo.org/records/13744639"
                 >
-                  Kench, S., Jones, C., Cooper, S.J and Squires, I. Polaron: An AI tool for the characterisation and design of advanced materials.
-                  Whitepaper (2024). DOI https://doi.org/10.5281/zenodo.13744638
+                  Kench, S., Jones, C., Cooper, S.J and Squires, I. Polaron: An
+                  AI tool for the characterisation and design of advanced
+                  materials. Whitepaper (2024). DOI
+                  https://doi.org/10.5281/zenodo.13744638
                 </a>
               </li>
 
@@ -54,8 +85,11 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(24)00428-4?uuid=uuid%3A53ca24d2-afda-404b-b22c-9071fad122b1"
                 >
-                  Hair, S.W, Cooper, S.J. and Shaffer, M.S.P. Beyond slurry cast: Patterning of a monolithic active material sheet to form free-standing, solvent-free, and low-tortuosity battery electrodes.
-                  Cell Reports Physical Science (2024). DOI https://doi.org/10.1016/j.xcrp.2024.102143
+                  Hair, S.W, Cooper, S.J. and Shaffer, M.S.P. Beyond slurry
+                  cast: Patterning of a monolithic active material sheet to form
+                  free-standing, solvent-free, and low-tortuosity battery
+                  electrodes. Cell Reports Physical Science (2024). DOI
+                  https://doi.org/10.1016/j.xcrp.2024.102143
                 </a>
               </li>
 
@@ -64,8 +98,9 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00074a"
                 >
-                  Gei, L., Docherty, R. and Cooper, S.J. Materials science in the era of large language models: a perspective.
-                  Digital Discovery (2024). DOI	https://doi.org/10.1039/D4DD00074A
+                  Gei, L., Docherty, R. and Cooper, S.J. Materials science in
+                  the era of large language models: a perspective. Digital
+                  Discovery (2024). DOI https://doi.org/10.1039/D4DD00074A
                 </a>
               </li>
               <li className="publications-list m-4">
@@ -73,9 +108,10 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://joss.theoj.org/papers/10.21105/joss.06159"
                 >
-                  Docherty, R., Squires, I., Vamvakeros, A. and Cooper, S.J. SAMBA:
-                  A Trainable Segmentation Web-App with Smart Labelling.
-                  Journal of Open Source Software, 9(98), 6159, https://doi.org/10.21105/joss.06159
+                  Docherty, R., Squires, I., Vamvakeros, A. and Cooper, S.J.
+                  SAMBA: A Trainable Segmentation Web-App with Smart Labelling.
+                  Journal of Open Source Software, 9(98), 6159,
+                  https://doi.org/10.21105/joss.06159
                 </a>
               </li>
               <li className="publications-list m-4">
@@ -83,9 +119,11 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://iopscience.iop.org/article/10.1149/1945-7111/ad48be"
                 >
-                  Squires, I., Foster, J.M., Galvis, A., and Cooper, S.J. Investigating the Effect of
-                  the Separation of Scales in Reduced Order Battery Modelling: Implications on the Validity of the Newman Model.
-                  J. Electrochem. Soc. 171 050536 (2024). https://doi.org/10.1149/1945-7111/ad48be
+                  Squires, I., Foster, J.M., Galvis, A., and Cooper, S.J.
+                  Investigating the Effect of the Separation of Scales in
+                  Reduced Order Battery Modelling: Implications on the Validity
+                  of the Newman Model. J. Electrochem. Soc. 171 050536 (2024).
+                  https://doi.org/10.1149/1945-7111/ad48be
                 </a>
               </li>
               <li className="publications-list m-4">
@@ -93,9 +131,11 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://www.sciencedirect.com/science/article/pii/S0013468623015906"
                 >
-                  Yasmin, L., Atkinson, A., Cooper, S.J and Bertei, A. Identifiability of
-                  the mechanisms governing the reaction kinetics of MIEC electrodes in solid oxide cells.
-                  Electrochimica Acta, Volume 472, 143418, (2023). https://doi.org/10.1016/j.electacta.2023.143418
+                  Yasmin, L., Atkinson, A., Cooper, S.J and Bertei, A.
+                  Identifiability of the mechanisms governing the reaction
+                  kinetics of MIEC electrodes in solid oxide cells.
+                  Electrochimica Acta, Volume 472, 143418, (2023).
+                  https://doi.org/10.1016/j.electacta.2023.143418
                 </a>
               </li>
               <li className="publications-list m-4">
@@ -103,9 +143,10 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://joss.theoj.org/papers/10.21105/joss.05358"
                 >
-                  Kench, S., Squires, I. and Cooper, S.J. TauFactor 2:
-                  A GPU accelerated python tool for microstructural analysis.
-                  Journal of Open Source Software, 8(88), 5358, (2023). https://doi.org/10.21105/joss.05358
+                  Kench, S., Squires, I. and Cooper, S.J. TauFactor 2: A GPU
+                  accelerated python tool for microstructural analysis. Journal
+                  of Open Source Software, 8(88), 5358, (2023).
+                  https://doi.org/10.21105/joss.05358
                 </a>
               </li>
               <li className="publications-list m-4">
@@ -113,9 +154,10 @@ class Publications extends Component {
                   className="publications-link"
                   href="https://arxiv.org/abs/2306.05812"
                 >
-                  Hogg, A.O.T., Jenkins, M., Liu, H., Squires, I., Cooper, S.J. and Picinali L.
-                  HRTF upsampling with a generative adversarial network using a gnomonic equiangular projection.
-                  arXiv, 2306.05812, (2023), https://doi.org/10.48550/arXiv.2306.05812
+                  Hogg, A.O.T., Jenkins, M., Liu, H., Squires, I., Cooper, S.J.
+                  and Picinali L. HRTF upsampling with a generative adversarial
+                  network using a gnomonic equiangular projection. arXiv,
+                  2306.05812, (2023), https://doi.org/10.48550/arXiv.2306.05812
                 </a>
               </li>
               <li className="publications-list m-4">
