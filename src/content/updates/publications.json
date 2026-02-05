@@ -7,5 +7,401 @@
         "doi": "https://doi.org/10.1002/advs.202414149",
         "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202414149",
         "order": 100
+    },
+    {
+        "title": "nDTomo: A Python-Based Software Suite for X-ray Chemical Imaging and Tomography",
+        "authors": "Vamvakeros, A., Papoutsellis, E., Dong, H., Docherty, R., Beale, A.M, Cooper, S.J and Jacques, S.D.M.",
+        "journal": "chemrXiv preprint",
+        "year": 2025,
+        "doi": "https://doi.org/10.26434/chemrxiv-2025-h5t2x",
+        "link": "https://chemrxiv.org/engage/chemrxiv/article-details/68402c711a8f9bdab5a0b7fc",
+        "order": 99
+    },
+    {
+        "title": "Layerwise Recall and the Geometry of Interwoven Knowledge in LLMs",
+        "authors": "Gei, L., and Cooper, S.J.",
+        "journal": "arXiv preprint",
+        "year": 2025,
+        "doi": "https://doi.org/10.48550/arXiv.2502.10871",
+        "link": "https://arxiv.org/abs/2502.10871",
+        "order": 98
+    },
+    {
+        "title": "Li-ion battery design through microstructural optimization using generative AI",
+        "authors": "Kench, S., Squires, I., Dahrai, A., Planella, F.B., Roberts, S.A. and Cooper, S.J.",
+        "journal": "Matter",
+        "year": 2024,
+        "doi": "https://doi.org/10.1016/j.matt.2024.08.014",
+        "link": "https://www.cell.com/matter/fulltext/S2590-2385(24)00446-6",
+        "order": 97
+    },
+    {
+        "title": "Upsampling DINOv2 features for unsupervised vision tasks and weakly supervised materials segmentation",
+        "authors": "Docherty, R., Vamvakeros, A. and Cooper, S.J.",
+        "journal": "NeurIPS AI4Mat Workshop",
+        "year": 2024,
+        "doi": "https://doi.org/10.48550/arXiv.2410.19836",
+        "link": "https://arxiv.org/abs/2410.19836",
+        "order": 96
+    },
+    {
+        "title": "Polaron: An AI tool for the characterisation and design of advanced materials",
+        "authors": "Kench, S., Jones, C., Cooper, S.J and Squires, I.",
+        "journal": "Whitepaper",
+        "year": 2024,
+        "doi": "https://doi.org/10.5281/zenodo.13744638",
+        "link": "https://zenodo.org/records/13744639",
+        "order": 95
+    },
+    {
+        "title": "Beyond slurry cast: Patterning of a monolithic active material sheet to form free-standing, solvent-free, and low-tortuosity battery electrodes",
+        "authors": "Hair, S.W, Cooper, S.J. and Shaffer, M.S.P.",
+        "journal": "Cell Reports Physical Science",
+        "year": 2024,
+        "doi": "https://doi.org/10.1016/j.xcrp.2024.102143",
+        "link": "https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(24)00428-4?uuid=uuid%3A53ca24d2-afda-404b-b22c-9071fad122b1",
+        "order": 94
+    },
+    {
+        "title": "Materials science in the era of large language models: a perspective",
+        "authors": "Gei, L., Docherty, R. and Cooper, S.J.",
+        "journal": "Digital Discovery",
+        "year": 2024,
+        "doi": "https://doi.org/10.1039/D4DD00074A",
+        "link": "https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00074a",
+        "order": 93
+    },
+    {
+        "title": "SAMBA: A Trainable Segmentation Web-App with Smart Labelling",
+        "authors": "Docherty, R., Squires, I., Vamvakeros, A. and Cooper, S.J.",
+        "journal": "Journal of Open Source Software",
+        "year": 2024,
+        "doi": "https://doi.org/10.21105/joss.06159",
+        "link": "https://joss.theoj.org/papers/10.21105/joss.06159",
+        "order": 92
+    },
+    {
+        "title": "Investigating the Effect of the Separation of Scales in Reduced Order Battery Modelling: Implications on the Validity of the Newman Model",
+        "authors": "Squires, I., Foster, J.M., Galvis, A., and Cooper, S.J.",
+        "journal": "J. Electrochem. Soc.",
+        "year": 2024,
+        "doi": "https://doi.org/10.1149/1945-7111/ad48be",
+        "link": "https://iopscience.iop.org/article/10.1149/1945-7111/ad48be",
+        "order": 91
+    },
+    {
+        "title": "Identifiability of the mechanisms governing the reaction kinetics of MIEC electrodes in solid oxide cells",
+        "authors": "Yasmin, L., Atkinson, A., Cooper, S.J and Bertei, A.",
+        "journal": "Electrochimica Acta",
+        "year": 2023,
+        "doi": "https://doi.org/10.1016/j.electacta.2023.143418",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0013468623015906",
+        "order": 90
+    },
+    {
+        "title": "TauFactor 2: A GPU accelerated python tool for microstructural analysis",
+        "authors": "Kench, S., Squires, I. and Cooper, S.J.",
+        "journal": "Journal of Open Source Software",
+        "year": 2023,
+        "doi": "https://doi.org/10.21105/joss.05358",
+        "link": "https://joss.theoj.org/papers/10.21105/joss.05358",
+        "order": 89
+    },
+    {
+        "title": "HRTF upsampling with a generative adversarial network using a gnomonic equiangular projection",
+        "authors": "Hogg, A.O.T., Jenkins, M., Liu, H., Squires, I., Cooper, S.J. and Picinali L.",
+        "journal": "arXiv",
+        "year": 2023,
+        "doi": "https://doi.org/10.48550/arXiv.2306.05812",
+        "link": "https://arxiv.org/abs/2306.05812",
+        "order": 88
+    },
+    {
+        "title": "MicroLib: A library of 3D microstructures generated from 2D micrographs using SliceGAN",
+        "authors": "Kench, S., Squires, I., Dahari, A. and Cooper, S.J.",
+        "journal": "Sci Data",
+        "year": 2022,
+        "doi": "https://doi.org/10.1038/s41597-022-01744-1",
+        "link": "https://www.nature.com/articles/s41597-022-01744-1",
+        "order": 87
+    },
+    {
+        "title": "Artefact removal from micrographs with deep learning based inpainting",
+        "authors": "Squires, I., Dahari, A., Cooper, S. J. and Kench, S.",
+        "journal": "Digital Discovery",
+        "year": 2023,
+        "doi": "https://doi.org/10.1039/D2DD00120A",
+        "link": "https://doi.org/10.1039/D2DD00120A",
+        "order": 86
+    },
+    {
+        "title": "Kintsugi Imaging of Battery Electrodes: Distinguishing Pores from the Carbon Binder Domain using Pt Deposition",
+        "authors": "Cooper, S.J., Roberts, S.A., Liu, Z. and Winiarski, B.",
+        "journal": "J. Electrochem. Soc.",
+        "year": 2022,
+        "doi": "https://doi.org/10.1149/1945-7111/ac7a68",
+        "link": "https://iopscience.iop.org/article/10.1149/1945-7111/ac7a68",
+        "order": 85
+    },
+    {
+        "title": "Fusion of complementary 2D and 3D mesostructural datasets using generative adversarial networks",
+        "authors": "Dahari, A., Kench, S., Squires, I. and Cooper, S.J.",
+        "journal": "Adv. Energy Mater",
+        "year": 2023,
+        "doi": "https://doi.org/10.1002/aenm.202202407",
+        "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/aenm.202202407",
+        "order": 84
+    },
+    {
+        "title": "Generating three-dimensional structures from a two-dimensional slice with generative adversarial network-based dimensionality expansion",
+        "authors": "Kench, S. and Cooper, S.J.",
+        "journal": "Nat Mach Intell",
+        "year": 2021,
+        "doi": "https://doi.org/10.1038/s42256-021-00322-1",
+        "link": "https://www.nature.com/articles/s42256-021-00322-1",
+        "order": 83
+    },
+    {
+        "title": "How Machine Learning Will Revolutionize Electrochemical Sciences",
+        "authors": "A. Mistry, A. A. Franco, S. J. Cooper, S. A. Roberts, and V. Viswanathan",
+        "journal": "ACS Energy Lett.",
+        "year": 2021,
+        "doi": "https://doi.org/10.1021/acsenergylett.1c00194",
+        "link": "https://pubs.acs.org/doi/10.1021/acsenergylett.1c00194",
+        "order": 82
+    },
+    {
+        "title": "The application of data-driven methods and physics-based learning for improving battery safety",
+        "authors": "D. P. Finegan, J. Zhu, X. Feng, M. Keyser, W. Li, M. Z. Bazant, S. J. Cooper, M. Ulmefors, W. Li, M. Z. Bazant, and S. J. Cooper",
+        "journal": "Joule",
+        "year": 2020,
+        "doi": "",
+        "link": "https://www.cell.com/joule/pdf/S2542-4351(20)30562-6.pdf",
+        "order": 81
+    },
+    {
+        "title": "The electrode tortuosity factor: why the conventional tortuosity factor is not well suited for quantifying transport in porous Li-ion battery electrodes and what to use instead",
+        "authors": "T.-T. Nguyen, A. Demortière, B. Fleutot, B. Delobel, C. Delacourt, and S. J. Cooper",
+        "journal": "npj Comput. Mater.",
+        "year": 2020,
+        "doi": "https://doi.org/10.1038/s41524-020-00386-4",
+        "link": "https://www.nature.com/articles/s41524-020-00386-4",
+        "order": 80
+    },
+    {
+        "title": "Pores for thought: Generative adversarial networks for the stochastic reconstruction of 3D multi-phase electrode microstructures with periodic boundaries",
+        "authors": "A. Gayon-Lombardo, L. Mosser, N. P. Brandon, and S. J. Cooper",
+        "journal": "npj Comput. Mater.",
+        "year": 2020,
+        "doi": "https://doi.org/10.1038/s41524-020-0340-7",
+        "link": "https://www.nature.com/articles/s41524-020-0340-7",
+        "order": 79
+    },
+    {
+        "title": "Unveiling the mechanisms of solid-state dewetting in Solid Oxide Cells with novel 2D electrodes",
+        "authors": "B. Song, A. Bertei, X. Wang, S. J. Cooper, E. Ruiz-Trejo, R. Chowdhury, R. Podor, and N. P. Brandon",
+        "journal": "J. Power Sources",
+        "year": 2019,
+        "doi": "https://doi.org/10.1016/J.JPOWSOUR.2019.02.068",
+        "link": "https://doi.org/10.1016/j.jpowsour.2019.02.068",
+        "order": 78
+    },
+    {
+        "title": "Aligned Ionogel Electrolytes for High-Temperature Supercapacitors",
+        "authors": "X. Liu, O. O. Taiwo, C. Yin, M. Ouyang, R. Chowdhury, B. Wang, H. Wang, B. Wu, N. P. Brandon, Q. Wang, and S. J. Cooper",
+        "journal": "Adv. Sci.",
+        "year": 2019,
+        "doi": "https://doi.org/10.1002/advs.201801337",
+        "link": "",
+        "order": 77
+    },
+    {
+        "title": "'All-in-Gel' design for supercapacitors towards solid-state energy devices with thermal and mechanical compliance",
+        "authors": "C. Yin, X. Liu, J. Wei, R. Tan, J. Zhou, M. Ouyang, H. Wang, S. J. Cooper, B. Wu, C. George, and Q. Wang",
+        "journal": "J. Mater. Chem. A",
+        "year": 2019,
+        "doi": "https://doi.org/10.1039/c9ta01155b",
+        "link": "",
+        "order": 76
+    },
+    {
+        "title": "X-ray micro-computed tomography as a non-destructive tool for imaging the uptake of metal nanoparticles by graphene-based 3D carbon structures",
+        "authors": "C. T. G. Smith, C. A. Mills, S. Pani, R. Rhodes, J. J. Bailey, S. J. Cooper, T. S. Pathan, V. Stolojan, D. J. L. Brett, P. R. Shearing, and S. R. P. Silva",
+        "journal": "Nanoscale",
+        "year": 2019,
+        "doi": "https://doi.org/10.1039/c9nr03056e",
+        "link": "",
+        "order": 75
+    },
+    {
+        "title": "Direct Observation of Metallic Thin Layers Dewetting By HT-ESEM",
+        "authors": "P. Jacquet, B. Song, R. Podor, J. Lautru, E. R. Trejo, S. J. Cooper, J. Teisseire, I. Gozhyk, J. Jupille, and R. Lazzari",
+        "journal": "Microsc. Microanal.",
+        "year": 2019,
+        "doi": "https://doi.org/10.1017/s1431927618016070",
+        "link": "",
+        "order": 74
+    },
+    {
+        "title": "Design of Fibre Ni/CGO Anode and Model Interpretation",
+        "authors": "M. Ouyang, A. Bertei, S. J. Cooper, Y. Wu, X. Liu, P. Boldrin, M. Kishimoto, B. Wu, and N. P. Brandon",
+        "journal": "ECS Trans.",
+        "year": 2019,
+        "doi": "https://doi.org/10.1149/09101.1721ecst",
+        "link": "",
+        "order": 73
+    },
+    {
+        "title": "Visualizing the Carbon Binder Phase of Battery Electrodes in Three Dimensions",
+        "authors": "S. R. Daemi, C. Tan, T. Volkenandt, S. J. Cooper, A. Palacios-Padros, J. Cookson, D. J. L. Brett, and P. R. Shearing",
+        "journal": "ACS Appl. Energy Mater.",
+        "year": 2018,
+        "doi": "https://doi.org/10.1021/acsaem.8b00501",
+        "link": "",
+        "order": 72
+    },
+    {
+        "title": "Resolving the Discrepancy in Tortuosity Factor Estimation for Li-Ion Battery Electrodes through Micro-Macro Modeling and Experiment",
+        "authors": "F. L. E. Usseglio-Viretta, A. Colclasure, A. N. Mistry, K. P. Y. Claver, F. Pouraghajan, D. P. Finegan, T. M. M. Heenan, D. Abraham, P. P. Mukherjee, D. Wheeler, P. Shearing, S. J. Cooper, and K. Smith",
+        "journal": "J. Electrochem. Soc.",
+        "year": 2018,
+        "doi": "https://doi.org/10.1149/2.0731814jes",
+        "link": "",
+        "order": 71
+    },
+    {
+        "title": "Flexible all-fiber electrospun supercapacitor",
+        "authors": "X. Liu, M. Naylor Marlow, S. J. Cooper, B. Song, X. Chen, N. P. Brandon, and B. Wu",
+        "journal": "J. Power Sources",
+        "year": 2018,
+        "doi": "https://doi.org/10.1016/j.jpowsour.2018.02.081",
+        "link": "",
+        "order": 70
+    },
+    {
+        "title": "In situ study of strontium segregation in La 0.6 Sr 0.4 Co 0.2 Fe 0.8 O 3−δ in ambient atmospheres using high-temperature environmental scanning electron microscopy",
+        "authors": "M. Niania, R. Podor, T. Ben Britton, C. Li, S. J. Cooper, N. Svetkov, S. Skinner, and J. Kilner",
+        "journal": "J. Mater. Chem. A",
+        "year": 2018,
+        "doi": "https://doi.org/10.1039/C8TA01341A",
+        "link": "",
+        "order": 69
+    },
+    {
+        "title": "Double perovskite cathodes for proton-conducting ceramic fuel cells: are they triple mixed ionic electronic conductors?",
+        "authors": "H. Téllez Lozano, J. Druce, S. J. Cooper, and J. A. Kilner",
+        "journal": "Sci. Technol. Adv. Mater.",
+        "year": 2017,
+        "doi": "https://doi.org/10.1080/14686996.2017.1402661",
+        "link": "",
+        "order": 68
+    },
+    {
+        "title": "An Introduction to Solid Oxide Fuel Cell Materials, Technology and Applications",
+        "authors": "S. J. Cooper and N. P. Brandon",
+        "journal": "",
+        "year": 2017,
+        "doi": "",
+        "link": "",
+        "order": 67
+    },
+    {
+        "title": "Simulated impedance of diffusion in porous media",
+        "authors": "S. J. Cooper, A. Bertei, D. P. Finegan, and N. P. Brandon",
+        "journal": "Electrochim. Acta",
+        "year": 2017,
+        "doi": "https://doi.org/10.1016/j.electacta.2017.07.152",
+        "link": "",
+        "order": 66
+    },
+    {
+        "title": "Back-exchange: a novel approach to quantifying oxygen diffusion and surface exchange in ambient atmospheres",
+        "authors": "S. J. Cooper, M. Niania, F. Hoffmann, and J. A. Kilner",
+        "journal": "Phys. Chem. Chem. Phys.",
+        "year": 2017,
+        "doi": "https://doi.org/10.1039/C7CP01317E",
+        "link": "",
+        "order": 65
+    },
+    {
+        "title": "Solid Oxide Fuel Cell Lifetime and Reliability, 1st ed. London",
+        "authors": "S. J. Cooper and N. P. Brandon",
+        "journal": "",
+        "year": 2017,
+        "doi": "",
+        "link": "",
+        "order": 64
+    },
+    {
+        "title": "TauFactor: An open-source application for calculating tortuosity factors from tomographic data",
+        "authors": "S. J. Cooper, A. Bertei, P. R. Shearing, J. A. Kilner, and N. P. Brandon",
+        "journal": "SoftwareX",
+        "year": 2016,
+        "doi": "https://doi.org/10.1016/j.softx.2016.09.002",
+        "link": "",
+        "order": 63
+    },
+    {
+        "title": "On the origin and application of the Bruggeman correlation for analysing transport phenomena in electrochemical systems",
+        "authors": "B. Tjaden, S. J. Cooper, D. J. L. Brett, D. Kramer, and P. R. Shearing",
+        "journal": "Curr. Opin. Chem. Eng.",
+        "year": 2016,
+        "doi": "https://doi.org/10.1016/j.coche.2016.02.006",
+        "link": "",
+        "order": 62
+    },
+    {
+        "title": "Quantifying the surface exchange coefficient of cathode materials in ambient atmospheres",
+        "authors": "S. J. Cooper, M. Niania, F. Hoffmann, and J. A. Kilner",
+        "journal": "Proc. 12th Eur. SOFC SOE Forum",
+        "year": 2016,
+        "doi": "",
+        "link": "",
+        "order": 61
+    },
+    {
+        "title": "Degradation of (La0.6Sr0.4)0.95(Co0.2Fe0.8)O3-δSolid Oxide Fuel Cell Cathodes at the Nanometer Scale and below",
+        "authors": "N. Ni, S. J. Cooper, R. Williams, N. Kemen, D. W. McComb, and S. J. Skinner",
+        "journal": "ACS Appl. Mater. Interfaces",
+        "year": 2016,
+        "doi": "https://doi.org/10.1021/acsami.6b05290",
+        "link": "",
+        "order": 60
+    },
+    {
+        "title": "Degradation of (La,Sr)(Co,Fe)O3-δSOFC Cathodes at the Nanometre Scale and Below",
+        "authors": "N. Na, C. Samuel, S. Stephen, N. Na, C. Samuel, and S. Stephen",
+        "journal": "European Microscopy Congress 2016: Proceedings",
+        "year": 2016,
+        "doi": "",
+        "link": "",
+        "order": 59
+    },
+    {
+        "title": "Characterising the structural properties of polymer separators for lithium-ion batteries in 3D using phase contrast X-ray microscopy",
+        "authors": "D. P. Finegan, S. J. Cooper, B. Tjaden, O. O. Taiwo, J. Gelb, G. Hinds, D. J. L. Brett, and P. R. Shearing",
+        "journal": "J. Power Sources",
+        "year": 2016,
+        "doi": "https://doi.org/10.1016/j.jpowsour.2016.09.132",
+        "link": "",
+        "order": 58
+    },
+    {
+        "title": "X-ray imaging of Li batteries and electrode materials",
+        "authors": "D. S. Eastwood, O. O. Taiwo, S. J. Cooper, J. Gelb, F. Tariq, D. J. L. Brett, S. J. Harris, N. P. Brandon, P. R. Shearing, P. J. Withers, and P. D. Lee",
+        "journal": "",
+        "year": 2015,
+        "doi": "",
+        "link": "",
+        "order": 57
+    },
+    {
+        "title": "Quantifying the Transport Properties of Solid Oxide Fuel Cell Electrodes",
+        "authors": "S. J. Cooper",
+        "journal": "Imperial College London",
+        "year": 2015,
+        "doi": "",
+        "link": "",
+        "order": 0
     }
 ]
