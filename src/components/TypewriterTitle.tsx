@@ -9,7 +9,7 @@ type TextDetails = {
 
 export const DEFAULT_TEXTS: TextDetails[] = [
   { text: "tldr", dwell: 700 },
-  { text: "Tools for Learning, Design and Research", dwell: 700 },
+  { text: "tools for learning, design and research", dwell: 700 },
   { text: "tldr", dwell: 20000 },
 ];
 

@@ -14,7 +14,7 @@
         "link": "https://twitter.com/camsooper"
       }
     ],
-    "imagePath": "images/team/sam.jpg",
+    "imagePath": "content/images/team/sam.jpg",
     "order": 100
   },
   {
@@ -28,7 +28,7 @@
         "link": "https://www.imperial.ac.uk/people/"
       }
     ],
-    "imagePath": "images/team/antonis.jpg",
+    "imagePath": "content/images/team/antonis.jpg",
     "order": 99
   },
   {
@@ -42,7 +42,7 @@
         "link": "https://scholar.google.com/citations?user=6sYvIY4AAAAJ&hl=de"
       }
     ],
-    "imagePath": "images/team/simon.jpg",
+    "imagePath": "content/images/team/simon.jpg",
     "order": 98
   },
   {
@@ -56,7 +56,7 @@
         "link": "https://www.imperial.ac.uk/people/a.dahari"
       }
     ],
-    "imagePath": "images/team/amir.jpg",
+    "imagePath": "content/images/team/amir.jpg",
     "order": 97
   },
   {
@@ -70,7 +70,7 @@
         "link": "https://profiles.imperial.ac.uk/ronan.docherty18"
       }
     ],
-    "imagePath": "images/team/ronan.jpg",
+    "imagePath": "content/images/team/ronan.jpg",
     "order": 96
   },
   {
@@ -84,7 +84,7 @@
         "link": "https://www.imperial.ac.uk/people/"
       }
     ],
-    "imagePath": "images/team/lei_ge.jpg",
+    "imagePath": "content/images/team/lei_ge.jpg",
     "order": 95
   },
   {
@@ -102,7 +102,7 @@
         "link": "https://twitter.com/isaacsquires5"
       }
     ],
-    "imagePath": "images/team/isaac.jpg",
+    "imagePath": "content/images/team/isaac.jpg",
     "order": 80
   },
   {
@@ -116,7 +116,7 @@
         "link": "https://polaron.ai/"
       }
     ],
-    "imagePath": "images/team/steve.jpg",
+    "imagePath": "content/images/team/steve.jpg",
     "order": 79
   },
   {
@@ -130,7 +130,7 @@
         "link": "https://www.imperial.ac.uk/people/liam.yasin15"
       }
     ],
-    "imagePath": "images/team/liam.jpg",
+    "imagePath": "content/images/team/liam.jpg",
     "order": 78
   },
   {
@@ -144,7 +144,7 @@
         "link": "https://www.imperial.ac.uk/people/"
       }
     ],
-    "imagePath": "images/team/samh.jpg",
+    "imagePath": "content/images/team/samh.jpg",
     "order": 77
   },
   {
@@ -158,7 +158,7 @@
         "link": "https://www.imperial.ac.uk/people/"
       }
     ],
-    "imagePath": "images/team/ruimin.jpg",
+    "imagePath": "content/images/team/ruimin.jpg",
     "order": 76
   },
   {
@@ -172,7 +172,7 @@
         "link": "https://www.imperial.ac.uk/people/"
       }
     ],
-    "imagePath": "images/team/andrea.jpg",
+    "imagePath": "content/images/team/andrea.jpg",
     "order": 75
   },
   {
@@ -186,7 +186,7 @@
         "link": "https://www.imperial.ac.uk/people/"
       }
     ],
-    "imagePath": "images/team/rowena.jpg",
+    "imagePath": "content/images/team/rowena.jpg",
     "order": 74
   },
   {
@@ -200,7 +200,7 @@
         "link": "https://www.imperial.ac.uk/people/"
       }
     ],
-    "imagePath": "images/team/nina.jpg",
+    "imagePath": "content/images/team/nina.jpg",
     "order": 73
   }
 ]

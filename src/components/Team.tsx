@@ -2,7 +2,7 @@ import * as z from "zod/mini";
 
 import { Person, PersonSchema } from "../types";
 
-import teamJSON from "../content/updates/team.json";
+import teamJSON from "../../public/content/updates/team.json";
 
 const PersonComponent = ({ personData }: { personData: Person }) => {
   const { name, role, desc, outLinks, imagePath } = personData;
@@ -35,6 +35,9 @@ const PersonComponent = ({ personData }: { personData: Person }) => {
 export const Team = () => {
   const people: Person[] = z.array(PersonSchema).parse(teamJSON);
 
+  // filter takes an array & returns new array with elements that match the boolean expression
+  // in the first section, this is filtering for current members
+  // we can then map over this filtered array to render a PersonComponent for each person, passing in their data as props
   return (
     <div>
       <h2>Core Team</h2>

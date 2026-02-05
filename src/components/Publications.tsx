@@ -3,7 +3,7 @@ import * as z from "zod/mini";
 import { Publication, PublicationSchema } from "../types";
 
 // this imports the json from `content` such that we can use it as a variable
-import publicationsJSON from "../content/updates/publications.json";
+import publicationsJSON from "../../public/content/updates/publications.json";
 
 // Render publication as link if link supplied
 const PublicationComponent = ({ publicationData }: { publicationData: Publication }) => {
