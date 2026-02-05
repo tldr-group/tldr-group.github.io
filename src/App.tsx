@@ -1,26 +1,24 @@
 import { Routes, Route } from "react-router-dom";
 
+import { TypewriterTitle, DEFAULT_TEXTS } from "./components/TypewriterTitle";
+import { NavBar, DEFAULT_PAGES } from "./components/NavBar";
 import { MainContent } from "./components/MainContent";
 import { Projects } from "./components/Projects";
 import { Team } from "./components/Team";
 import { Publications } from "./components/Publications";
 import { Videos } from "./components/Videos";
-import { TypewriterTitle, DEFAULT_TEXTS } from "./components/TypewriterTitle";
-// import "./styles/styles.scss";
+
+// import "./styles.scss";
 
 export default function App() {
-  // const navigate = useNavigate();
-
   return (
-    <div className="container" style={{ maxWidth: "800px" }}>
+    <div className="container" style={{ maxWidth: "1000px" }}>
       <header className="container">
-        <hgroup>
-          <h1 style={{ fontSize: "2em" }}>
-            <TypewriterTitle texts={DEFAULT_TEXTS} />
-          </h1>
-        </hgroup>
+        <h1 style={{ fontSize: "2em" }}>
+          <TypewriterTitle texts={DEFAULT_TEXTS} />
+        </h1>
       </header>
-      <div>Nav bar</div>
+      <NavBar pages={DEFAULT_PAGES} />
 
       <Routes>
         <Route path="/" element={<MainContent />} />

@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import "../styles.scss";
+
 type TextDetails = {
   text: String;
   dwell: number;
@@ -41,7 +43,10 @@ export const TypewriterTitle = ({ texts }: { texts: TextDetails[] }) => {
 
   return (
     <div>
-      <p>{text}|</p>
+      <p>
+        {text}
+        <span className="cursor">|</span>
+      </p>
     </div>
   );
 };
