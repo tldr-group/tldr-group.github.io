@@ -27,6 +27,7 @@ const PublicationComponent = ({ publicationData }: { publicationData: Publicatio
     </span>
   );
 
+  // this says: if link present (via ?), render innerContent inside a <a> tage (a link tag), otherwise just render innerContent as text
   return (
     <div>
       {link ? (

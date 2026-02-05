@@ -9,7 +9,8 @@ type OutLink = {
 
 export type Person = {
   name: string;
-  roles: string;
+  isCurrent: boolean;
+  role: string;
   desc: string;
   outLinks: OutLink[];
   imagePath: string;
@@ -50,7 +51,8 @@ const OutLinkSchema = z.object({
 
 export const PersonSchema = z.object({
   name: z.string(),
-  roles: z.string(),
+  isCurrent: z.boolean(),
+  role: z.string(),
   desc: z.string(),
   outLinks: z.array(OutLinkSchema),
   imagePath: z.string(),
