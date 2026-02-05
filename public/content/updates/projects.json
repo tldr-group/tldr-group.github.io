@@ -1,6 +1,6 @@
 [
   {
-    "titles": "TauFactor",
+    "title": "TauFactor",
     "desc": "TauFactor is an application for calculating tortuosity factors from tomographic data. TauFactor uses pytorch, for CUDA-accelerated solving.",
     "outLinks": [
       {
@@ -16,7 +16,69 @@
         "link": "https://joss.theoj.org/papers/10.21105/joss.05358"
       }
     ],
-    "imagePath": "",
+    "imagePath": "content/images/projects/tau_example.png",
     "order": 100
+  },
+  {
+    "title": "ImageRep",
+    "desc": "How confident are you in your measured volume fractions? How do you know if they're representative of the bulk material? ImageRep allows for fast phase fraction representativity estimation from a single microstructural image.",
+    "outLinks": [
+      { "text": "Website", "link": "https://www.imagerep.io/" },
+      { "text": "GitHub", "link": "https://github.com/tldr-group/ImageRep" }
+    ],
+    "imagePath": "content/images/projects/imagerep.png",
+    "order": 90
+  },
+  {
+    "title": "SAMBA",
+    "desc": "SAMBA (Segment Anything Model Based App) is a trainable segmentation web-app for materials science that uses Meta's Segment Anything Model for fast, high-quality labels and random forests for robust, generalizable segmentations.",
+    "outLinks": [
+      { "text": "Website", "link": "https://www.sambasegment.com" },
+      { "text": "GitHub", "link": "https://github.com/tldr-group/samba-web" }
+    ],
+    "imagePath": "content/images/projects/samba_logo.png",
+    "order": 80
+  },
+  {
+    "title": "microlib",
+    "desc": "microlib is a searchable collection of 87 3D microstructures of various materials, intended for use in materials research. These were generated from the DoITPoMS micrograph library using our inpainting and SliceGAN tools.",
+    "outLinks": [{ "text": "Website", "link": "https://microlib.io" }],
+    "imagePath": "content/images/projects/microlib-logo.png",
+    "order": 70
+  },
+  {
+    "title": "TraceX",
+    "desc": "TraceX is a MATLAB application designed to consistently allow the fitting of Isotope Exchange Depth Profile data from Secondary Ion Mass Spectrometry measurements. This allows the extraction of materials properties such as the tracer diffusion coefficient and the surface exchange coefficient.",
+    "outLinks": [{ "text": "GitHub", "link": "https://github.com/tldr-group/TraceX-2.0" }],
+    "imagePath": "content/images/projects/TraceX_logo.png",
+    "order": 60
+  },
+  {
+    "title": "SliceGAN",
+    "desc": "SliceGAN is a machine learning algorithm used to generate 3D datasets from a single cross sectional 2D slice.",
+    "outLinks": [{ "text": "GitHub", "link": "https://github.com/stke9/SliceGAN" }],
+    "imagePath": "content/images/projects/website_slicegan_img.png",
+    "order": 50
+  },
+  {
+    "title": "Super-Res",
+    "desc": "Super resolution technique that takes as input low-res 3D volume and a high-res multi-phase 2D micrograph and outputs a high-res 3D multi-phase volume.",
+    "outLinks": [{ "text": "GitHub", "link": "https://github.com/tldr-group/SuperRes" }],
+    "imagePath": "content/images/projects/super-res-icon.png",
+    "order": 40
+  },
+  {
+    "title": "Microstructure inpainter",
+    "desc": "Microstructure inpainter is a python app for inpainting material science microstructural images using GANs. The app can be run via a command line interface or a graphical interface.",
+    "outLinks": [{ "text": "GitHub", "link": "https://github.com/tldr-group/microstructure-inpainter" }],
+    "imagePath": "content/images/projects/inpaint.gif",
+    "order": 30
+  },
+  {
+    "title": "Cell Normaliser",
+    "desc": "Cell Normaliser is a web application that aims to bridge the gap between researchers and industry by providing an intuitive and user-friendly interface for normalising laboratory battery data. This allows for the direct comparison with commercial cell data. The web app provides a range of different normalisations, and the ability to save parameters. Future work will look to provide persistent identifiers.",
+    "outLinks": [{ "text": "Website", "link": "https://helpful-cactus-2d3c48.netlify.app/" }],
+    "imagePath": "content/images/projects/cellnorm.png",
+    "order": 20
   }
 ]
