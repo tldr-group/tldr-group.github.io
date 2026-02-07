@@ -2,7 +2,7 @@ import * as z from "zod/mini";
 
 import { Person, PersonSchema } from "../types";
 
-import teamJSON from "../../public/content/updates/team.json";
+import teamJSON from "../content/text/team.json";
 
 const PersonComponent = ({ personData }: { personData: Person }) => {
   const { name, role, desc, outLinks, imagePath } = personData;

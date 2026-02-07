@@ -2,7 +2,7 @@ import * as z from "zod/mini";
 
 import { Video, VideoSchema } from "../types";
 
-import videoJSON from "../../public/content/updates/videos.json";
+import videoJSON from "../content/text/videos.json";
 
 const VideoComponent = ({ videoData }: { videoData: Video }) => {
   const { title, link } = videoData;

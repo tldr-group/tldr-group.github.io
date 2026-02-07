@@ -1,7 +1,7 @@
 import * as z from "zod/mini";
 
 import { Project, ProjectSchema } from "../types";
-import projectJSON from "../../public/content/updates/projects.json";
+import projectJSON from "../content/text/projects.json";
 
 const ProjectComponent = ({ projectData }: { projectData: Project }) => {
   const { title, desc, outLinks, imagePath } = projectData;
