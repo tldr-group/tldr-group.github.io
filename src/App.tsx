@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div className="container">
       <header className="container">
-        <h1 style={{ fontSize: "2em" }}>
+        <h1>
           <TypewriterTitle texts={DEFAULT_TEXTS} />
         </h1>
       </header>

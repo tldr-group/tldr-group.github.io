@@ -44,3 +44,9 @@ yarn install
 cd src/frontend
 yarn start
 ```
+
+## TODO:
+
+- add Sheares!
+- add new publications: llama (rsc), evoxels, vulture, image rep (adv sci), hr-dv2 (adv int sys), BIL, prompt to protocol
+- add new projects: BIL, isb/isg, vulutre, evoxels
