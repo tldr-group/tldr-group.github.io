@@ -12,7 +12,7 @@ import { Videos } from "./components/Videos";
 
 export default function App() {
   return (
-    <div className="container" style={{ maxWidth: "1000px" }}>
+    <div className="container">
       <header className="container">
         <h1 style={{ fontSize: "2em" }}>
           <TypewriterTitle texts={DEFAULT_TEXTS} />
@@ -20,13 +20,15 @@ export default function App() {
       </header>
       <NavBar pages={DEFAULT_PAGES} />
 
-      <Routes>
-        <Route path="/" element={<MainContent />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/publications" element={<Publications />} />
-        <Route path="/videos" element={<Videos />} />
-      </Routes>
+      <div>
+        <Routes>
+          <Route path="/" element={<MainContent />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/videos" element={<Videos />} />
+        </Routes>
+      </div>
 
       <div>bottom bar (icons)</div>
     </div>

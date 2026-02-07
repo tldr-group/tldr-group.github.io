@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 type PageDetails = {
   text: string;
@@ -13,10 +13,13 @@ export const DEFAULT_PAGES: PageDetails[] = [
 ];
 
 export const NavBar = ({ pages }: { pages: PageDetails[] }) => {
+  const location = useLocation();
   return (
-    <div style={{ display: "flex" }}>
+    <div className="navbar">
       {pages.map((p) => (
-        <Link to={p.link}>{p.text}</Link>
+        <Link key={p.link} to={p.link} className={"nav-link" + (location.pathname === p.link ? " selected" : "")}>
+          {p.text}
+        </Link>
       ))}
     </div>
   );

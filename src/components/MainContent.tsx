@@ -1,6 +1,7 @@
 export const MainContent = () => {
   return (
-    <div>
+    <div className="outlined-content">
+      <img src="/assets/micro.gif" style={{ width: "300px", height: "300px", objectFit: "scale-down" }} />
       <p>
         The Tools for Learning, Design and Research (tldr) group is a multidisciplinary team based in the Dyson school
         of Design engineering at Imperial College London. With activities spanning online education, generative design
