@@ -21,7 +21,7 @@ export default function App() {
       </header>
       <NavBar pages={DEFAULT_PAGES} />
 
-      <div>
+      <div style={{ paddingTop: "2em" }}>
         <Routes>
           <Route path="/" element={<MainContent />} />
           <Route path="/projects" element={<Projects />} />

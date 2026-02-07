@@ -29,11 +29,14 @@ body, .container {
 p {
   font-size: 1.3em;
   line-height: 1.5;
-  
 }
 
 h1 {
   font-size: 2.2em;
+}
+
+h3 {
+  font-size: 1.4em;
 }
 
 .flex-row {
@@ -55,11 +58,71 @@ h1 {
   border: 2px solid $outline-grey;
   border-radius: 12px;
   padding: 2em;
-  margin: 2em 0;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.outlined-content h3 {
+  align-self: flex-start;
+  margin-bottom: 0;
+  // padding-left: 6%;
+}
+/* Paragraphs inside outlined-content (e.g. MainContent) */
+.outlined-content p {
+  text-align: justify;
+}
+
+
+/* Project grid and card styles */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5em;
+  width: 100%;
+  max-width: 1100px;
+  // padding-top: 2em;
+}
+
+.project-card {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-card:hover {
+  border: 2px solid $secondary;
+}
+
+.project-card img {
+  display: block;
+  margin-bottom: 0.75em;
+}
+
+.link-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  background: #efefef;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: color 0.12s ease, background 0.12s ease;
+}
+
+.link-tag span {
+  color: inherit;
+}
+
+.link-tag:hover span {
+  color: $secondary;
+}
+
+@media (max-width: 700px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .navbar {
