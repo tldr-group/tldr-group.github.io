@@ -1,24 +1,23 @@
-import React, { use, useEffect, useState } from "react";
-
-import styles from "../styles.module.scss";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 interface IconProps {
   iconName: string;
+  link: string;
+  size: number;
+  color: string;
+  changeOnHover: boolean;
+  hoverColor: string;
   style?: React.CSSProperties;
-  className?: string;
-  color?: string;
-  hoverColor?: string;
 }
 
-const Icon: React.FC<IconProps> = ({ iconName, style, className, color = "currentColor" }) => {
+const Icon: React.FC<IconProps> = ({ iconName, link, size, color, changeOnHover, hoverColor, style }) => {
   const [svgContent, setSvgContent] = useState<string | null>(null);
   const [isHovered, setIsHovered] = useState(false);
 
   // Detect dark mode
   // const isDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
   const src = `/assets/icons/${iconName}.svg`;
-
-  const size = 48;
 
   useEffect(() => {
     fetch(src)
@@ -27,8 +26,6 @@ const Icon: React.FC<IconProps> = ({ iconName, style, className, color = "curren
   }, [src]);
 
   // Update SVG fill color
-
-  // Pure function to colorize SVG markup and return a React element
   function colorizeSvg(svgString: string, fillValue: string): React.ReactNode {
     const parser = new DOMParser();
     const doc = parser.parseFromString(svgString, "image/svg+xml");
@@ -51,18 +48,18 @@ const Icon: React.FC<IconProps> = ({ iconName, style, className, color = "curren
     );
   }
 
-  const hoverColor = styles.secondary;
-  const fillValue = isHovered ? hoverColor : color;
+  const fillValue = isHovered && changeOnHover ? hoverColor : color;
 
   return (
     <div
       style={{ display: "inline-flex", padding: 4, cursor: "pointer", ...style }}
-      className={className}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       aria-label={iconName}
     >
-      {svgContent && colorizeSvg(svgContent, fillValue)}
+      <a href={link} target="_blank">
+        {svgContent && colorizeSvg(svgContent, fillValue)}
+      </a>
     </div>
   );
 };

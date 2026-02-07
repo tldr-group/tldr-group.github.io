@@ -9,6 +9,8 @@ import { Publications } from "./components/Publications";
 import { Videos } from "./components/Videos";
 import Icon from "./components/Icon";
 
+import styles from "./styles.module.scss";
+
 export default function App() {
   return (
     <div className="container">
@@ -29,8 +31,25 @@ export default function App() {
         </Routes>
       </div>
 
-      <div className="flex-row">
-        <Icon iconName="gh" style={{ marginLeft: "auto" }} />
+      <div className="flex-row" style={{ paddingBottom: "2em" }}>
+        <Icon
+          iconName="gh"
+          link="https://github.com/tldr-group"
+          size={48}
+          color={styles.textBlack}
+          hoverColor={styles.secondary}
+          changeOnHover={true}
+          style={{ marginLeft: "auto" }}
+        />
+        <Icon
+          iconName="email"
+          link="mailto:samuel.cooper@imperial.ac.uk"
+          size={64}
+          color={styles.textBlack}
+          hoverColor={styles.secondary}
+          changeOnHover={true}
+          style={{ marginLeft: "auto" }}
+        />
       </div>
     </div>
   );
