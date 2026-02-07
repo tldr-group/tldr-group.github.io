@@ -7,8 +7,7 @@ import { Projects } from "./components/Projects";
 import { Team } from "./components/Team";
 import { Publications } from "./components/Publications";
 import { Videos } from "./components/Videos";
-
-// import "./styles.scss";
+import Icon from "./components/Icon";
 
 export default function App() {
   return (
@@ -30,7 +29,9 @@ export default function App() {
         </Routes>
       </div>
 
-      <div>bottom bar (icons)</div>
+      <div className="flex-row">
+        <Icon iconName="gh" style={{ marginLeft: "auto" }} />
+      </div>
     </div>
   );
 }

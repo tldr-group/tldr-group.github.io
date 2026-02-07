@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 
-import "../styles.scss";
-
 type TextDetails = {
   text: String;
   dwell: number;

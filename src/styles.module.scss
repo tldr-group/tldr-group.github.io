@@ -4,6 +4,14 @@ $outline-grey: #ababab;
 $bg: #fafafa;
 $text-black: #111;
 
+:export {
+  secondary: $secondary;
+  outlineGrey: $outline-grey;
+  bg: $bg;
+  textBlack: $text-black;
+}
+
+:global {
 // Global styles
 body, .container {
   font-family: 'Segoe UI', 'Arial', 'Helvetica', sans-serif;
@@ -29,7 +37,7 @@ h1 {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -80,4 +88,5 @@ h1 {
   animation: cursor-blink 1s  infinite;
   animation-timing-function: steps(2);
   color: $outline-grey;
+}
 }
