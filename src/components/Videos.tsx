@@ -1,6 +1,4 @@
-import * as z from "zod/mini";
-
-import { Video, VideoSchema } from "../types";
+import { Video, VideoSchema, gracefulParse } from "../types";
 
 import videoJSON from "../content/text/videos.json";
 
@@ -16,7 +14,7 @@ const VideoComponent = ({ videoData }: { videoData: Video }) => {
 };
 
 export const Videos = () => {
-  const videos: Video[] = z.array(VideoSchema).parse(videoJSON);
+  const videos: Video[] = gracefulParse(VideoSchema, videoJSON);
   return (
     <div className="projects-grid">
       {videos.map((v, i) => (

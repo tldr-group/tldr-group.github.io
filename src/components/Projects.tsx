@@ -1,6 +1,4 @@
-import * as z from "zod/mini";
-
-import { Project, ProjectSchema } from "../types";
+import { Project, ProjectSchema, gracefulParse } from "../types";
 import projectJSON from "../content/text/projects.json";
 
 const ProjectComponent = ({ projectData }: { projectData: Project }) => {
@@ -28,7 +26,7 @@ const ProjectComponent = ({ projectData }: { projectData: Project }) => {
 };
 
 export const Projects = () => {
-  const projects: Project[] = z.array(ProjectSchema).parse(projectJSON);
+  const projects: Project[] = gracefulParse(ProjectSchema, projectJSON);
 
   return (
     <div className="projects-grid">

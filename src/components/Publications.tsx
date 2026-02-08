@@ -1,6 +1,4 @@
-import * as z from "zod/mini";
-
-import { Publication, PublicationSchema } from "../types";
+import { Publication, PublicationSchema, gracefulParse } from "../types";
 
 // this imports the json from `content` such that we can use it as a variable
 import publicationsJSON from "../content/text/publications.json";
@@ -45,7 +43,7 @@ const PublicationComponent = ({ publicationData }: { publicationData: Publicatio
 // a simple unorderd list of publications which links to the paper with minor styling
 export const Publications = () => {
   // zod is library for parsing json data according to schema (think type / class in other languages). We parse data
-  const publications: Publication[] = z.array(PublicationSchema).parse(publicationsJSON);
+  const publications: Publication[] = gracefulParse(PublicationSchema, publicationsJSON);
 
   // 'map' takes each element in array and applies function to it, in our case this function returns a <li> element with publication component inside
   return (

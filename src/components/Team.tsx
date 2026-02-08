@@ -1,7 +1,6 @@
-import * as z from "zod/mini";
 import { useState } from "react";
 
-import { Person, PersonSchema } from "../types";
+import { Person, PersonSchema, gracefulParse } from "../types";
 
 import teamJSON from "../content/text/team.json";
 
@@ -63,7 +62,7 @@ const PersonComponent = ({ personData }: { personData: Person }) => {
 };
 
 export const Team = () => {
-  const people: Person[] = z.array(PersonSchema).parse(teamJSON);
+  const people: Person[] = gracefulParse(PersonSchema, teamJSON);
 
   // filter takes an array & returns new array with elements that match the boolean expression
   // in the first section, this is filtering for current members
