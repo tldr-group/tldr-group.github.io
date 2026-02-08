@@ -32,8 +32,8 @@ export const Projects = () => {
 
   return (
     <div className="projects-grid">
-      {projects.map((project) => (
-        <ProjectComponent key={project.title} projectData={project} />
+      {projects.map((project, i) => (
+        <ProjectComponent key={i} projectData={project} />
       ))}
     </div>
   );

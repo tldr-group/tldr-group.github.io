@@ -32,13 +32,14 @@ const PersonComponent = ({ personData }: { personData: Person }) => {
       {isHovered && <p>{desc}</p>}
       {isHovered && (
         <div style={{ display: "flex", flex: "row" }}>
-          {outLinks.map((link) => (
+          {outLinks.map((link, i) => (
             <a
               href={link.link}
               target="_blank"
               rel="noopener noreferrer"
               className="link-tag"
               style={{ marginRight: "10px" }}
+              key={i}
             >
               {link.text}
             </a>
@@ -61,16 +62,16 @@ export const Team = () => {
       <div className="person-grid">
         {people
           .filter((p) => p.isCurrent)
-          .map((person) => (
-            <PersonComponent key={person.name} personData={person} />
+          .map((person, i) => (
+            <PersonComponent key={i} personData={person} />
           ))}
       </div>
       <h2>Former Members</h2>
       <div className="person-grid">
         {people
           .filter((p) => !p.isCurrent)
-          .map((person) => (
-            <PersonComponent key={person.name} personData={person} />
+          .map((person, i) => (
+            <PersonComponent key={i} personData={person} />
           ))}
       </div>
     </div>

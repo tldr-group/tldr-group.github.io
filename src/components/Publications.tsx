@@ -51,8 +51,8 @@ export const Publications = () => {
   return (
     <div>
       <ul>
-        {publications.map((pub) => (
-          <li key={pub.doi}>{<PublicationComponent publicationData={pub} />}</li>
+        {publications.map((pub, i) => (
+          <li key={i}>{<PublicationComponent publicationData={pub} />}</li>
         ))}
       </ul>
     </div>

@@ -47,8 +47,6 @@ yarn start
 
 ## TODO:
 
-- dark mode (respect system defaults + toggle in top left)
-- home button (via logo to LHS of text?)
 - mobile layout (diff font size; single column layout, tags in column div)
 - gha for deploys on merge to main
 
