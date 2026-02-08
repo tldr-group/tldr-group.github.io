@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 interface IconProps {
   iconName: string;
   link: string;
+  target?: string;
   size: number;
   color: string;
   changeOnHover: boolean;
   hoverColor: string;
+  text?: string;
   style?: React.CSSProperties;
 }
 
-const Icon: React.FC<IconProps> = ({ iconName, link, size, color, changeOnHover, hoverColor, style }) => {
+const Icon: React.FC<IconProps> = ({ iconName, link, target, size, color, changeOnHover, hoverColor, text, style }) => {
   const [svgContent, setSvgContent] = useState<string | null>(null);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -51,14 +54,19 @@ const Icon: React.FC<IconProps> = ({ iconName, link, size, color, changeOnHover,
 
   return (
     <div
-      style={{ display: "inline-flex", padding: 4, cursor: "pointer", ...style }}
+      style={{
+        ...style,
+      }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       aria-label={iconName}
     >
-      <a href={link} target="_blank">
-        {svgContent && colorizeSvg(svgContent, fillValue)}
-      </a>
+      <Link to={link} target={target}>
+        <div className="icon-button" style={{ color: fillValue }}>
+          {svgContent && colorizeSvg(svgContent, fillValue)}
+          {text}
+        </div>
+      </Link>
     </div>
   );
 };

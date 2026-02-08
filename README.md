@@ -50,6 +50,7 @@ yarn start
 - dark mode (respect system defaults + toggle in top left)
 - home button (via logo to LHS of text?)
 - mobile layout (diff font size; single column layout, tags in column div)
+- gha for deploys on merge to main
 
 - add Sheares!
 - add new publications: llama (rsc), evoxels, vulture, image rep (adv sci), hr-dv2 (adv int sys), BIL, prompt to protocol

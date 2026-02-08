@@ -12,9 +12,25 @@ import Icon from "./components/Icon";
 import styles from "./styles.module.scss";
 
 export default function App() {
+  const baseIconColour = window.getComputedStyle(document.body).getPropertyValue("--text-color");
+
   return (
     <div className="container">
-      <header className="container">
+      <header className="title-container">
+        <div className="title-row">
+          <div>
+            <Icon
+              iconName="tldr_logo"
+              link="/"
+              size={72}
+              color={baseIconColour}
+              hoverColor={styles.secondary}
+              changeOnHover={true}
+              text="Home"
+            />
+          </div>
+          <a>Mode</a>
+        </div>
         <h1>
           <TypewriterTitle texts={DEFAULT_TEXTS} />
         </h1>
@@ -35,8 +51,9 @@ export default function App() {
         <Icon
           iconName="gh"
           link="https://github.com/tldr-group"
+          target="_blank"
           size={48}
-          color={styles.textBlack}
+          color={baseIconColour}
           hoverColor={styles.secondary}
           changeOnHover={true}
           style={{ marginLeft: "auto" }}
@@ -44,8 +61,9 @@ export default function App() {
         <Icon
           iconName="email"
           link="mailto:samuel.cooper@imperial.ac.uk"
+          target="_blank"
           size={64}
-          color={styles.textBlack}
+          color={baseIconColour}
           hoverColor={styles.secondary}
           changeOnHover={true}
           style={{ marginLeft: "auto" }}
