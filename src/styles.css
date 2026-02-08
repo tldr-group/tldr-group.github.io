@@ -17,6 +17,7 @@
   --toggle-h: 30px;
   --toggle-thumb-l: 22px;
   --toggle-thumb-offset: 4px;
+  --pub-list-w: 100%;
 }
 
 :root[data-theme="light"] {
@@ -24,13 +25,18 @@
   --text-color: var(--text-black);
 }
 
-@media (prefers-color-scheme: dark) {
+:root[data-theme="dark"] {
+  --bg: var(--bg-dark);
+  --text-color: var(--text-white);
+}
+
+/* @media (prefers-color-scheme: dark) {
   :root[data-theme="dark"],
   :root:not([data-theme="light"]) {
     --bg: var(--bg-dark);
     --text-color: var(--text-white);
   }
-}
+} */
 
 @media (max-width: 900px) {
   :root{
@@ -45,6 +51,7 @@
     --toggle-h: 24px;
     --toggle-thumb-l: 18px;
     --toggle-thumb-offset: 3px;
+    --pub-list-w: 80%;
   }
 }
 
@@ -319,6 +326,10 @@ input:checked + .slider:before {
 
 .person-card p {
   font-size: var(--small-text-size);
+}
+
+.pub-list {
+  max-width: --var(--pub-list-w);
 }
 
 .pub-list, li a{

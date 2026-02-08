@@ -7,6 +7,7 @@ export const MainContent = () => {
         autoPlay
         loop
         muted
+        preload="auto"
         style={{ maxWidth: "75%", objectFit: "scale-down" }}
       />
       <p>
