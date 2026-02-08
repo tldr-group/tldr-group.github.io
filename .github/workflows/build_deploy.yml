@@ -1,0 +1,50 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"] # Triggers on merge/push to main
+
+permissions:
+  contents: read
+  pages: write # Required to deploy to Pages
+  id-token: write # Required for authentication
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install yarn
+        run: npm install --global yarn
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Build
+        run: yarn build # Replace with your actual build command
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./dist" # Point this to your build output folder (e.g., './dist')
+
+  deploy:
+    needs: build # This 'imports' the result of the build job
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

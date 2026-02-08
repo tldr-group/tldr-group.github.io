@@ -47,7 +47,6 @@ yarn start
 
 ## TODO:
 
-- mobile layout (diff font size; single column layout, tags in column div)
 - gha for deploys on merge to main
 
 - add Sheares!
