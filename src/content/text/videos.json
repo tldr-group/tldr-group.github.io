@@ -1,0 +1,27 @@
+[
+  {
+    "title": "SliceGAN Paper Summary",
+    "link": "https://www.youtube.com/embed/gBTOpOBD-Mo",
+    "order": 5
+  },
+  {
+    "title": "ShenaniGANs Webinar",
+    "link": "https://www.youtube.com/embed/kEKjkr9Vm8Y",
+    "order": 4
+  },
+  {
+    "title": "Pores for Thought: STFC Batteries Webinar",
+    "link": "https://www.youtube.com/embed/m9ezkts8gGQ",
+    "order": 3
+  },
+  {
+    "title": "Pores for Thought: Energy Futures Lab Webinar",
+    "link": "https://www.youtube.com/embed/edl9I4lnbss",
+    "order": 2
+  },
+  {
+    "title": "Dramatic Pores: ARTISTIC Webinar",
+    "link": "https://www.youtube.com/embed/LqN_JkTAsNE",
+    "order": 1
+  }
+]

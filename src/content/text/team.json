@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Sam Cooper",
+    "isCurrent": true,
+    "role": "Group Leader",
+    "desc": "Sam is the leader of the TLDR group and an associate professor in the Dyson School of Design Engineering at Imperial College London.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/samuel.cooper"
+      },
+      {
+        "text": "Twitter",
+        "link": "https://twitter.com/camsooper"
+      }
+    ],
+    "imagePath": "content/images/team/sam.jpg",
+    "order": 100
+  },
+  {
+    "name": "Antony Vamvakeros",
+    "isCurrent": true,
+    "role": "Royal Society Industry Fellow",
+    "desc": "Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/antonis.jpg",
+    "order": 99
+  },
+  {
+    "name": "Simon Daubner",
+    "isCurrent": true,
+    "role": "PDRA",
+    "desc": "Simon is a PDRA combining physical modelling and machine learning to design better microstructures for next-generation batteries.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://scholar.google.com/citations?user=6sYvIY4AAAAJ&hl=de"
+      }
+    ],
+    "imagePath": "content/images/team/simon.jpg",
+    "order": 98
+  },
+  {
+    "name": "Amir Dahari",
+    "isCurrent": true,
+    "role": "PhD student",
+    "desc": "Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/a.dahari"
+      }
+    ],
+    "imagePath": "content/images/team/amir.jpg",
+    "order": 97
+  },
+  {
+    "name": "Ronan Docherty",
+    "isCurrent": true,
+    "role": "PhD student",
+    "desc": "Ronan is a PhD student working on deep learning segmentation techniques.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://profiles.imperial.ac.uk/ronan.docherty18"
+      }
+    ],
+    "imagePath": "content/images/team/ronan.jpg",
+    "order": 96
+  },
+  {
+    "name": "Lei Ge",
+    "isCurrent": true,
+    "role": "PhD student",
+    "desc": "Lei Ge is a PhD student working on integrating LLMs into the scientific workflow.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/lei_ge.jpg",
+    "order": 95
+  },
+  {
+    "name": "Isaac Squires",
+    "isCurrent": false,
+    "role": "Former PhD student",
+    "desc": "Isaac finished his PhD in 2024 with the thesis 'Advanced characterisation of lithium-ion batteries using machine learning and physics-based simulation', focusing on applying machine learning and software development to build tools that aid the design and characterisation of next generation battery materials. He continues this as the CEO of Polaron AI - an advanced materials characterisation and design tool.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/i.squires20"
+      },
+      {
+        "text": "Polaron",
+        "link": "https://polaron.ai/"
+      }
+    ],
+    "imagePath": "content/images/team/isaac.jpg",
+    "order": 80
+  },
+  {
+    "name": "Steve Kench",
+    "isCurrent": false,
+    "role": "Former PhD student & PDRA",
+    "desc": "Steve finished his Faraday-funded PhD in 2024 with the thesis 'Machine learning for battery electrode characterisation and optimisation', focussing on the use of generative adversarial nets to explore and optimise cathode microstructures. He continues this work as the CTO of the spin-out Polaron AI, which he co-founded with Isaac and Sam.",
+    "outLinks": [
+      {
+        "text": "Polaron",
+        "link": "https://polaron.ai/"
+      }
+    ],
+    "imagePath": "content/images/team/steve.jpg",
+    "order": 79
+  },
+  {
+    "name": "Liam Yasin",
+    "isCurrent": false,
+    "role": "Former PhD student",
+    "desc": "Liam completed his PhD in 2024 with his thesis, 'Modelling diffusion across solid-solid interfaces in electroceramic materials'. In it he combined experimental methods to trace oxygen diffusion across various types of layered half-cells with numerical modelling to better understand their material properties.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/liam.yasin15"
+      }
+    ],
+    "imagePath": "content/images/team/liam.jpg",
+    "order": 78
+  },
+  {
+    "name": "Sam Hair",
+    "isCurrent": false,
+    "role": "Former PhD student",
+    "desc": "Sam completed his PhD in 2023, with a thesis entitled 'Beyond slurry cast: structured electrodes by design'. In it he motivated the use of laser patterning on monolithic graphite sheets to produce high energy density cells. He now works as an engineering consultant at TTP PLC.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/samh.jpg",
+    "order": 77
+  },
+  {
+    "name": "Ruimin Song",
+    "isCurrent": false,
+    "role": "Former Visiting PhD student",
+    "desc": "Ruimin was a PhD student working on developing machine learning methods for dimensionality expansion of EBSD data. Specifically, the research focused on using Generative Adversarial Networks (GANs) to produce plausible 3D EBSD data of particles from a single 2D slice.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/ruimin.jpg",
+    "order": 76
+  },
+  {
+    "name": "Andrea Gayon-Lombardo",
+    "isCurrent": false,
+    "role": "Former PhD student",
+    "desc": "Andrea completed her PhD in early 2021, with a thesis entitled 'Machine learning and simulation for the optimisation and characterisation of electrodes for batteries.' In addition to developing the Pores for Thought GAN framework, Andrea also developed pore network models for redox flow batteries.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/andrea.jpg",
+    "order": 75
+  },
+  {
+    "name": "Rowena Brugge",
+    "isCurrent": false,
+    "role": "Former PDRA",
+    "desc": "Rowena Brugge joined the TLDR group in 2019 to develop isotropic methods for the characterisation of solid state battery materials. She then went to work at the Cambridge battery start-up Nyobolt.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/rowena.jpg",
+    "order": 74
+  },
+  {
+    "name": "Nina Meddings",
+    "isCurrent": false,
+    "role": "Former PDRA",
+    "desc": "Nina joined the TLDR group in 2018 to develop isotropic methods for the characterisation of solid state battery materials, sponsored by the Faraday institution. She then went to work as a Senior Cell Engineer at Dyson.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/nina.jpg",
+    "order": 73
+  }
+]
