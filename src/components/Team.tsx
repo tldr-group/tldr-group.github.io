@@ -17,6 +17,7 @@ const PersonComponent = ({ personData }: { personData: Person }) => {
     <div
       className="outlined-content person-card"
       onPointerEnter={() => setIsHovered(true)}
+      onClick={() => setIsHovered(true)}
       onPointerLeave={() => setIsHovered(false)}
     >
       <div>
