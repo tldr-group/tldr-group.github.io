@@ -8,8 +8,7 @@ const VideoComponent = ({ videoData }: { videoData: Video }) => {
   const { title, link } = videoData;
 
   return (
-    <div>
-      <p>{title}</p>
+    <div className="outlined-content project-card">
       <iframe
         width="320"
         height="240"
@@ -17,6 +16,7 @@ const VideoComponent = ({ videoData }: { videoData: Video }) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         src={link}
       />
+      <h3 style={{ alignSelf: "center", textAlign: "center" }}>{title}</h3>
     </div>
   );
 };
@@ -24,7 +24,7 @@ const VideoComponent = ({ videoData }: { videoData: Video }) => {
 export const Videos = () => {
   const videos: Video[] = z.array(VideoSchema).parse(videoJSON);
   return (
-    <div>
+    <div className="projects-grid">
       {videos.map((v) => (
         <VideoComponent videoData={v} />
       ))}

@@ -47,6 +47,12 @@ yarn start
 
 ## TODO:
 
+- fix typewriter text
+- dark mode (respect system defaults + toggle in top left)
+- home button (via logo to LHS of text?)
+- smaller text in teams page
+- mobile layout (diff font size; single column layout, tags in column div)
+
 - add Sheares!
 - add new publications: llama (rsc), evoxels, vulture, image rep (adv sci), hr-dv2 (adv int sys), BIL, prompt to protocol
 - add new projects: BIL, isb/isg, vulutre, evoxels

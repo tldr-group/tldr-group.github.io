@@ -11,8 +11,10 @@ const ProjectComponent = ({ projectData }: { projectData: Project }) => {
       <div>
         <img src={imagePath} alt={`${title}`} style={{ width: "200px", height: "200px", objectFit: "scale-down" }} />
       </div>
-      <h3>{title}</h3>
-      <p>{desc}</p>
+      <div>
+        <h3>{title}</h3>
+        <p>{desc}</p>
+      </div>
       <div style={{ display: "flex", flex: "row" }}>
         {outLinks.map((link) => (
           <a key={link.link} className="link-tag" href={link.link} target="_blank" rel="noopener noreferrer">

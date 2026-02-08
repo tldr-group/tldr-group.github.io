@@ -133,17 +133,20 @@ li {
 
 // PROJECTS
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
   gap: 1.5em;
   width: 100%;
   max-width: 1100px;
-  // padding-top: 2em;
 }
+
 
 .project-card {
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-basis: calc(42% - 20px); 
 }
 
 .project-card:active, .project-card:hover {
@@ -175,11 +178,11 @@ li {
   color: $secondary;
 }
 
-@media (max-width: 700px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-}
+// @media (max-width: 700px) {
+//   .projects-grid {
+//     grid-template-columns: 1fr;
+//   }
+// }
 
 // TEAM
 .person-grid {
@@ -187,7 +190,6 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  // grid-template-columns: repeat(3, 1fr);
   gap: 1.5em;
   width: 100%;
   max-width: 1100px;
@@ -195,7 +197,6 @@ li {
 
 .person-card {
   align-items: center;
-  // justify-content: space-evenly;
   flex: 0 0 calc(26% - 20px); 
   min-height: 360px;
 }
