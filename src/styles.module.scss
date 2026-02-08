@@ -1,3 +1,4 @@
+
 // Color variables
 $secondary: #f5a418;
 $secondary-hover: #f3b13e;
@@ -7,13 +8,6 @@ $bg-dark: #111;
 
 $text-black: #111;
 $text-white: #fafafa;
-
-$normal-text-size: 1.3em;
-$small-text-size: 1.1em;
-$navbar-text-size: 1.7em;
-$h1-size: 2.2em;
-$h2-size: 1.6em;
-$h3-size: 1.4em;
 
 
 :export {
@@ -35,6 +29,17 @@ $h3-size: 1.4em;
   top: -2px;
 }
 
+:root {
+  --normal-text-size: 1.3em;
+  --small-text-size: 1.1em;
+  --navbar-text-size: 1.7em;
+  --h1-size: 2.2em;
+  --h2-size: 1.6em;
+  --h3-size: 1.4em;
+  --title-spacing: 1;
+}
+
+
 :root[data-theme="light"] {
   --bg: #{$bg};
   --text-color: #{$text-black};
@@ -47,6 +52,17 @@ $h3-size: 1.4em;
   }
 }
 
+@media (max-width: 900px) {
+  :root{
+    --normal-text-size: 1.0em;
+    --small-text-size: 1.0em;
+    --navbar-text-size: 1.3em;
+    --h1-size: 2em;
+    --h2-size: 1.5em;
+    --h3-size: 1.3em;
+    --title-spacing: 1.4;
+  }
+}
 
 
 :global {
@@ -56,31 +72,32 @@ body, .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  // margin: 0;
+  // padding: 0;
   background-color: var(--bg);
   color: var(--text-color);
 }
 
 p {
-  font-size: $normal-text-size;
+  font-size: var(--normal-text-size);
   line-height: 1.5;
 }
 
 h1 {
-  font-size: $h1-size;
+  font-size: var(--h1-size);
+  min-height: calc(var(--title-spacing) * var(--h1-size));
 }
 
 h2 {
-  font-size: $h2-size;
+  font-size: var(--h2-size);
 }
 
 h3 {
-  font-size: $h3-size
+  font-size: var(--h3-size)
 }
 
 ul {
-  font-size: $normal-text-size;
+  font-size: var(--normal-text-size);
   line-height: 1.5;
 }
 
@@ -104,6 +121,7 @@ li {
 
 // TITLE
 
+
 .title-container {
   width: 100%;
   display: flex;
@@ -126,7 +144,7 @@ li {
   align-items: center;
   flex-direction: row;
   text-decoration: none;
-  font-size: $h3-size;
+  font-size: var(--h3-size);
 }
 
 header h1 {
@@ -201,7 +219,7 @@ input:checked + .slider:before {
   text-align: center;
   text-decoration: none;
   color: inherit;
-  font-size: $navbar-text-size;
+  font-size: var(--navbar-text-size);
   padding: 0.5em 0;
   transition: color 0.1s;
 }
@@ -295,11 +313,6 @@ input:checked + .slider:before {
   color: $secondary;
 }
 
-// @media (max-width: 700px) {
-//   .projects-grid {
-//     grid-template-columns: 1fr;
-//   }
-// }
 
 // TEAM
 .person-grid {
@@ -318,6 +331,17 @@ input:checked + .slider:before {
   min-height: 360px;
 }
 
+@media (max-width: 900px) {
+  .project-card {
+  flex-basis: calc(80%); 
+  }
+  .person-card {
+    align-items: center;
+    flex: 0 0 calc(70%); 
+    min-height: 200px;
+  }
+}
+
 
 .person-card:hover {
   border: 2px solid $secondary;
@@ -330,7 +354,7 @@ input:checked + .slider:before {
 }
 
 .person-card p {
-  font-size: $small-text-size;
+  font-size: var(--small-text-size);
 }
 
 // PUBLICATIONS

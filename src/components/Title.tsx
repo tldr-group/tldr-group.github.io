@@ -46,10 +46,8 @@ const TypewriterTitle = ({ texts }: { texts: TextDetails[] }) => {
 
   return (
     <div>
-      <p>
-        {text}
-        <span className={styles.cursor}>|</span>
-      </p>
+      {text}
+      <span className={styles.cursor}>|</span>
     </div>
   );
 };

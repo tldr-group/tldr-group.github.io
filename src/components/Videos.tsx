@@ -9,7 +9,7 @@ const VideoComponent = ({ videoData }: { videoData: Video }) => {
 
   return (
     <div className="outlined-content project-card">
-      <iframe width="320" height="240" title="YouTube video player" src={link} />
+      <iframe style={{ maxWidth: "75%" }} title="YouTube video player" src={link} />
       <h3 style={{ alignSelf: "center", textAlign: "center" }}>{title}</h3>
     </div>
   );
