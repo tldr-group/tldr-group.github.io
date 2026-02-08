@@ -28,12 +28,18 @@ const PersonComponent = ({ personData }: { personData: Person }) => {
       </div>
 
       <h3>{name}</h3>
-      <p>{role}</p>
+      <p style={{ textAlign: "center", marginTop: "0em" }}>{role}</p>
       {isHovered && <p>{desc}</p>}
       {isHovered && (
         <div style={{ display: "flex", flex: "row" }}>
           {outLinks.map((link) => (
-            <a href={link.link} target="_blank" rel="noopener noreferrer" style={{ marginRight: "10px" }}>
+            <a
+              href={link.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-tag"
+              style={{ marginRight: "10px" }}
+            >
               {link.text}
             </a>
           ))}

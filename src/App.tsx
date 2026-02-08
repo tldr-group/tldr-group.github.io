@@ -31,7 +31,7 @@ export default function App() {
         </Routes>
       </div>
 
-      <div className="flex-row" style={{ paddingBottom: "2em" }}>
+      <div className="flex-row" style={{ paddingBottom: "2em", paddingTop: "1em" }}>
         <Icon
           iconName="gh"
           link="https://github.com/tldr-group"

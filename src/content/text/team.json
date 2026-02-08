@@ -98,8 +98,8 @@
         "link": "https://www.imperial.ac.uk/people/i.squires20"
       },
       {
-        "text": "Twitter",
-        "link": "https://twitter.com/isaacsquires5"
+        "text": "Polaron",
+        "link": "https://polaron.ai/"
       }
     ],
     "imagePath": "content/images/team/isaac.jpg",
@@ -108,11 +108,11 @@
   {
     "name": "Steve Kench",
     "isCurrent": false,
-    "role": "Former PhD student and PDRA",
+    "role": "Former PhD student & PDRA",
     "desc": "Steve finished his Faraday-funded PhD in 2024 with the thesis 'Machine learning for battery electrode characterisation and optimisation', focussing on the use of generative adversarial nets to explore and optimise cathode microstructures. He continues this work as the CTO of the spin-out Polaron AI, which he co-founded with Isaac and Sam.",
     "outLinks": [
       {
-        "text": "Find out more",
+        "text": "Polaron",
         "link": "https://polaron.ai/"
       }
     ],
