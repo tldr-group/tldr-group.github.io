@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 
 import Icon from "./Icon";
 
-import styles from "../styles.module.scss";
+// import styles from "../styles.module.scss";
 
 type PageDetails = {
   text: string;
@@ -29,7 +29,7 @@ export const NavBar = ({ pages }: { pages: PageDetails[] }) => {
   );
 };
 
-export const BottomBar = ({ textColour }: { textColour: string }) => {
+export const BottomBar = ({ textColour, secondaryColour }: { textColour: string; secondaryColour: string }) => {
   return (
     <div className="flex-row" style={{ paddingBottom: "2em", paddingTop: "1em" }}>
       <Icon
@@ -38,7 +38,7 @@ export const BottomBar = ({ textColour }: { textColour: string }) => {
         target="_blank"
         size={48}
         color={textColour}
-        hoverColor={styles.secondary}
+        hoverColor={secondaryColour}
         changeOnHover={true}
         style={{ marginLeft: "auto" }}
       />
@@ -48,7 +48,7 @@ export const BottomBar = ({ textColour }: { textColour: string }) => {
         target="_blank"
         size={64}
         color={textColour}
-        hoverColor={styles.secondary}
+        hoverColor={secondaryColour}
         changeOnHover={true}
         style={{ marginLeft: "auto" }}
       />

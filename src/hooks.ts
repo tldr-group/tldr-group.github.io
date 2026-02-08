@@ -43,6 +43,7 @@ export function initTheme(): void {
 export type ThemeProps = {
   theme: Theme;
   textColour: string;
+  secondaryColour: string;
   toggleTheme: () => void;
 };
 
@@ -55,11 +56,13 @@ export const useTheme = (): ThemeProps => {
     return getComputedStyle(document.body).getPropertyValue("--text-color").trim();
   }, [theme]);
 
+  const secondaryColour = getComputedStyle(document.body).getPropertyValue("--secondary").trim();
+
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
     setStoredTheme(newTheme);
   };
 
-  return { theme, textColour, toggleTheme };
+  return { theme, textColour, secondaryColour, toggleTheme };
 };

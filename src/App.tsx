@@ -10,6 +10,8 @@ import { Videos } from "./components/Videos";
 
 import { useTheme } from "./hooks";
 
+import "./styles.css";
+
 export default function App() {
   const themeProps = useTheme();
 
@@ -18,7 +20,7 @@ export default function App() {
       <Title texts={DEFAULT_TEXTS} themeProps={themeProps} />
       <NavBar pages={DEFAULT_PAGES} />
 
-      <div style={{ paddingTop: "2em" }}>
+      <div style={{ paddingTop: "2em", maxWidth: "95%" }}>
         <Routes>
           <Route path="/" element={<MainContent />} />
           <Route path="/projects" element={<Projects />} />
@@ -28,7 +30,7 @@ export default function App() {
         </Routes>
       </div>
 
-      <BottomBar textColour={themeProps.textColour} />
+      <BottomBar textColour={themeProps.textColour} secondaryColour={themeProps.secondaryColour} />
     </div>
   );
 }

@@ -3,8 +3,6 @@ import Icon from "./Icon";
 
 import { ThemeProps } from "../hooks";
 
-import styles from "../styles.module.scss";
-
 type TextDetails = {
   text: String;
   dwell: number;
@@ -47,13 +45,13 @@ const TypewriterTitle = ({ texts }: { texts: TextDetails[] }) => {
   return (
     <div>
       {text}
-      <span className={styles.cursor}>|</span>
+      <span className="cursor">|</span>
     </div>
   );
 };
 
 export const Title = ({ texts, themeProps }: { texts: TextDetails[]; themeProps: ThemeProps }) => {
-  const { theme, textColour, toggleTheme } = themeProps;
+  const { theme, textColour, secondaryColour, toggleTheme } = themeProps;
 
   return (
     <header className="title-container">
@@ -62,9 +60,9 @@ export const Title = ({ texts, themeProps }: { texts: TextDetails[]; themeProps:
           <Icon
             iconName="tldr_logo"
             link="/"
-            size={72}
+            size={64}
             color={textColour}
-            hoverColor={styles.secondary}
+            hoverColor={secondaryColour}
             changeOnHover={true}
             text="Home"
           />

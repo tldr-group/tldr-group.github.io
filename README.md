@@ -47,7 +47,7 @@ yarn start
 
 ## TODO:
 
-- minor fixes: top bar icon size on mobile; dark mode mobile not working; better zod parsing
+- minor fixes: dark mode mobile not working; pub width not working; mobile on click of people; better zod parsing
 
 - add Sheares!
 - add new publications: llama (rsc), evoxels, vulture, image rep (adv sci), hr-dv2 (adv int sys), BIL, prompt to protocol

@@ -1,38 +1,11 @@
-:global(html) {
-  color-scheme: light dark;
-}
-
-// Color variables
-$secondary: #f5a418;
-$secondary-hover: #f3b13e;
-$outline-grey: #ababab;
-$bg: #fafafa;
-$bg-dark: #111;
-
-$text-black: #111;
-$text-white: #fafafa;
-
-
-:export {
-  secondary: $secondary;
-  secondary-hover: $secondary-hover;
-  outlineGrey: $outline-grey;
-  bg: $bg;
-  textBlack: $text-black;
-}
-
-.cursor {
-  animation-name: blinker; 
-  animation-duration:  0.75s; 
-  animation-iteration-count: infinite;
-  animation-timing-function: step-end;
-  color: $outline-grey;
-  margin-left: 2px;
-  position: relative;
-  top: -2px;
-}
-
 :root {
+  --secondary: #f5a418;
+  --secondary-hover: #f3b13e;
+  --outline-grey: #ababab;
+  --bg: #fafafa;
+  --bg-dark: #111;
+  --text-black: #111;
+  --text-white: #fafafa;
   --normal-text-size: 1.3em;
   --small-text-size: 1.1em;
   --navbar-text-size: 1.7em;
@@ -40,21 +13,22 @@ $text-white: #fafafa;
   --h2-size: 1.6em;
   --h3-size: 1.4em;
   --title-spacing: 1;
+  --toggle-w: 56px;
+  --toggle-h: 30px;
+  --toggle-thumb-l: 22px;
+  --toggle-thumb-offset: 4px;
 }
 
-
-
-:global {
 :root[data-theme="light"] {
-  --bg: #{$bg};
-  --text-color: #{$text-black};
+  --bg: var(--bg);
+  --text-color: var(--text-black);
 }
 
 @media (prefers-color-scheme: dark) {
   :root[data-theme="dark"],
   :root:not([data-theme="light"]) {
-    --bg: #{$bg-dark};
-    --text-color: #{$text-white};
+    --bg: var(--bg-dark);
+    --text-color: var(--text-white);
   }
 }
 
@@ -67,18 +41,18 @@ $text-white: #fafafa;
     --h2-size: 1.5em;
     --h3-size: 1.3em;
     --title-spacing: 1.4;
+    --toggle-w: 48px;
+    --toggle-h: 24px;
+    --toggle-thumb-l: 18px;
+    --toggle-thumb-offset: 3px;
   }
 }
 
-
-// Global styles
 body, .container {
   font-family: 'Segoe UI', 'Arial', 'Helvetica', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // margin: 0;
-  // padding: 0;
   background-color: var(--bg);
   color: var(--text-color);
 }
@@ -98,7 +72,7 @@ h2 {
 }
 
 h3 {
-  font-size: var(--h3-size)
+  font-size: var(--h3-size);
 }
 
 ul {
@@ -117,15 +91,11 @@ li {
   align-items: center;
 }
 
-
 .container {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
 }
-
-// TITLE
-
 
 .title-container {
   width: 100%;
@@ -156,19 +126,14 @@ header h1 {
   margin: 0; 
   text-align: center;
   width: 100%;
-  padding: 0 
+  padding: 0;
 }
-
-$toggle-w: 56px;
-$toggle-h: 30px;  
-$toggle-thumb-l: 22px;
-$toggle-thumb-offset: 4px;
 
 .toggle {
   position: relative;
   display: inline-block;
-  width: $toggle-w;
-  height: $toggle-h;
+  width: var(--toggle-w);
+  height: var(--toggle-h);
 }
 
 .toggle input {
@@ -184,35 +149,32 @@ $toggle-thumb-offset: 4px;
   bottom: 0;
   background-color: #333;
   transition: 0.4s;
-  border-radius: $toggle-h;
+  border-radius: var(--toggle-h);
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: $toggle-thumb-l;
-  width: $toggle-thumb-l;
-  left: $toggle-thumb-offset;
-  bottom: $toggle-thumb-offset;
+  height: var(--toggle-thumb-l);
+  width: var(--toggle-thumb-l);
+  left: var(--toggle-thumb-offset);
+  bottom: var(--toggle-thumb-offset);
   background-color: #FFF;
   transition: 0.4s;
   border-radius: 50%;
 }
 
 input:checked + .slider {
-  background-color: $secondary;
+  background-color: var(--secondary);
 }
 
 input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-
-// NAVBAR
-
 .navbar {
   width: 100%;
-  border-bottom: 2px solid $outline-grey;
+  border-bottom: 2px solid var(--outline-grey);
   display: flex;
   justify-content: space-between;
   padding: 0.5em 0;
@@ -230,14 +192,13 @@ input:checked + .slider:before {
 }
 
 .nav-link.selected {
-  color: $secondary;
+  color: var(--secondary);
   font-weight: bold;
 }
 
 .nav-link:hover {
-  color: $secondary-hover;
+  color: var(--secondary-hover);
 }
-
 
 @keyframes blinker {
   50% {
@@ -245,17 +206,21 @@ input:checked + .slider:before {
   }
 }
 
-
-
-
-
-// MAIN CONTENT
+.cursor {
+  animation-name: blinker; 
+  animation-duration:  0.75s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  color: var(--outline-grey);
+  margin-left: 2px;
+  position: relative;
+  top: -2px;
+}
 
 .outlined-content {
-  border: 2px solid $outline-grey;
+  border: 2px solid var(--outline-grey);
   border-radius: 12px;
   padding: 2em;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,13 +230,11 @@ input:checked + .slider:before {
   align-self: flex-start;
   margin-bottom: 0;
 }
-/* Paragraphs inside outlined-content (e.g. MainContent) */
+
 .outlined-content p {
   text-align: justify;
 }
 
-
-// PROJECTS
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
@@ -282,7 +245,6 @@ input:checked + .slider:before {
   max-width: 1100px;
 }
 
-
 .project-card {
   align-items: center;
   align-content: flex-start;
@@ -290,7 +252,7 @@ input:checked + .slider:before {
 }
 
 .project-card:active, .project-card:hover {
-  border: 2px solid $secondary;
+  border: 2px solid var(--secondary);
 }
 
 .project-card img {
@@ -303,7 +265,7 @@ input:checked + .slider:before {
   align-items: center;
   padding: 6px 10px;
   background: #efefef;
-  color: $text-black;
+  color: var(--text-black);
   text-decoration: none;
   border-radius: 8px;
   margin-right: 10px;
@@ -315,11 +277,9 @@ input:checked + .slider:before {
 }
 
 .link-tag:hover span {
-  color: $secondary;
+  color: var(--secondary);
 }
 
-
-// TEAM
 .person-grid {
   display: flex;
   flex-wrap: wrap;
@@ -338,7 +298,7 @@ input:checked + .slider:before {
 
 @media (max-width: 900px) {
   .project-card {
-  flex-basis: calc(80%); 
+    flex-basis: calc(80%); 
   }
   .person-card {
     align-items: center;
@@ -347,9 +307,8 @@ input:checked + .slider:before {
   }
 }
 
-
 .person-card:hover {
-  border: 2px solid $secondary;
+  border: 2px solid var(--secondary);
 }
 
 .person-card h3 {
@@ -362,14 +321,14 @@ input:checked + .slider:before {
   font-size: var(--small-text-size);
 }
 
-// PUBLICATIONS
-
-
-li a{
+.pub-list, li a{
   color: #006666;
 }
 
-li a:visited {
-  color: #551A8B;
+.pub-list, li {
+  color: #006666;
 }
+
+.pub-list, li a:visited {
+  color: #551A8B;
 }

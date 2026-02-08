@@ -6,19 +6,30 @@ import { Person, PersonSchema } from "../types";
 import teamJSON from "../content/text/team.json";
 
 const PersonComponent = ({ personData }: { personData: Person }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
   const { name, role, desc, outLinks, imagePath } = personData;
+  const [isHovered, setIsHovered] = useState(false);
 
   const w = 150;
   const h = 1.5 * w;
 
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  const handleExpand = (state: boolean, click: boolean) => {
+    if (isMobile && click) {
+      setIsHovered(!state);
+      return;
+    } else if (isMobile) {
+      return;
+    }
+
+    setIsHovered(state);
+  };
+
   return (
     <div
       className="outlined-content person-card"
-      onPointerEnter={() => setIsHovered(true)}
-      onClick={() => setIsHovered(true)}
-      onPointerLeave={() => setIsHovered(false)}
+      onPointerEnter={() => handleExpand(true, false)}
+      onPointerLeave={() => handleExpand(false, false)}
+      onPointerDownCapture={() => handleExpand(isHovered, true)}
     >
       <div>
         <img
