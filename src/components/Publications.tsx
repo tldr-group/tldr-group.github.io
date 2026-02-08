@@ -49,12 +49,10 @@ export const Publications = () => {
 
   // 'map' takes each element in array and applies function to it, in our case this function returns a <li> element with publication component inside
   return (
-    <div>
-      <ul className="pub-list">
-        {publications.map((pub, i) => (
-          <li key={i}>{<PublicationComponent publicationData={pub} />}</li>
-        ))}
-      </ul>
-    </div>
+    <ul className="pub-list">
+      {publications.map((pub, i) => (
+        <li key={i}>{<PublicationComponent publicationData={pub} />}</li>
+      ))}
+    </ul>
   );
 };

@@ -51,7 +51,7 @@
     --toggle-h: 24px;
     --toggle-thumb-l: 18px;
     --toggle-thumb-offset: 3px;
-    --pub-list-w: 80%;
+    --pub-list-w: 70%;
   }
 }
 
@@ -330,6 +330,7 @@ input:checked + .slider:before {
 
 .pub-list {
   max-width: --var(--pub-list-w);
+  padding-left: 0.75em;
 }
 
 .pub-list, li a{
