@@ -47,7 +47,7 @@ yarn start
 
 ## TODO:
 
-- gha for deploys on merge to main
+- minor fixes: top bar icon size on mobile; dark mode mobile not working; better zod parsing
 
 - add Sheares!
 - add new publications: llama (rsc), evoxels, vulture, image rep (adv sci), hr-dv2 (adv int sys), BIL, prompt to protocol
