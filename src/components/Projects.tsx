@@ -15,7 +15,8 @@ const ProjectComponent = ({ projectData }: { projectData: Project }) => {
         <h3>{title}</h3>
         <p>{desc}</p>
       </div>
-      <div style={{ display: "flex", flex: "row" }}>
+      {/* marginTop: auto to push this to bottom of flex layout */}
+      <div style={{ flex: "row", marginTop: "auto" }}>
         {outLinks.map((link) => (
           <a key={link.link} className="link-tag" href={link.link} target="_blank" rel="noopener noreferrer">
             <span>{link.text}</span>

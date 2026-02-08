@@ -47,10 +47,8 @@ yarn start
 
 ## TODO:
 
-- fix typewriter text
 - dark mode (respect system defaults + toggle in top left)
 - home button (via logo to LHS of text?)
-- smaller text in teams page
 - mobile layout (diff font size; single column layout, tags in column div)
 
 - add Sheares!

@@ -5,6 +5,13 @@ $outline-grey: #ababab;
 $bg: #fafafa;
 $text-black: #111;
 
+$normal-text-size: 1.3em;
+$small-text-size: 1.1em;
+$navbar-text-size: 1.7em;
+$h1-size: 2.2em;
+$h2-size: 1.6em;
+$h3-size: 1.4em;
+
 :export {
   secondary: $secondary;
   secondary-hover: $secondary-hover;
@@ -12,6 +19,18 @@ $text-black: #111;
   bg: $bg;
   textBlack: $text-black;
 }
+
+.cursor {
+  animation-name: blinker; 
+  animation-duration:  0.75s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+  color: $outline-grey;
+  margin-left: 2px;
+  position: relative;
+  top: -2px;
+}
+
 
 :global {
 // Global styles
@@ -27,24 +46,24 @@ body, .container {
 }
 
 p {
-  font-size: 1.3em;
+  font-size: $normal-text-size;
   line-height: 1.5;
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: $h1-size;
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: $h2-size;
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: $h3-size
 }
 
 ul {
-  font-size: 1.3em;
+  font-size: $normal-text-size;
   line-height: 1.5;
 }
 
@@ -82,7 +101,7 @@ li {
   text-align: center;
   text-decoration: none;
   color: inherit;
-  font-size: 1.5em;
+  font-size: $navbar-text-size;
   padding: 0.5em 0;
   transition: color 0.1s;
 }
@@ -96,17 +115,16 @@ li {
   color: $secondary-hover;
 }
 
-@keyframes cursor-blink {
-  0% {
+
+@keyframes blinker {
+  50% {
     opacity: 0;
   }
 }
 
-.cursor {
-  animation: cursor-blink 1s  infinite;
-  animation-timing-function: steps(2);
-  color: $outline-grey;
-}
+
+
+
 
 // MAIN CONTENT
 
@@ -123,7 +141,6 @@ li {
 .outlined-content h3 {
   align-self: flex-start;
   margin-bottom: 0;
-  // padding-left: 6%;
 }
 /* Paragraphs inside outlined-content (e.g. MainContent) */
 .outlined-content p {
@@ -145,7 +162,7 @@ li {
 
 .project-card {
   align-items: center;
-  justify-content: space-between;
+  align-content: flex-start;
   flex-basis: calc(42% - 20px); 
 }
 
@@ -210,6 +227,10 @@ li {
   align-self: center;
   text-align: center;
   margin-bottom: 0;
+}
+
+.person-card p {
+  font-size: $small-text-size;
 }
 
 // PUBLICATIONS
