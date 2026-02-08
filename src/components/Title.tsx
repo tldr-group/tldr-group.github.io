@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Icon from "./Icon";
 
 import styles from "../styles.module.scss";
 
@@ -17,7 +18,7 @@ const SHORT_TIME_MS = 100;
 
 // render title character by character with delay of $SHORT_TIME_MS
 // after the full text is rendered, wait for $dwell before rendering next text
-export const TypewriterTitle = ({ texts }: { texts: TextDetails[] }) => {
+const TypewriterTitle = ({ texts }: { texts: TextDetails[] }) => {
   const [text, setText] = useState<string>("");
 
   const updateText = (target: TextDetails, idx: number) => {
@@ -48,5 +49,45 @@ export const TypewriterTitle = ({ texts }: { texts: TextDetails[] }) => {
         <span className={styles.cursor}>|</span>
       </p>
     </div>
+  );
+};
+
+export const Title = ({ texts, baseIconColour }: { texts: TextDetails[]; baseIconColour: string }) => {
+  // const baseIconColour = window.getComputedStyle(document.body).getPropertyValue("--text-color");
+
+  return (
+    <header className="title-container">
+      <div className="title-row">
+        <div>
+          <Icon
+            iconName="tldr_logo"
+            link="/"
+            size={72}
+            color={baseIconColour}
+            hoverColor={styles.secondary}
+            changeOnHover={true}
+            text="Home"
+          />
+        </div>
+        <div className="flex-row" style={{ gap: 12 }}>
+          <label className="toggle">
+            <input type="checkbox" id="btnToggle" name="btnToggle" />
+            <span className="slider"></span>
+          </label>
+          <Icon
+            iconName="dark_mode"
+            link=""
+            size={32}
+            color={baseIconColour}
+            changeOnHover={false}
+            text=""
+            hoverColor=""
+          />
+        </div>
+      </div>
+      <h1>
+        <TypewriterTitle texts={texts} />
+      </h1>
+    </header>
   );
 };

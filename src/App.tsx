@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import { TypewriterTitle, DEFAULT_TEXTS } from "./components/TypewriterTitle";
+import { DEFAULT_TEXTS, Title } from "./components/Title";
 import { NavBar, DEFAULT_PAGES } from "./components/NavBar";
 import { MainContent } from "./components/MainContent";
 import { Projects } from "./components/Projects";
@@ -16,25 +16,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <header className="title-container">
-        <div className="title-row">
-          <div>
-            <Icon
-              iconName="tldr_logo"
-              link="/"
-              size={72}
-              color={baseIconColour}
-              hoverColor={styles.secondary}
-              changeOnHover={true}
-              text="Home"
-            />
-          </div>
-          <a>Mode</a>
-        </div>
-        <h1>
-          <TypewriterTitle texts={DEFAULT_TEXTS} />
-        </h1>
-      </header>
+      <Title texts={DEFAULT_TEXTS} baseIconColour={baseIconColour} />
       <NavBar pages={DEFAULT_PAGES} />
 
       <div style={{ paddingTop: "2em" }}>

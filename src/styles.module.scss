@@ -136,6 +136,54 @@ header h1 {
   padding: 0 
 }
 
+$toggle-w: 56px;
+$toggle-h: 30px;  
+$toggle-thumb-l: 22px;
+$toggle-thumb-offset: 4px;
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: $toggle-w;
+  height: $toggle-h;
+}
+
+.toggle input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  transition: 0.4s;
+  border-radius: $toggle-h;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: $toggle-thumb-l;
+  width: $toggle-thumb-l;
+  left: $toggle-thumb-offset;
+  bottom: $toggle-thumb-offset;
+  background-color: #FFF;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: $secondary;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
 
 // NAVBAR
 
