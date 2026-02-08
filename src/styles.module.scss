@@ -43,6 +43,8 @@ $text-white: #fafafa;
 }
 
 
+
+:global {
 :root[data-theme="light"] {
   --bg: #{$bg};
   --text-color: #{$text-black};
@@ -69,7 +71,6 @@ $text-white: #fafafa;
 }
 
 
-:global {
 // Global styles
 body, .container {
   font-family: 'Segoe UI', 'Arial', 'Helvetica', sans-serif;
@@ -107,7 +108,6 @@ ul {
 
 li {
   margin-bottom: 0.5em;
-  max-width: 75%;
 }
 
 .flex-row {
