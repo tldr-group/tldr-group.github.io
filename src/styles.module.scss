@@ -35,13 +35,13 @@ $h3-size: 1.4em;
   top: -2px;
 }
 
-:root {
+:root[data-theme="light"] {
   --bg: #{$bg};
   --text-color: #{$text-black};
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root[data-theme="dark"] {
     --bg: #{$bg-dark};
     --text-color: #{$text-white};
   }

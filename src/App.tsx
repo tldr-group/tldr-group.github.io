@@ -1,22 +1,21 @@
 import { Routes, Route } from "react-router-dom";
 
 import { DEFAULT_TEXTS, Title } from "./components/Title";
-import { NavBar, DEFAULT_PAGES } from "./components/NavBar";
+import { NavBar, DEFAULT_PAGES, BottomBar } from "./components/NavBar";
 import { MainContent } from "./components/MainContent";
 import { Projects } from "./components/Projects";
 import { Team } from "./components/Team";
 import { Publications } from "./components/Publications";
 import { Videos } from "./components/Videos";
-import Icon from "./components/Icon";
 
-import styles from "./styles.module.scss";
+import { useTheme } from "./hooks";
 
 export default function App() {
-  const baseIconColour = window.getComputedStyle(document.body).getPropertyValue("--text-color");
+  const themeProps = useTheme();
 
   return (
     <div className="container">
-      <Title texts={DEFAULT_TEXTS} baseIconColour={baseIconColour} />
+      <Title texts={DEFAULT_TEXTS} themeProps={themeProps} />
       <NavBar pages={DEFAULT_PAGES} />
 
       <div style={{ paddingTop: "2em" }}>
@@ -29,28 +28,7 @@ export default function App() {
         </Routes>
       </div>
 
-      <div className="flex-row" style={{ paddingBottom: "2em", paddingTop: "1em" }}>
-        <Icon
-          iconName="gh"
-          link="https://github.com/tldr-group"
-          target="_blank"
-          size={48}
-          color={baseIconColour}
-          hoverColor={styles.secondary}
-          changeOnHover={true}
-          style={{ marginLeft: "auto" }}
-        />
-        <Icon
-          iconName="email"
-          link="mailto:samuel.cooper@imperial.ac.uk"
-          target="_blank"
-          size={64}
-          color={baseIconColour}
-          hoverColor={styles.secondary}
-          changeOnHover={true}
-          style={{ marginLeft: "auto" }}
-        />
-      </div>
+      <BottomBar textColour={themeProps.textColour} />
     </div>
   );
 }

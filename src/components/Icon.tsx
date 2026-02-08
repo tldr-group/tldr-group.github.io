@@ -61,7 +61,7 @@ const Icon: React.FC<IconProps> = ({ iconName, link, target, size, color, change
       onMouseLeave={() => setIsHovered(false)}
       aria-label={iconName}
     >
-      <Link to={link} target={target}>
+      <Link to={link} target={target} style={{ textDecoration: "none" }}>
         <div className="icon-button" style={{ color: fillValue }}>
           {svgContent && colorizeSvg(svgContent, fillValue)}
           {text}

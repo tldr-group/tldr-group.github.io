@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Icon from "./Icon";
 
+import { ThemeProps } from "../hooks";
+
 import styles from "../styles.module.scss";
 
 type TextDetails = {
@@ -52,8 +54,8 @@ const TypewriterTitle = ({ texts }: { texts: TextDetails[] }) => {
   );
 };
 
-export const Title = ({ texts, baseIconColour }: { texts: TextDetails[]; baseIconColour: string }) => {
-  // const baseIconColour = window.getComputedStyle(document.body).getPropertyValue("--text-color");
+export const Title = ({ texts, themeProps }: { texts: TextDetails[]; themeProps: ThemeProps }) => {
+  const { theme, textColour, toggleTheme } = themeProps;
 
   return (
     <header className="title-container">
@@ -63,7 +65,7 @@ export const Title = ({ texts, baseIconColour }: { texts: TextDetails[]; baseIco
             iconName="tldr_logo"
             link="/"
             size={72}
-            color={baseIconColour}
+            color={textColour}
             hoverColor={styles.secondary}
             changeOnHover={true}
             text="Home"
@@ -71,18 +73,10 @@ export const Title = ({ texts, baseIconColour }: { texts: TextDetails[]; baseIco
         </div>
         <div className="flex-row" style={{ gap: 12 }}>
           <label className="toggle">
-            <input type="checkbox" id="btnToggle" name="btnToggle" />
+            <input type="checkbox" id="btnToggle" name="btnToggle" checked={theme === "dark"} onChange={toggleTheme} />
             <span className="slider"></span>
           </label>
-          <Icon
-            iconName="dark_mode"
-            link=""
-            size={32}
-            color={baseIconColour}
-            changeOnHover={false}
-            text=""
-            hoverColor=""
-          />
+          <Icon iconName="dark_mode" link="" size={32} color={textColour} changeOnHover={false} text="" hoverColor="" />
         </div>
       </div>
       <h1>
