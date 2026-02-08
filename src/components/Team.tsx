@@ -1,33 +1,44 @@
 import * as z from "zod/mini";
+import { useState } from "react";
 
 import { Person, PersonSchema } from "../types";
 
 import teamJSON from "../content/text/team.json";
 
 const PersonComponent = ({ personData }: { personData: Person }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
   const { name, role, desc, outLinks, imagePath } = personData;
 
+  const w = 150;
+  const h = 1.5 * w;
+
   return (
-    <div>
+    <div
+      className="outlined-content person-card"
+      onPointerEnter={() => setIsHovered(true)}
+      onPointerLeave={() => setIsHovered(false)}
+    >
       <div>
         <img
           src={imagePath}
           alt={`${name}'s profile`}
-          style={{ width: "150px", height: "150px", objectFit: "cover" }}
+          style={{ width: `${w}px`, height: `${h}px`, objectFit: "cover" }}
         />
       </div>
 
       <h3>{name}</h3>
       <p>{role}</p>
-      <p>{desc}</p>
-
-      <div style={{ display: "flex", flex: "row" }}>
-        {outLinks.map((link) => (
-          <a href={link.link} target="_blank" rel="noopener noreferrer" style={{ marginRight: "10px" }}>
-            {link.text}
-          </a>
-        ))}
-      </div>
+      {isHovered && <p>{desc}</p>}
+      {isHovered && (
+        <div style={{ display: "flex", flex: "row" }}>
+          {outLinks.map((link) => (
+            <a href={link.link} target="_blank" rel="noopener noreferrer" style={{ marginRight: "10px" }}>
+              {link.text}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
@@ -41,7 +52,7 @@ export const Team = () => {
   return (
     <div>
       <h2>Core Team</h2>
-      <div>
+      <div className="person-grid">
         {people
           .filter((p) => p.isCurrent)
           .map((person) => (
@@ -49,7 +60,7 @@ export const Team = () => {
           ))}
       </div>
       <h2>Former Members</h2>
-      <div>
+      <div className="person-grid">
         {people
           .filter((p) => !p.isCurrent)
           .map((person) => (

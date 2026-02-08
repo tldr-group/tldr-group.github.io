@@ -35,8 +35,21 @@ h1 {
   font-size: 2.2em;
 }
 
+h2 {
+  font-size: 1.6em;
+}
+
 h3 {
   font-size: 1.4em;
+}
+
+ul {
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 0.5em;
 }
 
 .flex-row {
@@ -90,7 +103,7 @@ h3 {
   justify-content: space-evenly;
 }
 
-.project-card:hover {
+.project-card:active, .project-card:hover {
   border: 2px solid $secondary;
 }
 
@@ -125,6 +138,31 @@ h3 {
   }
 }
 
+
+.person-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+  width: 100%;
+  max-width: 1100px;
+  // padding-top: 2em;
+}
+
+.person-card {
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 400px
+}
+
+.person-card:hover {
+  border: 2px solid $secondary;
+}
+
+.person-card h3 {
+  align-self: center;
+  margin-bottom: 0;
+}
+
 .navbar {
   width: 100%;
   border-bottom: 2px solid $outline-grey;
@@ -152,6 +190,8 @@ h3 {
 .nav-link:hover {
   color: $secondary-hover;
 }
+
+
 
 
 @keyframes cursor-blink {
