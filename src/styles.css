@@ -51,7 +51,7 @@
     --toggle-h: 24px;
     --toggle-thumb-l: 18px;
     --toggle-thumb-offset: 3px;
-    --pub-list-w: 70%;
+    --pub-list-w: 90%;
   }
 }
 
@@ -329,8 +329,10 @@ input:checked + .slider:before {
 }
 
 .pub-list {
-  max-width: --var(--pub-list-w);
+  max-width: var(--pub-list-w);
   padding-left: 0.75em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .pub-list, li a{

@@ -35,7 +35,6 @@ const PublicationComponent = ({ publicationData }: { publicationData: Publicatio
       ) : (
         <span>{innerContent}</span>
       )}
-      <a href={link} target="_blank" rel="noopener noreferrer"></a>
     </div>
   );
 };
