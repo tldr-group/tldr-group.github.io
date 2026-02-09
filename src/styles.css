@@ -18,6 +18,7 @@
   --toggle-thumb-l: 22px;
   --toggle-thumb-offset: 4px;
   --pub-list-w: 100%;
+  --micro-gif-width: 38%;
 }
 
 :root[data-theme="light"] {
@@ -52,6 +53,7 @@
     --toggle-thumb-l: 18px;
     --toggle-thumb-offset: 3px;
     --pub-list-w: 90%;
+    --micro-gif-width: 75%;
   }
 }
 
@@ -222,6 +224,11 @@ input:checked + .slider:before {
   margin-left: 2px;
   position: relative;
   top: -2px;
+}
+
+.micro-gif {
+  width: var(--micro-gif-width);
+  object-fit: scale-down;
 }
 
 .outlined-content {
