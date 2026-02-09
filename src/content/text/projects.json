@@ -72,7 +72,20 @@
       }
     ],
     "imagePath": "content/images/projects/evoxels.png",
-    "order": 89
+    "order": 79
+  },
+  {
+    "title": "vulture",
+    "desc": "Efficient convolutional upsampling of DINOv2 features, which can then be used for trainable micrograph segmentation.",
+    "outLinks": [
+      { "text": "GitHub", "link": "https://github.com/tldr-group/vulture" },
+      {
+        "text": "Preprint",
+        "link": "https://arxiv.org/abs/2508.21529"
+      }
+    ],
+    "imagePath": "content/images/projects/vulture.png",
+    "order": 78
   },
   {
     "title": "microlib",

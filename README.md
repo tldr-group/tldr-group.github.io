@@ -55,7 +55,6 @@ yarn start
 ## TODO:
 
 - test merge rule
-- projects: BIL, evoxels, vulutre
 
 - For Sheares:
   - add Sheares!
