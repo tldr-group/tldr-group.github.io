@@ -34,6 +34,20 @@
     "order": 90
   },
   {
+    "title": "Battery Imaging Library",
+    "desc": "The Battery Imaging Library (BIL) is one of the first open, curated collection of multi-modal and multi-length scale battery imaging datasets. There are 8 modalities, 80+ scans and over 500 billion voxels of open battery imaging data, from single particles up to full cells. ",
+    "outLinks": [
+      { "text": "GitHub", "link": "https://github.com/antonyvam/BatteryImagingLibrary" },
+      { "text": "Website", "link": "https://www.batteryimaginglibrary.com/" },
+      {
+        "text": "Preprint",
+        "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202414149"
+      }
+    ],
+    "imagePath": "content/images/projects/bil.png",
+    "order": 89
+  },
+  {
     "title": "SAMBA",
     "desc": "SAMBA (Segment Anything Model Based App) is a trainable segmentation web-app for materials science that uses Meta's Segment Anything Model for fast, high-quality labels and random forests for robust, generalizable segmentations.",
     "outLinks": [
@@ -46,6 +60,32 @@
     ],
     "imagePath": "content/images/projects/samba_logo.png",
     "order": 80
+  },
+  {
+    "title": "evoxels",
+    "desc": "evoxels is a differentiable physics framework for voxel-based microstructure simulations with a simple numpy interface and drop-in GPU accelerated backend (torch, JAX).",
+    "outLinks": [
+      { "text": "GitHub", "link": "https://github.com/daubners/evoxels" },
+      {
+        "text": "Preprint",
+        "link": "https://arxiv.org/abs/2507.21748"
+      }
+    ],
+    "imagePath": "content/images/projects/evoxels.png",
+    "order": 79
+  },
+  {
+    "title": "vulture",
+    "desc": "Efficient convolutional upsampling of DINOv2 features, which can then be used for trainable micrograph segmentation.",
+    "outLinks": [
+      { "text": "GitHub", "link": "https://github.com/tldr-group/vulture" },
+      {
+        "text": "Preprint",
+        "link": "https://arxiv.org/abs/2508.21529"
+      }
+    ],
+    "imagePath": "content/images/projects/vulture.png",
+    "order": 78
   },
   {
     "title": "microlib",
@@ -104,7 +144,7 @@
         "link": "https://pubs.rsc.org/en/content/articlelanding/2023/dd/d2dd00120a"
       }
     ],
-    "imagePath": "content/images/projects/inpaint.gif",
+    "imagePath": "content/images/projects/inpaint.jpg",
     "order": 30
   },
   {
