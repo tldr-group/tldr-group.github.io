@@ -7,7 +7,7 @@ const ProjectComponent = ({ projectData }: { projectData: Project }) => {
   return (
     <div className="outlined-content project-card">
       <div>
-        <img src={imagePath} alt={`${title}`} style={{ width: "200px", height: "200px", objectFit: "scale-down" }} />
+        <img src={imagePath} alt={`${title}`} style={{ width: "300px", height: "200px", objectFit: "scale-down" }} />
       </div>
       <div>
         <h3>{title}</h3>

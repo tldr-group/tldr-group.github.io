@@ -55,6 +55,9 @@ yarn start
 ## TODO:
 
 - test merge rule
-- add Sheares!
-- add new publications: llama (rsc), evoxels, vulture, image rep (adv sci), hr-dv2 (adv int sys), BIL, prompt to protocol
-- add new projects: BIL, isb/isg, vulutre, evoxels
+- projects: BIL, evoxels, vulutre
+
+- For Sheares:
+  - add Sheares!
+  - add new publications: prompt to protocol
+  - add new projects: isb/isg

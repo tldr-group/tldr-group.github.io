@@ -62,6 +62,19 @@
     "order": 80
   },
   {
+    "title": "evoxels",
+    "desc": "evoxels is a differentiable physics framework for voxel-based microstructure simulations with a simple numpy interface and drop-in GPU accelerated backend (torch, JAX).",
+    "outLinks": [
+      { "text": "GitHub", "link": "https://github.com/daubners/evoxels" },
+      {
+        "text": "Preprint",
+        "link": "https://arxiv.org/abs/2507.21748"
+      }
+    ],
+    "imagePath": "content/images/projects/evoxels.png",
+    "order": 89
+  },
+  {
     "title": "microlib",
     "desc": "microlib is a searchable collection of 87 3D microstructures of various materials, intended for use in materials research. These were generated from the DoITPoMS micrograph library using our inpainting and SliceGAN tools.",
     "outLinks": [
