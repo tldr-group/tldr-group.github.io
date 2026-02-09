@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 import { Person, PersonSchema, gracefulParse } from "../types";
 
@@ -7,28 +7,46 @@ import teamJSON from "../content/text/team.json";
 const PersonComponent = ({ personData }: { personData: Person }) => {
   const { name, role, desc, outLinks, imagePath } = personData;
   const [isHovered, setIsHovered] = useState(false);
+  const touchStartPos = useRef<number | null>(null);
 
+  // Pixels
+  const scrollThreshold = 10;
   const w = 150;
   const h = 1.5 * w;
 
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  const handleExpand = (state: boolean, click: boolean) => {
-    if (isMobile && click) {
-      setIsHovered(!state);
-      return;
-    } else if (isMobile) {
+  const handleExpand = (state: boolean) => {
+    if (isMobile) {
       return;
     }
 
     setIsHovered(state);
   };
 
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartPos.current = e.touches[0].clientY;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartPos.current === null) return;
+
+    if (!isMobile) return;
+
+    const touchEndPos = e.changedTouches[0].clientY;
+    const distance = Math.abs(touchEndPos - touchStartPos.current);
+    if (distance < scrollThreshold) {
+      setIsHovered((prev) => !prev);
+    }
+    touchStartPos.current = null;
+  };
+
   return (
     <div
       className="outlined-content person-card"
-      onPointerEnter={() => handleExpand(true, false)}
-      onPointerLeave={() => handleExpand(false, false)}
-      onPointerDownCapture={() => handleExpand(isHovered, true)}
+      onPointerEnter={() => handleExpand(true)}
+      onPointerLeave={() => handleExpand(false)}
+      onTouchStart={(e) => handleTouchStart(e)}
+      onTouchEnd={(e) => handleTouchEnd(e)}
     >
       <div>
         <img
