@@ -1,5 +1,59 @@
 [
   {
+    "title": "Upsampling DINOv2 features for unsupervised vision tasks and weakly supervised materials segmentation",
+    "authors": "Docherty, R., Vamvakeros, A. and Cooper, S.J.",
+    "journal": "Advanced Intelligent Systems",
+    "year": 2026,
+    "doi": "https://doi.org/10.1002/aisy.202501094",
+    "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.202501094",
+    "order": 96
+  },
+  {
+    "title": "Battery Imaging Library: Multi-length scale and multi-modal synchrotron and laboratory battery imaging data for all",
+    "authors": "Docherty, R., Riley, S., Morley, J.D., Papoutsellis, E., Bobitan, A.D., Donoghue, J., Rankin, K., Alvarez Borges, F., Salinas-Farran, L., Michalik, S., Liptak, A., Burca, G., Autran, P.O., Wright, J., Kockelmann, W., Gutowski, O., Dippel, A.C., von Zimmermann, M., Matras, D., Winiarski, B., Mangum, J., Finegan, D., Gott, J.A., Proprentner, D., Dong, H., George, C., Beale, A.M., Jacques, S.D.M., Cooper, S.J., Vamvakeros, A.",
+    "journal": "chemRxiv preprint",
+    "year": 2025,
+    "doi": "https://doi.org/10.48550/arXiv.2502.10871",
+    "link": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-sbp73",
+    "order": 98
+  },
+  {
+    "title": "Maybe you don't need a U-Net: convolutional feature upsampling for materials micrograph segmentation",
+    "authors": "Docherty, R., Vamvakeros, A. and Cooper, S.J.",
+    "journal": "arXiv preprint",
+    "year": 2025,
+    "doi": "https://doi.org/10.48550/arXiv.2508.21529",
+    "link": "https://arxiv.org/abs/2508.21529",
+    "order": 98
+  },
+  {
+    "title": "evoxels: A differentiable physics framework for voxel-based microstructure simulations",
+    "authors": "Daubner, S., Cohen, A.E, Dörich, B., and Cooper, S.J.",
+    "journal": "arXiv preprint",
+    "year": 2025,
+    "doi": "https://doi.org/10.48550/arXiv.2507.21748",
+    "link": "https://arxiv.org/abs/2507.21748",
+    "order": 98
+  },
+  {
+    "title": "Do Llamas understand the periodic table? ",
+    "authors": "Gei, L., and Cooper, S.J.",
+    "journal": "Digital Discovery",
+    "year": 2025,
+    "doi": "https://doi.org/10.1039/D5DD00374A",
+    "link": "https://pubs.rsc.org/en/content/articlelanding/2025/dd/d5dd00374a",
+    "order": 98
+  },
+  {
+    "title": "nDTomo: A Python-Based Software Suite for X-ray Chemical Imaging and Tomography",
+    "authors": "Vamvakeros, A., Papoutsellis, E., Dong, H., Docherty, R., Beale, A.M, Cooper, S.J and Jacques, S.D.M.",
+    "journal": "Digital Discovery",
+    "year": 2025,
+    "doi": "https://doi.org/10.1039/D5DD00252D",
+    "link": "https://pubs.rsc.org/en/content/articlelanding/2025/dd/d5dd00252d",
+    "order": 99
+  },
+  {
     "title": "Prediction of microstructural representativity from a single image",
     "authors": "Dahari, A., Docherty, R., Kench, S. and Cooper, S.J.",
     "journal": "Advanced Science",
@@ -9,24 +63,6 @@
     "order": 100
   },
   {
-    "title": "nDTomo: A Python-Based Software Suite for X-ray Chemical Imaging and Tomography",
-    "authors": "Vamvakeros, A., Papoutsellis, E., Dong, H., Docherty, R., Beale, A.M, Cooper, S.J and Jacques, S.D.M.",
-    "journal": "chemrXiv preprint",
-    "year": 2025,
-    "doi": "https://doi.org/10.26434/chemrxiv-2025-h5t2x",
-    "link": "https://chemrxiv.org/engage/chemrxiv/article-details/68402c711a8f9bdab5a0b7fc",
-    "order": 99
-  },
-  {
-    "title": "Layerwise Recall and the Geometry of Interwoven Knowledge in LLMs",
-    "authors": "Gei, L., and Cooper, S.J.",
-    "journal": "arXiv preprint",
-    "year": 2025,
-    "doi": "https://doi.org/10.48550/arXiv.2502.10871",
-    "link": "https://arxiv.org/abs/2502.10871",
-    "order": 98
-  },
-  {
     "title": "Li-ion battery design through microstructural optimization using generative AI",
     "authors": "Kench, S., Squires, I., Dahrai, A., Planella, F.B., Roberts, S.A. and Cooper, S.J.",
     "journal": "Matter",
@@ -34,15 +70,6 @@
     "doi": "https://doi.org/10.1016/j.matt.2024.08.014",
     "link": "https://www.cell.com/matter/fulltext/S2590-2385(24)00446-6",
     "order": 97
-  },
-  {
-    "title": "Upsampling DINOv2 features for unsupervised vision tasks and weakly supervised materials segmentation",
-    "authors": "Docherty, R., Vamvakeros, A. and Cooper, S.J.",
-    "journal": "NeurIPS AI4Mat Workshop",
-    "year": 2024,
-    "doi": "https://doi.org/10.48550/arXiv.2410.19836",
-    "link": "https://arxiv.org/abs/2410.19836",
-    "order": 96
   },
   {
     "title": "Polaron: An AI tool for the characterisation and design of advanced materials",
