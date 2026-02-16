@@ -88,6 +88,20 @@
     "order": 95
   },
   {
+    "name": "Sheares Toh",
+    "isCurrent": true,
+    "role": "PhD student",
+    "desc": "Sheares is a PhD student working on agentic systems for scientific workflows.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/sheares.jpg",
+    "order": 94
+  },
+  {
     "name": "Isaac Squires",
     "isCurrent": false,
     "role": "Former PhD student",
