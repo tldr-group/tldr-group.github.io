@@ -48,7 +48,7 @@ yarn install
 3. run frontend
 
 ```bash
-cd src/frontend
+cd src/
 yarn start
 ```
 
