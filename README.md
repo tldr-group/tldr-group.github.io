@@ -9,7 +9,7 @@ This repo has been written such that to add new content (publications, projects,
 ### 1. Create a new branch
 
 ```bash
-git checkout new_branch_name
+git checkout -b new_branch_name
 ```
 
 ### 2. Edit the respective `.json`, commit changes to your branch.
