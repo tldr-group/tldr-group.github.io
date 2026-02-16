@@ -1,4 +1,12 @@
-[
+[ {
+    "title": "From Prompt to Protocol: Fast Charging Batteries with Large Language Models",
+    "authors": "Lei, G, Planella, F.B., Baird, S.G. and Cooper, S.J.",
+    "journal": "arXiv preprint",
+    "year": 2026,
+    "doi": "https://doi.org/10.48550/arXiv.2601.09626",
+    "link": "https://arxiv.org/abs/2601.09626",
+    "order": 97
+  },
   {
     "title": "Upsampling DINOv2 features for unsupervised vision tasks and weakly supervised materials segmentation",
     "authors": "Docherty, R., Vamvakeros, A. and Cooper, S.J.",
