@@ -46,6 +46,20 @@
     "order": 98
   },
   {
+    "name": "Felix Mildner",
+    "isCurrent": true,
+    "role": "PDRA",
+    "desc": "Felix is a PDRA working on the integration of agentic AI into battery research to improve workflow efficiencies and automation.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
+      }
+    ],
+    "imagePath": "content/images/team/felix.jpg",
+    "order": 97
+  },
+  {
     "name": "Amir Dahari",
     "isCurrent": true,
     "role": "PhD student",
@@ -57,7 +71,7 @@
       }
     ],
     "imagePath": "content/images/team/amir.jpg",
-    "order": 97
+    "order": 96
   },
   {
     "name": "Ronan Docherty",
@@ -71,7 +85,7 @@
       }
     ],
     "imagePath": "content/images/team/ronan.jpg",
-    "order": 96
+    "order": 95
   },
   {
     "name": "Lei Ge",
@@ -85,7 +99,7 @@
       }
     ],
     "imagePath": "content/images/team/lei_ge.jpg",
-    "order": 95
+    "order": 94
   },
   {
     "name": "Sheares Toh",
@@ -99,7 +113,7 @@
       }
     ],
     "imagePath": "content/images/team/sheares.jpg",
-    "order": 94
+    "order": 93
   },
   {
     "name": "Isaac Squires",
