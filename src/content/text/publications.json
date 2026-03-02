@@ -1,4 +1,13 @@
 [ {
+    "title": "The tortuous path to fast charge: Microstructure-aware cell models for graded electrode design",
+    "authors": "Daubner, S., Lagnoni, M., Rao, M., Kench, S., Bertei, A. and Cooper, S.J.",
+    "journal": "chemRxiv preprint",
+    "year": 2026,
+    "doi": "https://doi.org/10.26434/chemrxiv.10002110/v1",
+    "link": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.10002110/v1",
+    "order": 98
+  },
+  {
     "title": "From Prompt to Protocol: Fast Charging Batteries with Large Language Models",
     "authors": "Lei, G, Planella, F.B., Baird, S.G. and Cooper, S.J.",
     "journal": "arXiv preprint",
