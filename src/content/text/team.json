@@ -116,6 +116,20 @@
     "order": 93
   },
   {
+    "name": "Mengly Long",
+    "isCurrent": true,
+    "role": "Visiting PhD student",
+    "desc": "Mengly is a visiting PhD student from King Mongkut’s University of Technology Thonburi. He is working on designing battery electrode microstructures optimised for different applications.",
+    "outLinks": [
+      {
+        "text": "Find out more",
+        "link": "https://www.linkedin.com/in/mengly-long-65594321a"
+      }
+    ],
+    "imagePath": "content/images/team/mengly_long.jpg",
+    "order": 92
+  },
+  {
     "name": "René Rekers",
     "isCurrent": false,
     "role": "Former Visiting PhD student",
