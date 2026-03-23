@@ -3,19 +3,15 @@
     "name": "Sam Cooper",
     "isCurrent": true,
     "role": "Group Leader",
-    "desc": "",
+    "desc": "Sam is the leader of the TLDR group and an associate professor in the Dyson School of Design Engineering at Imperial College London.",
     "outLinks": [
       {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=WrXP3Q8AAAAJ&hl=en"
+        "text": "Find out less",
+        "link": "https://www.imperial.ac.uk/people/samuel.cooper"
       },
       {
         "text": "LinkedIn",
         "link": "https://www.linkedin.com/in/sam-cooper-88687238/"
-      },
-      {
-        "text": "X",
-        "link": "https://twitter.com/camsooper"
       }
     ],
     "imagePath": "content/images/team/sam.jpg",
@@ -25,15 +21,11 @@
     "name": "Antony Vamvakeros",
     "isCurrent": true,
     "role": "Royal Society Industry Fellow",
-    "desc": "AI for Chemical Tomography",
+    "desc": "Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods",
     "outLinks": [
       {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=eObSAAkAAAAJ&hl=en"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/antonyvam/"
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
       }
     ],
     "imagePath": "content/images/team/antonis.jpg",
@@ -43,15 +35,11 @@
     "name": "Simon Daubner",
     "isCurrent": true,
     "role": "PDRA",
-    "desc": "Physical Modelling and Machine Learning",
+    "desc": "Simon is a PDRA combining physical modelling and machine learning to design better microstructures for next-generation batteries.",
     "outLinks": [
       {
-        "text": "Google Scholar",
+        "text": "Find out more",
         "link": "https://scholar.google.com/citations?user=6sYvIY4AAAAJ&hl=de"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/simon-daubner-26920331b/"
       }
     ],
     "imagePath": "content/images/team/simon.jpg",
@@ -61,15 +49,11 @@
     "name": "Felix Mildner",
     "isCurrent": true,
     "role": "PDRA",
-    "desc": "Agentic AI for Scientific Discovery",
+    "desc": "Felix is a PDRA working on the integration of agentic AI into battery research to improve workflow efficiencies and automation.",
     "outLinks": [
       {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.de/citations?user=BtG6URUAAAAJ&hl=en&oi=ao"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/felix-mildner-5a3277125/"
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
       }
     ],
     "imagePath": "content/images/team/felix.jpg",
@@ -79,15 +63,11 @@
     "name": "Amir Dahari",
     "isCurrent": true,
     "role": "PhD student",
-    "desc": "AI for Microstructural Analysis",
+    "desc": "Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.",
     "outLinks": [
       {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=srL7XecAAAAJ&hl=en"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/amir-dahari-98a996140/"
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/a.dahari"
       }
     ],
     "imagePath": "content/images/team/amir.jpg",
@@ -97,15 +77,11 @@
     "name": "Ronan Docherty",
     "isCurrent": true,
     "role": "PhD student",
-    "desc": "Deep Learning Segmentation",
+    "desc": "Ronan is a PhD student working on deep learning segmentation techniques.",
     "outLinks": [
       {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=3USR0JMAAAAJ&hl=en"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/ronan-docherty-3812ab2b0/"
+        "text": "Find out more",
+        "link": "https://profiles.imperial.ac.uk/ronan.docherty18"
       }
     ],
     "imagePath": "content/images/team/ronan.jpg",
@@ -115,15 +91,11 @@
     "name": "Lei Ge",
     "isCurrent": true,
     "role": "PhD student",
-    "desc": "LLMs for Science",
+    "desc": "Lei Ge is a PhD student working on integrating LLMs into the scientific workflow.",
     "outLinks": [
       {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=JgnH-O8AAAAJ&hl=zh-CN"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/ge-lei/"
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
       }
     ],
     "imagePath": "content/images/team/lei_ge.jpg",
@@ -133,11 +105,11 @@
     "name": "Sheares Toh",
     "isCurrent": true,
     "role": "PhD student",
-    "desc": "Agentic AI for Scientific Discovery",
+    "desc": "Sheares is a PhD student working on agentic systems for scientific workflows.",
     "outLinks": [
       {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=oQvjekQAAAAJ&hl=en"
+        "text": "Find out more",
+        "link": "https://www.imperial.ac.uk/people/"
       },
       {
         "text": "LinkedIn",
@@ -151,15 +123,11 @@
     "name": "Mengly Long",
     "isCurrent": true,
     "role": "Visiting PhD student",
-    "desc": "Modelling and Simulation",
+    "desc": "Mengly is a visiting PhD student from King Mongkut’s University of Technology Thonburi. He is working on designing battery electrode microstructures optimised for different applications.",
     "outLinks": [
       {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=IlK7R4AAAAAJ&hl=en"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/mengly-long-65594321a/"
+        "text": "Find out more",
+        "link": "https://www.linkedin.com/in/mengly-long-65594321a"
       }
     ],
     "imagePath": "content/images/team/mengly_long.jpg",
@@ -169,7 +137,7 @@
     "name": "René Rekers",
     "isCurrent": false,
     "role": "Former PhD student",
-    "desc": "Multiresolution Imaging",
+    "desc": "René was a guest researcher, visiting the TLDR group in 2025 and studying the impact of multiresolution imaging on transport properties of cathode composite electrodes for solid state batteries.",
     "outLinks": [
       {
         "text": "Find out more",
