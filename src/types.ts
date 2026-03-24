@@ -1,4 +1,3 @@
-import { ZodType } from "zod";
 import * as z from "zod/mini";
 
 // Our types we'll use in the components
@@ -12,7 +11,8 @@ export type Person = {
   name: string;
   isCurrent: boolean;
   role: string;
-  desc: string;
+  shortDesc: string;
+  desc?: string;
   outLinks: OutLink[];
   imagePath: string;
   order: number;
@@ -54,7 +54,8 @@ export const PersonSchema = z.object({
   name: z.string(),
   isCurrent: z.boolean(),
   role: z.string(),
-  desc: z.string(),
+  shortDesc: z.string(),
+  desc: z.optional(z.string()),
   outLinks: z.array(OutLinkSchema),
   imagePath: z.string(),
   order: z.number(),
