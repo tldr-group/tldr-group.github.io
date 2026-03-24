@@ -1,4 +1,3 @@
-import { ZodType } from "zod";
 import * as z from "zod/mini";
 
 // Our types we'll use in the components
