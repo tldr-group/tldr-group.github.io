@@ -38,11 +38,7 @@ const getLinkIcon = (text: string, url: string) => {
     );
   }
 
-  if (
-    label.includes("twitter") ||
-    href.includes("twitter.com") ||
-    href.includes("x.com")
-  ) {
+  if (label.includes("twitter") || href.includes("twitter.com") || href.includes("x.com")) {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +57,7 @@ const getLinkIcon = (text: string, url: string) => {
 };
 
 const PersonComponent = ({ personData }: { personData: Person }) => {
-  const { name, role, desc, outLinks, imagePath } = personData;
+  const { name, role, shortDesc, outLinks, imagePath } = personData;
   const [isHovered, setIsHovered] = useState(false);
   const touchStartPos = useRef<number | null>(null);
 
@@ -116,7 +112,7 @@ const PersonComponent = ({ personData }: { personData: Person }) => {
 
       <h3>{name}</h3>
       <p style={{ textAlign: "center", marginTop: "0em" }}>{role}</p>
-      <p style={{ textAlign: "center", marginTop: "0.5em", fontStyle: "italic" }}>{desc}</p>
+      <p style={{ textAlign: "center", marginTop: "0.5em", fontStyle: "italic" }}>{shortDesc}</p>
       {isHovered && (
         <div
           style={{
@@ -129,13 +125,7 @@ const PersonComponent = ({ personData }: { personData: Person }) => {
           }}
         >
           {outLinks.map((link, i) => (
-            <a
-              href={link.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link-tag"
-              key={i}
-            >
+            <a href={link.link} target="_blank" rel="noopener noreferrer" className="link-tag" key={i}>
               {getLinkIcon(link.text, link.link)}
               <span>{link.text}</span>
             </a>

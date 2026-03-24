@@ -12,8 +12,8 @@ export type Person = {
   name: string;
   isCurrent: boolean;
   role: string;
-  shortDesc?: string;
-  desc: string;
+  shortDesc: string;
+  desc?: string;
   outLinks: OutLink[];
   imagePath: string;
   order: number;
@@ -55,8 +55,8 @@ export const PersonSchema = z.object({
   name: z.string(),
   isCurrent: z.boolean(),
   role: z.string(),
-  shortDesc: z.optional(z.string()),
-  desc: z.string(),
+  shortDesc: z.string(),
+  desc: z.optional(z.string()),
   outLinks: z.array(OutLinkSchema),
   imagePath: z.string(),
   order: z.number(),
