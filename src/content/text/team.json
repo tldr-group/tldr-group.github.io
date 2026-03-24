@@ -185,7 +185,7 @@
   {
     "name": "René Rekers",
     "isCurrent": false,
-    "role": "Former PhD student",
+    "role": "Former Visiting PhD student",
     "shortDesc": "Multiresolution Imaging",
     "desc": "René was a guest researcher, visiting the TLDR group in 2025 and studying the impact of multiresolution imaging on transport properties of cathode composite electrodes for solid state batteries.",
     "outLinks": [
@@ -200,7 +200,7 @@
   {
     "name": "Isaac Squires",
     "isCurrent": false,
-    "role": "Former Visiting PhD student",
+    "role": "Former PhD student",
     "shortDesc": "ML for battery characterization & simulation",
     "desc": "Isaac finished his PhD in 2024 with the thesis 'Advanced characterisation of lithium-ion batteries using machine learning and physics-based simulation', focusing on applying machine learning and software development to build tools that aid the design and characterisation of next generation battery materials. He continues this as the CEO of Polaron AI - an advanced materials characterisation and design tool.",
     "outLinks": [
