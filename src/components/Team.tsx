@@ -139,8 +139,8 @@ const PersonComponent = ({ personData }: { personData: Person }) => {
       )}
 
       <h3>{name}</h3>
-      <p style={{ textAlign: "center", marginTop: "0em" }}>{role}</p>
-      <p style={{ textAlign: "center", marginTop: "0.5em", fontStyle: "italic" }}>{shortDesc}</p>
+      <p style={{ textAlign: "center", marginTop: "0em", marginBottom: "0.4em" }}>{role}</p>
+      <p style={{ textAlign: "center", marginTop: "0em", fontStyle: "italic" }}>{shortDesc}</p>
       {isHovered && (
         <div
           style={{
