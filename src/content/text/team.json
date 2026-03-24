@@ -15,8 +15,8 @@
         "link": "https://www.linkedin.com/in/sam-cooper-88687238/"
       },
       {
-        "text": "X",
-        "link": "https://twitter.com/camsooper"
+        "text": "Polaron",
+        "link": "https://polaron.ai/"
       }
     ],
     "imagePath": "content/images/team/sam.jpg",
@@ -112,6 +112,10 @@
       {
         "text": "LinkedIn",
         "link": "https://www.linkedin.com/in/ronan-docherty-3812ab2b0/"
+      },
+      {
+        "text": "Polaron",
+        "link": "https://polaron.ai/"
       }
     ],
     "imagePath": "content/images/team/ronan.jpg",
@@ -131,6 +135,10 @@
       {
         "text": "LinkedIn",
         "link": "https://www.linkedin.com/in/ge-lei/"
+      },
+      {
+        "text": "Polaron",
+        "link": "https://polaron.ai/"
       }
     ],
     "imagePath": "content/images/team/lei_ge.jpg",
@@ -182,8 +190,8 @@
     "desc": "René was a guest researcher, visiting the TLDR group in 2025 and studying the impact of multiresolution imaging on transport properties of cathode composite electrodes for solid state batteries.",
     "outLinks": [
       {
-        "text": "Find out more",
-        "link": "https://www.imperial.ac.uk/people/"
+        "text": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=151BxfcAAAAJ&hl=de"
       }
     ],
     "imagePath": "content/images/team/rene.png",
@@ -197,12 +205,16 @@
     "desc": "Isaac finished his PhD in 2024 with the thesis 'Advanced characterisation of lithium-ion batteries using machine learning and physics-based simulation', focusing on applying machine learning and software development to build tools that aid the design and characterisation of next generation battery materials. He continues this as the CEO of Polaron AI - an advanced materials characterisation and design tool.",
     "outLinks": [
       {
-        "text": "Find out more",
-        "link": "https://www.imperial.ac.uk/people/i.squires20"
-      },
-      {
         "text": "Polaron",
         "link": "https://polaron.ai/"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/in/isaac-squires-4ab20376/"
+      },
+      {
+        "text": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=2IjQL1UAAAAJ&hl=en"
       }
     ],
     "imagePath": "content/images/team/isaac.jpg",
@@ -218,6 +230,14 @@
       {
         "text": "Polaron",
         "link": "https://polaron.ai/"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/in/steve-kench-a26a2a2b1/"
+      },
+      {
+        "text": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=V4sfsfwAAAAJ&hl=en"
       }
     ],
     "imagePath": "content/images/team/steve.jpg",
@@ -231,7 +251,7 @@
     "desc": "Liam completed his PhD in 2024 with his thesis, 'Modelling diffusion across solid-solid interfaces in electroceramic materials'. In it he combined experimental methods to trace oxygen diffusion across various types of layered half-cells with numerical modelling to better understand their material properties.",
     "outLinks": [
       {
-        "text": "Find out more",
+        "text": "Imperial",
         "link": "https://www.imperial.ac.uk/people/liam.yasin15"
       }
     ],
@@ -246,8 +266,12 @@
     "desc": "Sam completed his PhD in 2023, with a thesis entitled 'Beyond slurry cast: structured electrodes by design'. In it he motivated the use of laser patterning on monolithic graphite sheets to produce high energy density cells. He now works as an engineering consultant at TTP PLC.",
     "outLinks": [
       {
-        "text": "Find out more",
-        "link": "https://www.imperial.ac.uk/people/"
+        "text": "Polaron",
+        "link": "https://polaron.ai/"
+      },
+      {
+        "text": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=sA7u3JIAAAAJ&hl=en"
       }
     ],
     "imagePath": "content/images/team/samh.jpg",
@@ -259,12 +283,7 @@
     "role": "Former Visiting PhD student",
     "shortDesc": "Dimensionality expansion for EBSD",
     "desc": "Ruimin was a PhD student working on developing machine learning methods for dimensionality expansion of EBSD data. Specifically, the research focused on using Generative Adversarial Networks (GANs) to produce plausible 3D EBSD data of particles from a single 2D slice.",
-    "outLinks": [
-      {
-        "text": "Find out more",
-        "link": "https://www.imperial.ac.uk/people/"
-      }
-    ],
+    "outLinks": [],
     "imagePath": "content/images/team/ruimin.jpg",
     "order": 76
   },
@@ -274,12 +293,7 @@
     "role": "Former PhD student",
     "shortDesc": "Porous microstructure generation & modelling",
     "desc": "Andrea completed her PhD in early 2021, with a thesis entitled 'Machine learning and simulation for the optimisation and characterisation of electrodes for batteries.' In addition to developing the Pores for Thought GAN framework, Andrea also developed pore network models for redox flow batteries.",
-    "outLinks": [
-      {
-        "text": "Find out more",
-        "link": "https://www.imperial.ac.uk/people/"
-      }
-    ],
+    "outLinks": [],
     "imagePath": "content/images/team/andrea.jpg",
     "order": 75
   },
@@ -289,12 +303,7 @@
     "role": "Former PDRA",
     "shortDesc": "Solid-state battery characterisation",
     "desc": "Rowena Brugge joined the TLDR group in 2019 to develop isotropic methods for the characterisation of solid state battery materials. She then went to work at the Cambridge battery start-up Nyobolt.",
-    "outLinks": [
-      {
-        "text": "Find out more",
-        "link": "https://www.imperial.ac.uk/people/"
-      }
-    ],
+    "outLinks": [],
     "imagePath": "content/images/team/rowena.jpg",
     "order": 74
   },
@@ -304,12 +313,7 @@
     "role": "Former PDRA",
     "shortDesc": "Solid-state battery characterisation",
     "desc": "Nina joined the TLDR group in 2018 to develop isotropic methods for the characterisation of solid state battery materials, sponsored by the Faraday institution. She then went to work as a Senior Cell Engineer at Dyson.",
-    "outLinks": [
-      {
-        "text": "Find out more",
-        "link": "https://www.imperial.ac.uk/people/"
-      }
-    ],
+    "outLinks": [],
     "imagePath": "content/images/team/nina.jpg",
     "order": 73
   }
