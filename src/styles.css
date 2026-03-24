@@ -234,7 +234,7 @@ input:checked + .slider:before {
 .outlined-content {
   border: 2px solid var(--outline-grey);
   border-radius: 12px;
-  padding: 1em;
+  padding: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -255,14 +255,12 @@ input:checked + .slider:before {
   justify-content: center;
   align-items: stretch;
   gap: 1.5em;
-  width: 100%;
-  max-width: 1500px;
 }
 
 .project-card {
   align-items: center;
   align-content: flex-start;
-  flex-basis: calc(42% - 20px); 
+  flex-basis: calc(28% - 20px); 
 }
 
 .project-card:active, .project-card:hover {
@@ -277,16 +275,15 @@ input:checked + .slider:before {
 .link-tag {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
   padding: 6px 10px;
   background: #efefef;
   color: var(--text-black);
   text-decoration: none;
   border-radius: 8px;
+  margin-right: 10px;
   transition: color 0.12s ease, background 0.12s ease;
-  text-align: center;
 }
+
 .link-tag span {
   color: inherit;
 }
@@ -296,25 +293,28 @@ input:checked + .slider:before {
 }
 
 .person-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   gap: 1.5em;
   width: 100%;
-  max-width: 1500px;
 }
 
 .person-card {
-  box-sizing: border-box;
-  min-height: 280px;
+  align-items: center;
+  flex: 0 0 calc(20% - 20px); 
+  min-height: 380px;
+  max-height: 380px;
 }
 
 @media (max-width: 900px) {
-  .person-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .project-card {
+    flex-basis: calc(80%); 
   }
-
   .person-card {
-    min-height: 180px;
+    align-items: center;
+    flex: 0 0 calc(70%); 
   }
 }
 
@@ -325,15 +325,11 @@ input:checked + .slider:before {
 .person-card h3 {
   align-self: center;
   text-align: center;
-  margin-top: 0.5em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0;
 }
 
 .person-card p {
   font-size: var(--small-text-size);
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
-  line-height: 1.25;
 }
 
 .pub-list {
