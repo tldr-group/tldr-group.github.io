@@ -1,6 +1,9 @@
 import { Project, ProjectSchema, gracefulParse } from "../types";
 import projectJSON from "../content/text/projects.json";
 
+import { LinkIcon } from "./Icon";
+
+
 const ProjectComponent = ({ projectData }: { projectData: Project }) => {
   const { title, desc, outLinks, imagePath } = projectData;
 
@@ -17,6 +20,7 @@ const ProjectComponent = ({ projectData }: { projectData: Project }) => {
       <div style={{ flex: "row", marginTop: "auto" }}>
         {outLinks.map((link) => (
           <a key={link.link} className="link-tag" href={link.link} target="_blank" rel="noopener noreferrer">
+            <LinkIcon text={link.text} url={link.link} />
             <span>{link.text}</span>
           </a>
         ))}
