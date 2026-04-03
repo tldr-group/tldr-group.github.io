@@ -4,7 +4,7 @@
     "isCurrent": true,
     "role": "Group Leader",
     "desc": "",
-    "original_desc": "Sam is the leader of the TLDR group and an associate professor in the Dyson School of Design Engineering at Imperial College London.",
+    "originalDesc": "Sam is the leader of the TLDR group and an associate professor in the Dyson School of Design Engineering at Imperial College London.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -27,7 +27,7 @@
     "isCurrent": true,
     "role": "Royal Society Industry Fellow",
     "desc": "AI for Tomography",
-    "original_desc": "Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods",
+    "originalDesc": "Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -46,7 +46,7 @@
     "isCurrent": true,
     "role": "PDRA",
     "desc": "Physical Modelling and Machine Learning",
-    "original_desc": "Simon is a PDRA combining physical modelling and machine learning to design better microstructures for next-generation batteries.",
+    "originalDesc": "Simon is a PDRA combining physical modelling and machine learning to design better microstructures for next-generation batteries.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -65,7 +65,7 @@
     "isCurrent": true,
     "role": "PDRA",
     "desc": "Agentic AI for Scientific Discovery",
-    "original_desc": "Felix is a PDRA working on the integration of agentic AI into battery research to improve workflow efficiencies and automation.",
+    "originalDesc": "Felix is a PDRA working on the integration of agentic AI into battery research to improve workflow efficiencies and automation.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -84,7 +84,7 @@
     "isCurrent": true,
     "role": "PhD student",
     "desc": "AI for Microstructural Analysis",
-    "original_desc": "Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.",
+    "originalDesc": "Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -103,7 +103,7 @@
     "isCurrent": true,
     "role": "PhD student",
     "desc": "Deep Learning Segmentation",
-    "original_desc": "Ronan is a PhD student working on deep learning segmentation techniques.",
+    "originalDesc": "Ronan is a PhD student working on deep learning segmentation techniques.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -126,7 +126,7 @@
     "isCurrent": true,
     "role": "PhD student",
     "desc": "LLMs for Science",
-    "original_desc": "Lei Ge is a PhD student working on integrating LLMs into the scientific workflow.",
+    "originalDesc": "Lei Ge is a PhD student working on integrating LLMs into the scientific workflow.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -149,7 +149,7 @@
     "isCurrent": true,
     "role": "PhD student",
     "desc": "Agentic AI for Scientific Discovery",
-    "original_desc": "Sheares is a PhD student working on agentic systems for scientific workflows.",
+    "originalDesc": "Sheares is a PhD student working on agentic systems for scientific workflows.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -168,7 +168,7 @@
     "isCurrent": true,
     "role": "Visiting PhD student",
     "desc": "Modelling and Simulation",
-    "original_desc": "Mengly is a visiting PhD student from King Mongkut’s University of Technology Thonburi. He is working on designing battery electrode microstructures optimised for different applications.",
+    "originalDesc": "Mengly is a visiting PhD student from King Mongkut’s University of Technology Thonburi. He is working on designing battery electrode microstructures optimised for different applications.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -187,7 +187,7 @@
     "isCurrent": false,
     "role": "Former Visiting PhD student",
     "desc": "Multiresolution Imaging",
-    "original_desc": "René was a guest researcher, visiting the TLDR group in 2025 and studying the impact of multiresolution imaging on transport properties of cathode composite electrodes for solid state batteries.",
+    "originalDesc": "René was a guest researcher, visiting the TLDR group in 2025 and studying the impact of multiresolution imaging on transport properties of cathode composite electrodes for solid state batteries.",
     "outLinks": [
       {
         "text": "Google Scholar",
@@ -202,7 +202,7 @@
     "isCurrent": false,
     "role": "Former PhD student",
     "desc": "ML for battery characterization & simulation",
-    "original_desc": "Isaac finished his PhD in 2024 with the thesis 'Advanced characterisation of lithium-ion batteries using machine learning and physics-based simulation', focusing on applying machine learning and software development to build tools that aid the design and characterisation of next generation battery materials. He continues this as the CEO of Polaron AI - an advanced materials characterisation and design tool.",
+    "originalDesc": "Isaac finished his PhD in 2024 with the thesis 'Advanced characterisation of lithium-ion batteries using machine learning and physics-based simulation', focusing on applying machine learning and software development to build tools that aid the design and characterisation of next generation battery materials. He continues this as the CEO of Polaron AI - an advanced materials characterisation and design tool.",
     "outLinks": [
       {
         "text": "Polaron",
@@ -225,7 +225,7 @@
     "isCurrent": false,
     "role": "Former PhD student & PDRA",
     "desc": "Microstructural generation and optimization",
-    "original_desc": "Steve finished his Faraday-funded PhD in 2024 with the thesis 'Machine learning for battery electrode characterisation and optimisation', focussing on the use of generative adversarial nets to explore and optimise cathode microstructures. He continues this work as the CTO of the spin-out Polaron AI, which he co-founded with Isaac and Sam.",
+    "originalDesc": "Steve finished his Faraday-funded PhD in 2024 with the thesis 'Machine learning for battery electrode characterisation and optimisation', focussing on the use of generative adversarial nets to explore and optimise cathode microstructures. He continues this work as the CTO of the spin-out Polaron AI, which he co-founded with Isaac and Sam.",
     "outLinks": [
       {
         "text": "Polaron",
@@ -248,7 +248,7 @@
     "isCurrent": false,
     "role": "Former PhD student",
     "desc": "Diffusion modelling in electroceramics",
-    "original_desc": "Liam completed his PhD in 2024 with his thesis, 'Modelling diffusion across solid-solid interfaces in electroceramic materials'. In it he combined experimental methods to trace oxygen diffusion across various types of layered half-cells with numerical modelling to better understand their material properties.",
+    "originalDesc": "Liam completed his PhD in 2024 with his thesis, 'Modelling diffusion across solid-solid interfaces in electroceramic materials'. In it he combined experimental methods to trace oxygen diffusion across various types of layered half-cells with numerical modelling to better understand their material properties.",
     "outLinks": [
       {
         "text": "Imperial",
@@ -263,7 +263,7 @@
     "isCurrent": false,
     "role": "Former PhD student",
     "desc": "Laser patterning for structured electrodes",
-    "original_desc": "Sam completed his PhD in 2023, with a thesis entitled 'Beyond slurry cast: structured electrodes by design'. In it he motivated the use of laser patterning on monolithic graphite sheets to produce high energy density cells. He now works as an engineering consultant at TTP PLC.",
+    "originalDesc": "Sam completed his PhD in 2023, with a thesis entitled 'Beyond slurry cast: structured electrodes by design'. In it he motivated the use of laser patterning on monolithic graphite sheets to produce high energy density cells. He now works as an engineering consultant at TTP PLC.",
     "outLinks": [
       {
         "text": "Polaron",
@@ -282,7 +282,7 @@
     "isCurrent": false,
     "role": "Former Visiting PhD student",
     "desc": "Dimensionality expansion for EBSD",
-    "original_desc": "Ruimin was a PhD student working on developing machine learning methods for dimensionality expansion of EBSD data. Specifically, the research focused on using Generative Adversarial Networks (GANs) to produce plausible 3D EBSD data of particles from a single 2D slice.",
+    "originalDesc": "Ruimin was a PhD student working on developing machine learning methods for dimensionality expansion of EBSD data. Specifically, the research focused on using Generative Adversarial Networks (GANs) to produce plausible 3D EBSD data of particles from a single 2D slice.",
     "outLinks": [],
     "imagePath": "content/images/team/ruimin.jpg",
     "order": 76
@@ -292,7 +292,7 @@
     "isCurrent": false,
     "role": "Former PhD student",
     "desc": "Porous microstructure generation & modelling",
-    "original_desc": "Andrea completed her PhD in early 2021, with a thesis entitled 'Machine learning and simulation for the optimisation and characterisation of electrodes for batteries.' In addition to developing the Pores for Thought GAN framework, Andrea also developed pore network models for redox flow batteries.",
+    "originalDesc": "Andrea completed her PhD in early 2021, with a thesis entitled 'Machine learning and simulation for the optimisation and characterisation of electrodes for batteries.' In addition to developing the Pores for Thought GAN framework, Andrea also developed pore network models for redox flow batteries.",
     "outLinks": [],
     "imagePath": "content/images/team/andrea.jpg",
     "order": 75
@@ -302,7 +302,7 @@
     "isCurrent": false,
     "role": "Former PDRA",
     "desc": "Solid-state battery characterisation",
-    "original_desc": "Rowena Brugge joined the TLDR group in 2019 to develop isotropic methods for the characterisation of solid state battery materials. She then went to work at the Cambridge battery start-up Nyobolt.",
+    "originalDesc": "Rowena Brugge joined the TLDR group in 2019 to develop isotropic methods for the characterisation of solid state battery materials. She then went to work at the Cambridge battery start-up Nyobolt.",
     "outLinks": [],
     "imagePath": "content/images/team/rowena.jpg",
     "order": 74
@@ -312,7 +312,7 @@
     "isCurrent": false,
     "role": "Former PDRA",
     "desc": "Solid-state battery characterisation",
-    "original_desc": "Nina joined the TLDR group in 2018 to develop isotropic methods for the characterisation of solid state battery materials, sponsored by the Faraday institution. She then went to work as a Senior Cell Engineer at Dyson.",
+    "originalDesc": "Nina joined the TLDR group in 2018 to develop isotropic methods for the characterisation of solid state battery materials, sponsored by the Faraday institution. She then went to work as a Senior Cell Engineer at Dyson.",
     "outLinks": [],
     "imagePath": "content/images/team/nina.jpg",
     "order": 73
