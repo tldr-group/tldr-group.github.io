@@ -40,9 +40,9 @@
 } */
 
 @media (max-width: 900px) {
-  :root{
-    --normal-text-size: 1.0em;
-    --small-text-size: 1.0em;
+  :root {
+    --normal-text-size: 1em;
+    --small-text-size: 1em;
     --navbar-text-size: 1.3em;
     --h1-size: 2em;
     --h2-size: 1.5em;
@@ -57,8 +57,9 @@
   }
 }
 
-body, .container {
-  font-family: 'Segoe UI', 'Arial', 'Helvetica', sans-serif;
+body,
+.container {
+  font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,7 +133,7 @@ li {
 }
 
 header h1 {
-  margin: 0; 
+  margin: 0;
   text-align: center;
   width: 100%;
   padding: 0;
@@ -168,7 +169,7 @@ header h1 {
   width: var(--toggle-thumb-l);
   left: var(--toggle-thumb-offset);
   bottom: var(--toggle-thumb-offset);
-  background-color: #FFF;
+  background-color: #fff;
   transition: 0.4s;
   border-radius: 50%;
 }
@@ -216,8 +217,8 @@ input:checked + .slider:before {
 }
 
 .cursor {
-  animation-name: blinker; 
-  animation-duration:  0.75s; 
+  animation-name: blinker;
+  animation-duration: 0.75s;
   animation-iteration-count: infinite;
   animation-timing-function: step-end;
   color: var(--outline-grey);
@@ -260,10 +261,11 @@ input:checked + .slider:before {
 .project-card {
   align-items: center;
   align-content: flex-start;
-  flex-basis: calc(28% - 20px); 
+  flex-basis: calc(28% - 20px);
 }
 
-.project-card:active, .project-card:hover {
+.project-card:active,
+.project-card:hover {
   border: 2px solid var(--secondary);
 }
 
@@ -273,7 +275,7 @@ input:checked + .slider:before {
 }
 
 .link-tag {
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: center;
   padding: 6px 10px;
   background: #efefef;
@@ -281,7 +283,9 @@ input:checked + .slider:before {
   text-decoration: none;
   border-radius: 8px;
   margin-right: 10px;
-  transition: color 0.12s ease, background 0.12s ease;
+  transition:
+    color 0.12s ease,
+    background 0.12s ease;
 }
 
 .link-tag span {
@@ -304,18 +308,18 @@ input:checked + .slider:before {
 
 .person-card {
   align-items: center;
-  flex: 0 0 calc(20% - 20px); 
+  flex: 0 0 calc(20% - 20px);
   min-height: 410px;
   max-height: 410px;
 }
 
 @media (max-width: 900px) {
   .project-card {
-    flex-basis: calc(80%); 
+    flex-basis: calc(80%);
   }
   .person-card {
     align-items: center;
-    flex: 0 0 calc(70%); 
+    flex: 0 0 calc(70%);
   }
 }
 
@@ -340,14 +344,17 @@ input:checked + .slider:before {
   word-break: break-word;
 }
 
-.pub-list, li a{
+.pub-list,
+li a {
   color: #006666;
 }
 
-.pub-list, li {
+.pub-list,
+li {
   color: #006666;
 }
 
-.pub-list, li a:visited {
-  color: #551A8B;
+.pub-list,
+li a:visited {
+  color: #551a8b;
 }
