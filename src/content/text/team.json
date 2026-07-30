@@ -160,13 +160,13 @@
         "link": "https://www.linkedin.com/in/shearestoh/"
       }
     ],
-    "imagePath": "content/images/team/sheares.jpg",
+    "imagePath": "content/images/team/sheares.png",
     "order": 93
   },
   {
     "name": "Mengly Long",
-    "isCurrent": true,
-    "role": "Visiting PhD student",
+    "isCurrent": false,
+    "role": "Former Visiting PhD student",
     "desc": "Modelling and Simulation",
     "originalDesc": "Mengly is a visiting PhD student from King Mongkut’s University of Technology Thonburi. He is working on designing battery electrode microstructures optimised for different applications.",
     "outLinks": [
