@@ -63,8 +63,8 @@ const LinkToSVG: Record<LinkTypes, LinkSVGData> = {
     viewBox: DEFAULT_VIEWBOX,
   },
   [LinkTypes.WEBSITE]: {
-    fill: "#3e3f40",
-    path: "M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm6.93 9h-3.1a15.7 15.7 0 0 0-1.38-5A8.03 8.03 0 0 1 18.93 11ZM12 4.04c1.18 1.44 2 3.74 2.24 6.96H9.76C10 7.78 10.82 5.48 12 4.04ZM4.07 13h3.1a15.7 15.7 0 0 0 1.38 5A8.03 8.03 0 0 1 4.07 13Zm3.1-2h-3.1a8.03 8.03 0 0 1 4.48-5 15.7 15.7 0 0 0-1.38 5Zm1.59 2h6.48c-.28 3.22-1.1 5.52-2.24 6.96-1.18-1.44-2-3.74-2.24-6.96Zm6.69 5a15.7 15.7 0 0 0 1.38-5h3.1a8.03 8.03 0 0 1-4.48 5Z",
+    fill: "#4285F4",
+    path: "M12 3 2 11.5l1.3 1.52L5 11.58V21h5v-6h4v6h5v-9.42l1.7 1.44L22 11.5 12 3Z",
     viewBox: DEFAULT_VIEWBOX,
   },
 };
@@ -105,7 +105,7 @@ const getLinkType = (text: string, url: string): LinkTypes | null => {
     return LinkTypes.PAPER;
   }
 
-  if (label.includes("website")) {
+  if (label.includes("homepage") || label.includes("website")) {
     return LinkTypes.WEBSITE;
   }
 

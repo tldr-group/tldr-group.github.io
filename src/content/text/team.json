@@ -129,6 +129,10 @@
     "originalDesc": "Lei Ge is a PhD student working on integrating LLMs into the scientific workflow.",
     "outLinks": [
       {
+        "text": "Homepage",
+        "link": "https://leigedove.github.io"
+      },
+      {
         "text": "Google Scholar",
         "link": "https://scholar.google.com/citations?user=JgnH-O8AAAAJ&hl=zh-CN"
       },
