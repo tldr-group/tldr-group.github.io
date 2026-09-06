@@ -80,25 +80,6 @@
     "order": 97
   },
   {
-    "name": "Amir Dahari",
-    "isCurrent": true,
-    "role": "PhD student",
-    "desc": "AI for Microstructural Analysis",
-    "originalDesc": "Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.",
-    "outLinks": [
-      {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=srL7XecAAAAJ&hl=en"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/amir-dahari-98a996140/"
-      }
-    ],
-    "imagePath": "content/images/team/amir.jpg",
-    "order": 96
-  },
-  {
     "name": "Ronan Docherty",
     "isCurrent": true,
     "role": "PhD student",
@@ -119,12 +100,12 @@
       }
     ],
     "imagePath": "content/images/team/ronan.jpg",
-    "order": 95
+    "order": 96
   },
   {
     "name": "Lei Ge",
     "isCurrent": true,
-    "role": "PhD student",
+    "role": "PDRA",
     "desc": "LLMs for Science",
     "originalDesc": "Lei Ge is a PhD student working on integrating LLMs into the scientific workflow.",
     "outLinks": [
@@ -146,7 +127,7 @@
       }
     ],
     "imagePath": "content/images/team/lei_ge.jpg",
-    "order": 94
+    "order": 95
   },
   {
     "name": "Sheares Toh",
@@ -165,7 +146,26 @@
       }
     ],
     "imagePath": "content/images/team/sheares.png",
-    "order": 93
+    "order": 94
+  },
+  {
+    "name": "Amir Dahari",
+    "isCurrent": false,
+    "role": "Former PhD student",
+    "desc": "AI for Microstructural Analysis",
+    "originalDesc": "Amir is a PhD student working on super resolution techniques for microstructure imaging using Generative Adversarial Networks.",
+    "outLinks": [
+      {
+        "text": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=srL7XecAAAAJ&hl=en"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/in/amir-dahari-98a996140/"
+      }
+    ],
+    "imagePath": "content/images/team/amir.jpg",
+    "order": 83
   },
   {
     "name": "Mengly Long",
@@ -184,7 +184,7 @@
       }
     ],
     "imagePath": "content/images/team/mengly_long.jpg",
-    "order": 92
+    "order": 82
   },
   {
     "name": "René Rekers",
