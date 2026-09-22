@@ -149,6 +149,25 @@
     "order": 94
   },
   {
+    "name": "Zongyou Yang",
+    "isCurrent": true,
+    "role": "PhD student",
+    "desc": "Agentic AI and Foundation Models",
+    "originalDesc": "Zongyou is a PhD student working on agentic AI and foundation models.",
+    "outLinks": [
+      {
+        "text": "Google Scholar",
+        "link": "https://scholar.google.com/citations?hl=zh-CN&user=SpY_LM8AAAAJ&view_op=list_works&gmla=AERr9JHCvZ3CuUTpvunTwSVtEDcj4vvcZ0Mwgnw83QKFbLZ9eW5fG7Da0bCNl1p8uA76HvjeGQKCiL2qTy7UP57cpQSQaqdJzOdX6xA2aAAnuyq41r4"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/in/zongyou-y-582660236/"
+      }
+    ],
+    "imagePath": "content/images/team/zongyou.jpg",
+    "order": 93
+  },
+  {
     "name": "Amir Dahari",
     "isCurrent": false,
     "role": "Former PhD student",
