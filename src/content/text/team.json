@@ -23,44 +23,6 @@
     "order": 100
   },
   {
-    "name": "Antony Vamvakeros",
-    "isCurrent": true,
-    "role": "Royal Society Industry Fellow",
-    "desc": "AI for Tomography",
-    "originalDesc": "Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods",
-    "outLinks": [
-      {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=eObSAAkAAAAJ&hl=en"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/antonyvam/"
-      }
-    ],
-    "imagePath": "content/images/team/antonis.jpg",
-    "order": 99
-  },
-  {
-    "name": "Simon Daubner",
-    "isCurrent": true,
-    "role": "PDRA",
-    "desc": "Physical Modelling and Machine Learning",
-    "originalDesc": "Simon is a PDRA combining physical modelling and machine learning to design better microstructures for next-generation batteries.",
-    "outLinks": [
-      {
-        "text": "Google Scholar",
-        "link": "https://scholar.google.com/citations?user=6sYvIY4AAAAJ&hl=de"
-      },
-      {
-        "text": "LinkedIn",
-        "link": "https://www.linkedin.com/in/simon-daubner-26920331b/"
-      }
-    ],
-    "imagePath": "content/images/team/simon.jpg",
-    "order": 98
-  },
-  {
     "name": "Felix Mildner",
     "isCurrent": true,
     "role": "PDRA",
@@ -77,7 +39,7 @@
       }
     ],
     "imagePath": "content/images/team/felix.jpg",
-    "order": 97
+    "order": 99
   },
   {
     "name": "Ronan Docherty",
@@ -100,7 +62,7 @@
       }
     ],
     "imagePath": "content/images/team/ronan.jpg",
-    "order": 96
+    "order": 98
   },
   {
     "name": "Lei Ge",
@@ -127,7 +89,7 @@
       }
     ],
     "imagePath": "content/images/team/lei_ge.jpg",
-    "order": 95
+    "order": 97
   },
   {
     "name": "Sheares Toh",
@@ -146,7 +108,7 @@
       }
     ],
     "imagePath": "content/images/team/sheares.jpg",
-    "order": 94
+    "order": 96
   },
   {
     "name": "Zongyou Yang",
@@ -165,7 +127,64 @@
       }
     ],
     "imagePath": "content/images/team/zongyou.jpg",
-    "order": 93
+    "order": 95
+  },
+  {
+    "name": "Dinis Seward",
+    "isCurrent": true,
+    "role": "PhD student",
+    "desc": "Microstructure-to-Performance Battery Modelling",
+    "originalDesc": "Dinis is a PhD student working on microstructure-to-performance battery modelling.",
+    "outLinks": [
+      {
+        "text": "Google Scholar",
+        "link": "https://www.linkedin.com/in/dinis-seward-1182a432b/"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/in/dinis-seward-1182a432b/"
+      }
+    ],
+    "imagePath": "content/images/team/zongyou.jpg",
+    "order": 94
+  },
+  {
+    "name": "Antony Vamvakeros",
+    "isCurrent": false,
+    "role": "Royal Society Industry Fellow",
+    "desc": "AI for Tomography",
+    "originalDesc": "Antony is a Royal Society Industry Fellow working on machine learning approaches to improve the spatiotemporal resolution of chemical imaging and tomography methods",
+    "outLinks": [
+      {
+        "text": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=eObSAAkAAAAJ&hl=en"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/in/antonyvam/"
+      }
+    ],
+    "imagePath": "content/images/team/antonis.jpg",
+    "order": 85
+  },
+  {
+    "name": "Simon Daubner",
+    "isCurrent": false,
+    "role": "PDRA",
+    "desc": "Physical Modelling and Machine Learning",
+    "originalDesc": "Simon is a PDRA combining physical modelling and machine learning to design better microstructures for next-generation batteries.",
+    "outLinks": [
+      {
+        "text": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=6sYvIY4AAAAJ&hl=de"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/in/simon-daubner-26920331b/"
+      }
+    ],
+    "imagePath": "content/images/team/simon.jpg",
+    "order": 84
   },
   {
     "name": "Amir Dahari",
